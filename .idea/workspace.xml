@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="day01_神经网络_BP">
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/01_jieba基本操作-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/02_gensim基本操作一-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/03_gensim基本操作二-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/04_gensim基本操作三-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/04_gensim基本操作三_Char2Vec-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/05_gensim基本操作四-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/.ipynb_checkpoints/06_HanLP基本操作-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/01_jieba基本操作.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/02_gensim基本操作一.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/03_gensim基本操作二.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/04_gensim基本操作三.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/04_gensim基本操作三_Char2Vec.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/05_gensim基本操作四.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/06_HanLP基本操作.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/.ipynb_checkpoints/a-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/cut_chars_of_in_the_name_of_people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/cut_words_of_in_the_name_of_people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_char2vec1.w2v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_char2vec2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_char2vec3_embedding.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_char2vec3_norm_embedding.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_char2vec3_vocab_2_index.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_word2vec1.w2v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_word2vec2.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_word2vec3_embedding.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_word2vec3_norm_embedding.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/gensim_word2vec3_vocab_2_index.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/idf.txt.big" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/in_the_name_of_people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/lda_model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/lda_model.pkl.expElogbeta.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/lda_model.pkl.id2word" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/lda_model.pkl.state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/stop_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/text8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/vectors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/word_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1207/01_jieba分词理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1207/02_文本分类数据文本数据分割.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1207/03_sklearn TF-IDF Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1207/jieba.word" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1207/text_classify.dict" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/text_classify/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/text_classify/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/text_classify/train_tokens.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/analyse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/analyse/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/analyse/textrank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/analyse/tfidf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_emit.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_emit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_start.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_trans.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/finalseg/prob_trans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/crfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_0.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_0.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_1.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_1.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_2.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_2.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_3.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_3.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_4.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/fc_4.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_0.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_0.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_1.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_1.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_2.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_2.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_3.b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/gru_3.w_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/nets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/reader_small.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/tag.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/lac_small/word.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/char_state_tab.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/char_state_tab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_emit.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_emit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_start.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_trans.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/prob_trans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jieba/posseg/viterbi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/PyTorch资料/Deep-Learning-with-PyTorch.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/PyTorch资料/PyTorch中文文档.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/PyTorch资料/深度学习之Pytorch(高清版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1206/笔记2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/00.Deep-Learning-with-PyTorch.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/00.PyTorch中文文档.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/01_NLP项目授课安排.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/01_NLP项目授课安排.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/03_词向量一.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/03_词向量一.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/06_RNN循环神经网络.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/07_意图识别.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/08_Seq2Seq.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/09_Attention.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/10_Transformer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/11_Bert.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/ALBert.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Attention Is All You Need(Transformer,1706).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Bert.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Cross-lingual Language Model Pretraining.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/DeBerta.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/ELMo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/GPT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/GPT3.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Semi-supervised sequence tagging with bidirectional language models.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/T5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/TransformerXL.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Universal Transformer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/Weighted Transfomer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/XLNet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/transformer_decoding_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Bert相关论文/transformer_decoding_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Transformer Decoder执行过程1.GIF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Transformer Decoder执行过程2.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/jieba/analyse/idf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/对联唐诗生成/poems_edge_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jieba/lac_small/model_baseline/word_emb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/对联唐诗生成/poetry.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LZX842056112&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LZX842056112/DeepBlueNLP.git&quot;,
+    &quot;accountId&quot;: &quot;e5b7e43f-dedf-453c-9a67-b97de7b4a605&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="36kRzfd9XvbqCXdVpUn7oTdW9tD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code1207&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1207" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.03_sklearn TF-IDF Demo">
+    <configuration name="01_jieba分词理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1207" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1207/01_jieba分词理解.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_文本分类数据文本数据分割" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1207" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1207/02_文本分类数据文本数据分割.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_sklearn TF-IDF Demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1207" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1207/03_sklearn TF-IDF Demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.03_sklearn TF-IDF Demo" />
+        <item itemvalue="Python.01_jieba分词理解" />
+        <item itemvalue="Python.02_文本分类数据文本数据分割" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18968.29" />
+        <option value="bundled-python-sdk-f5635417b835-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18968.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="" />
+      <created>1765548847135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765548847135</updated>
+      <workItem from="1765548848216" duration="1115000" />
+      <workItem from="1765595535548" duration="8000" />
+      <workItem from="1765715026374" duration="4411000" />
+      <workItem from="1765794001143" duration="345000" />
+      <workItem from="1765992424640" duration="54000" />
+      <workItem from="1770190489393" duration="27000" />
+      <workItem from="1770366739707" duration="2480000" />
+      <workItem from="1770388289131" duration="2137000" />
+      <workItem from="1770460942018" duration="5829000" />
+      <workItem from="1770537873397" duration="4124000" />
+      <workItem from="1770551333866" duration="1430000" />
+      <workItem from="1770561044486" duration="1405000" />
+    </task>
+    <task id="LOCAL-00001" summary="day01_神经网络_BP">
+      <option name="closed" value="true" />
+      <created>1765716704872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765716704872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day01_神经网络_BP" />
+    <option name="LAST_COMMIT_MESSAGE" value="day01_神经网络_BP" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jieba/__init__.py</url>
+          <line>394</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_文本分类数据文本数据分割 Coverage Results" MODIFIED="1770472052310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1770538263227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+  </component>
+</project>
