@@ -24,3 +24,18 @@
     5. 序号化处理
     6. One-Hot哑编码是什么？以及和Word2Vec的区别?
     7. 词袋法、TF-IDF的执行过程、特点以及和Word2Vec的区别?
+    8. Word2Vec
+        NOTE
+            Word2Vec是什么、特点(低维、稠密向量、语义相似)
+            Word2Vec的两种结构:CBOW和Skip-Gram
+            Word2Vec的两种优化：Hierarchical softmax(霍夫曼树,HS，也叫做层级Softmax,层级分类)和Negative sampling(负样本采样)
+                加快模型训练过程、并且缓解"正负样本"不均衡的问题
+            Word2Vec API相关参数，包括：向量维度大小、窗口大小、二次重采样&计算概率的一些系数等等
+            Word2Vec模型训练完成后，输出&得到的就是一个单词到向量的映射矩阵
+                Word2Vec是一种静态词向量
+        参考：
+            https://www.cnblogs.com/pinard/p/7249903.html
+            https://zhuanlan.zhihu.com/p/371147732
+    9. 其它的向量转换方式：
+        Char2Vec、Doc2Vec、FastText、CW2Vec....
+        NOTE: FastText中的词编码、以及词的n-gram的组合

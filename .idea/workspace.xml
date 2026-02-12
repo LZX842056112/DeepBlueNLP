@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1210_机器学习模型训练推理案例_BP过程_PyTorch基本API">
-      <change afterPath="$PROJECT_DIR$/code1212/01_PyTorch API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1212/02_深度学习案例代码.py" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1212_PyTorch基本API_深度学习模型训练推理案例">
+      <change afterPath="$PROJECT_DIR$/code1213/01_PyTorch API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/02_HanLP2x Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Word2Vec.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch API/00_PyTorch基本命令.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PyTorch API/00_PyTorch基本命令.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.01_PyTorch API.executor": "Run",
     "Python.01_jieba分词理解.executor": "Debug",
     "Python.01_机器学习案例代码.executor": "Run",
     "Python.02_文本分类数据文本数据分割.executor": "Run",
@@ -69,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code1212",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code1213",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,18 +83,49 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1213" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1210" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1207" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\PyTorch API" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="01_PyTorch API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1213" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1213/01_PyTorch API.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01_PyTorch API" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -124,7 +157,9 @@
       <workItem from="1770561044486" duration="1405000" />
       <workItem from="1770648210390" duration="2138000" />
       <workItem from="1770710245350" duration="13315000" />
-      <workItem from="1770785413140" duration="9865000" />
+      <workItem from="1770785413140" duration="11478000" />
+      <workItem from="1770815489157" duration="4710000" />
+      <workItem from="1770872772168" duration="10749000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -150,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770786180106</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code1212_PyTorch基本API_深度学习模型训练推理案例">
+      <option name="closed" value="true" />
+      <created>1770796710238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770796710238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +214,9 @@
     <MESSAGE value="day01_神经网络_BP" />
     <MESSAGE value="code1207_jieba_词向量转换方式_Word2Vec" />
     <MESSAGE value="code1210_机器学习模型训练推理案例_BP过程_PyTorch基本API" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1210_机器学习模型训练推理案例_BP过程_PyTorch基本API" />
+    <MESSAGE value="code1212_PyTorch基本API" />
+    <MESSAGE value="code1212_PyTorch基本API_深度学习模型训练推理案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1212_PyTorch基本API_深度学习模型训练推理案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -190,6 +235,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_机器学习案例代码 Coverage Results" MODIFIED="1770719598378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_深度学习案例代码 Coverage Results" MODIFIED="1770714642778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
