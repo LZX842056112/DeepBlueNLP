@@ -6,10 +6,19 @@
             完成：
                 训练: 如果替换一个数据集，如何在最小改动的情况下，完成新数据集的模型训练
                 推理：在训练完成的基础上，最终支持给定任何一个文本，返回该文本对应的类别id、类别名称以及预测所属概率，支持返回TopK的结果；
+            PS：可以考虑整个结构采用：分词 + Token2Id + Embedding + RNN/LSTM/GRU + FC + CrossEntropyLoss + SGD
+                数据加载更改为: from torch.utils.data import Dataset, DataLoader
         三、参考BP过程理解的代码，将其改成NumPy的结构(矩阵的运算的结构)
+    20251214：
+        一、和20251207的作业二一样，结合LSTM结构完成意图识别的分类模型训练
+        二、基于LSTM/RNN/GRU/BERT等结构完成分词模型的训练、推理、部署等相关操作
+            PS: 如果需要基于分词模型做词性标注任务，如何可以最小改动的完成？
 
 ================================================================
 简单总结：
+    参考：
+        https://github.com/CLUEbenchmark/CLUEDatasetSearch
+        https://github.com/SophonPlus/ChineseNlpCorpus/tree/master
     1. NLP相关知识点脉络
         分词 -> Word2Vec -> RNN/LSTM/GRU -> Seq2Seq -> Attention -> Transformer -> Bert/T5/GPT -> LLM
         NOTE:
@@ -39,3 +48,4 @@
     9. 其它的向量转换方式：
         Char2Vec、Doc2Vec、FastText、CW2Vec....
         NOTE: FastText中的词编码、以及词的n-gram的组合
+    10. RNN\LSTM\GRU: 内部执行逻辑（数学公式）、参数量、计算量、结构图....

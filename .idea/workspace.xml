@@ -4,10 +4,103 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1212_PyTorch基本API_深度学习模型训练推理案例">
-      <change afterPath="$PROJECT_DIR$/code1213/01_PyTorch API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1213/02_HanLP2x Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/Word2Vec.pdf" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1214_RNN_LSTM_GRU_意图识别">
+      <change afterPath="$PROJECT_DIR$/NLP自然语言/datas/text8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/README.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/README.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.mini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.mini.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.ngram.mini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.ngram.mini.txt.table.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.ngram.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.ngram.txt.table.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.tr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/CoreNatureDictionary.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/CustomDictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/CustomDictionary.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/上海地名.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/人名词典.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/全国地名大全.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/机构名词典.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/custom/现代汉语补充词库.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/organization/nt.tr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/organization/nt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/organization/nt.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/other/CharTable.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/other/CharTable.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/other/CharType.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/other/TagPKU98.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nr.tr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nr.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nrf.txt.trie.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nrj.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nrj.txt.trie.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/person/nrj.txt.value.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/pinyin/pinyin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/pinyin/pinyin.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/place/ns.tr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/place/ns.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/place/ns.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/stopwords.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/synonym/CoreSynonym.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/hk2s.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/hk2t.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/hk2tw.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/s2hk.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/s2t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/s2t.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/s2tw.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2hk.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2hk.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2s.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2tw.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/t2tw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/tw2hk.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/tw2s.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/dictionary/tc/tw2t.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/crf/pku199801/cws.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/crf/pku199801/ner.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/crf/pku199801/pos.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/NNParserModel.licence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/NNParserModel.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/NNParserModel.txt.description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/WordNature.txt.bi.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/WordNature.txt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/dependency/perceptron.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/ctb/pos.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/large/cws.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku1998/cws.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku1998/ner.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku1998/pos.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku199801/cws.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku199801/ner.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/model/perceptron/pku199801/pos.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1213/data-for-1.7.5/data/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/01_RNN理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/02_LSTM理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/03_GRU理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199801.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199802.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199803.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199804.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199805.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/199806.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/199801/shengming.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/._199801" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199801.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199802.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199803.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199804.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199805.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._199806.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1214/分词&amp;词性标注训练数据集/__MACOSX/199801/._shengming.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/06_RNN循环神经网络.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/07_意图识别.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
@@ -63,15 +156,17 @@
     "Python.01_PyTorch API.executor": "Run",
     "Python.01_jieba分词理解.executor": "Debug",
     "Python.01_机器学习案例代码.executor": "Run",
+    "Python.02_LSTM理解.executor": "Run",
     "Python.02_文本分类数据文本数据分割.executor": "Run",
     "Python.02_深度学习案例代码 (1).executor": "Run",
     "Python.02_深度学习案例代码.executor": "Run",
     "Python.03_BP过程理解.executor": "Run",
+    "Python.03_GRU理解.executor": "Run",
     "Python.03_sklearn TF-IDF Demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code1213",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code1214",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,11 +178,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1213" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1214" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1213" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1210" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -97,7 +192,7 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.03_GRU理解">
     <configuration name="01_PyTorch API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -121,8 +216,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="02_LSTM理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1214" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1214/02_LSTM理解.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_GRU理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1214" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1214/03_GRU理解.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_GRU理解" />
+        <item itemvalue="Python.02_LSTM理解" />
         <item itemvalue="Python.01_PyTorch API" />
       </list>
     </recent_temporary>
@@ -159,7 +302,12 @@
       <workItem from="1770710245350" duration="13315000" />
       <workItem from="1770785413140" duration="11478000" />
       <workItem from="1770815489157" duration="4710000" />
-      <workItem from="1770872772168" duration="10749000" />
+      <workItem from="1770872772168" duration="10962000" />
+      <workItem from="1771051218487" duration="602000" />
+      <workItem from="1771054613554" duration="6091000" />
+      <workItem from="1771575060464" duration="2428000" />
+      <workItem from="1771918007615" duration="2777000" />
+      <workItem from="1772008049466" duration="9472000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -193,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770796710238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="code1213_gensim_Word2Vec_Char2Vec_Doc2Vec_HanLP_Jiagu">
+      <option name="closed" value="true" />
+      <created>1770918664989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770918664989</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +372,9 @@
     <MESSAGE value="code1210_机器学习模型训练推理案例_BP过程_PyTorch基本API" />
     <MESSAGE value="code1212_PyTorch基本API" />
     <MESSAGE value="code1212_PyTorch基本API_深度学习模型训练推理案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1212_PyTorch基本API_深度学习模型训练推理案例" />
+    <MESSAGE value="code1213_gensim_Word2Vec_Char2Vec_Doc2Vec_HanLP_Jiagu" />
+    <MESSAGE value="code1214_RNN_LSTM_GRU_意图识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1214_RNN_LSTM_GRU_意图识别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,9 +395,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_机器学习案例代码 Coverage Results" MODIFIED="1770719598378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_GRU.coverage" NAME="03_GRU理解 Coverage Results" MODIFIED="1772017028162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_深度学习案例代码 Coverage Results" MODIFIED="1770714642778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1770538263227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
   </component>
