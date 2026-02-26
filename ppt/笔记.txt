@@ -8,6 +8,8 @@
                 推理：在训练完成的基础上，最终支持给定任何一个文本，返回该文本对应的类别id、类别名称以及预测所属概率，支持返回TopK的结果；
             PS：可以考虑整个结构采用：分词 + Token2Id + Embedding + RNN/LSTM/GRU + FC + CrossEntropyLoss + SGD
                 数据加载更改为: from torch.utils.data import Dataset, DataLoader
+            讲解时间:
+                1217 +
         三、参考BP过程理解的代码，将其改成NumPy的结构(矩阵的运算的结构)
     20251214：
         一、和20251207的作业二一样，结合LSTM结构完成意图识别的分类模型训练
