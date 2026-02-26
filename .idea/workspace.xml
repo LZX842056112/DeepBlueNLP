@@ -4,114 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1214_RNN_LSTM_GRU_意图识别">
-      <change afterPath="$PROJECT_DIR$/code1217/01_深度学习案例代码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/02_Dataset API理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000001.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000002.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000003.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000004.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000005.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000006.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000007.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000008.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000009.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000010.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000011.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000012.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000013.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000014.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000015.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000016.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000017.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000018.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000019.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000020.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000021.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000022.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000023.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000024.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000025.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000026.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000027.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000028.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000029.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000030.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000031.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000032.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000033.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000034.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000035.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000036.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000037.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000038.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000039.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000040.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000041.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000042.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000043.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000044.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000045.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000046.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000047.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000048.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000049.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000050.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000051.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000052.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000053.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000054.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000055.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000056.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000057.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000058.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000059.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000060.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000061.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000062.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000063.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000064.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000065.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000066.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000067.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000068.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000069.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000070.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000071.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000072.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000073.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000074.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000075.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000076.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000077.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000078.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000079.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000080.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000081.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000082.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000083.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000084.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000085.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000086.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000087.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000088.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000089.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000090.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000091.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000092.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000093.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000094.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000095.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000096.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000097.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000098.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/02/models/000099.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/text_classify/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/output/text_classify/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1217/文本分类实现.ipynb" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1217_作业二">
+      <change afterPath="$PROJECT_DIR$/datas/text_classify/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/text_classify/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/models/last.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1217/output/text_classify/label2ids.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/label2ids.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1217/output/text_classify/token2ids.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/token2ids.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1217/文本分类实现.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/文本分类实现.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,40 +60,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code1217/output&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_PyTorch API.executor": "Run",
+    "Python.01_jieba分词理解.executor": "Run",
+    "Python.01_机器学习案例代码.executor": "Run",
+    "Python.01_深度学习案例代码.executor": "Run",
+    "Python.02_Dataset API理解.executor": "Run",
+    "Python.02_LSTM理解.executor": "Run",
+    "Python.02_文本分类数据文本数据分割.executor": "Run",
+    "Python.02_深度学习案例代码 (1).executor": "Run",
+    "Python.02_深度学习案例代码.executor": "Run",
+    "Python.03_BP过程理解.executor": "Run",
+    "Python.03_GRU理解.executor": "Run",
+    "Python.03_sklearn TF-IDF Demo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/datas/text_classify",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217\output" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas\text_classify" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1207作业二" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1207" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1214" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217\output" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -367,7 +267,8 @@
       <workItem from="1771575060464" duration="2428000" />
       <workItem from="1771918007615" duration="2777000" />
       <workItem from="1772008049466" duration="13976000" />
-      <workItem from="1772070012108" duration="4813000" />
+      <workItem from="1772070012108" duration="5773000" />
+      <workItem from="1772078125160" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -417,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772023868648</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="code1217_作业二">
+      <option name="closed" value="true" />
+      <created>1772077388346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772077388346</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +351,8 @@
     <MESSAGE value="code1212_PyTorch基本API_深度学习模型训练推理案例" />
     <MESSAGE value="code1213_gensim_Word2Vec_Char2Vec_Doc2Vec_HanLP_Jiagu" />
     <MESSAGE value="code1214_RNN_LSTM_GRU_意图识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1214_RNN_LSTM_GRU_意图识别" />
+    <MESSAGE value="code1217_作业二" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1217_作业二" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
