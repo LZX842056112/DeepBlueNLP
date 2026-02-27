@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1217_作业二">
-      <change afterPath="$PROJECT_DIR$/datas/text_classify/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/text_classify/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/models/last.pkl" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1220_Seq2Seq_Attention">
+      <change afterPath="$PROJECT_DIR$/code1220/01_Seq2Seq理解_v0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1220/02_Seq2Seq理解_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1220/03_Seq2Seq理解_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1220/04_Seq2Seq+Attention理解_v0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1220/Seq2Seq Attention结构理解.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1220/Seq2Seq结构理解.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/08_Seq2Seq.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/09_Attention.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/ALBert.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Attention Is All You Need(Transformer,1706).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Bert.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Cross-lingual Language Model Pretraining.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/DeBerta.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/ELMo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/GPT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/GPT3.0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Semi-supervised sequence tagging with bidirectional language models.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/T5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/TransformerXL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Universal Transformer.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/Weighted Transfomer.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/XLNet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/transformer_decoding_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/Bert相关论文/transformer_decoding_2.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code1217/output/text_classify/label2ids.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/label2ids.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code1217/output/text_classify/token2ids.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/output/text_classify/token2ids.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code1217/文本分类实现.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/homework/1207作业二/文本分类实现.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,40 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/datas/text_classify",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code1220&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1220" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas\text_classify" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1207作业二" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1207" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217\output" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -268,7 +287,9 @@
       <workItem from="1771918007615" duration="2777000" />
       <workItem from="1772008049466" duration="13976000" />
       <workItem from="1772070012108" duration="5773000" />
-      <workItem from="1772078125160" duration="8825000" />
+      <workItem from="1772078125160" duration="19389000" />
+      <workItem from="1772178187547" duration="111000" />
+      <workItem from="1772178306462" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -326,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772077388346</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="code1219_作业二_文本分类模型的训练">
+      <option name="closed" value="true" />
+      <created>1772087973091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772087973091</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +381,8 @@
     <MESSAGE value="code1213_gensim_Word2Vec_Char2Vec_Doc2Vec_HanLP_Jiagu" />
     <MESSAGE value="code1214_RNN_LSTM_GRU_意图识别" />
     <MESSAGE value="code1217_作业二" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1217_作业二" />
+    <MESSAGE value="code1219_作业二_文本分类模型的训练" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1219_作业二_文本分类模型的训练" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

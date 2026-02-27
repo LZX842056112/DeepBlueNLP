@@ -9,7 +9,7 @@
             PS：可以考虑整个结构采用：分词 + Token2Id + Embedding + RNN/LSTM/GRU + FC + CrossEntropyLoss + SGD
                 数据加载更改为: from torch.utils.data import Dataset, DataLoader
             讲解时间:
-                1217 +
+                1217 + 1219
         三、参考BP过程理解的代码，将其改成NumPy的结构(矩阵的运算的结构)
     20251214：
         一、和20251207的作业二一样，结合LSTM结构完成意图识别的分类模型训练
@@ -51,3 +51,5 @@
         Char2Vec、Doc2Vec、FastText、CW2Vec....
         NOTE: FastText中的词编码、以及词的n-gram的组合
     10. RNN\LSTM\GRU: 内部执行逻辑（数学公式）、参数量、计算量、结构图....
+    11. Seq2Seq：结构、局限性
+    12. Attention：结构、QKV的计算过程
