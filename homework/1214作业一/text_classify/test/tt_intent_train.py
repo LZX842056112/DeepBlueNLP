@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+"""
+Create Date Time : 2025/12/24 21:52
+Create User : 19410
+Desc : 意图识别数据的相关模型训练
+"""
+
+import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(__file__)), "src")))
+
+print(sys.path)
+
+
+def run_preprocess():
+    """
+    数据预处理
+    :return:
+    """
+    # 下列代码能够正常运行的前提是: text_classify 它所在的文件夹必须在sys.path环境变量中
+    from text_classify.datas import preprocess
+
+    preprocess.intention_process(
+        intention_data_file=r"./datas/intention/train.csv",
+        token2id_file=r"./output/intention/token2id.json",
+        label2id_file=r"./output/intention/label2id.json",
+    )
+
+
+def run_train_lstm():
+    # 下列代码能够正常运行的前提是: text_classify 它所在的文件夹必须在sys.path环境变量中
+    from text_classify.trainer.trainer import Trainer
+    from text_classify.config import Config
+    from text_classify.datas.tokenizer import Tokenizer
+    from text_classify.utils import load_json
+
+    tokenizer = Tokenizer(
+        token2ids=load_json(r"./output/intention/token2id.json"),
+        label2ids=load_json(r"./output/intention/label2id.json")
+    )
+    cfg = Config(
+        model_output_dir="./output/intention/lstm/models",
+        summary_dir="./output/intention/lstm/logs",
+        tokenizer=tokenizer,
+        train_file="./datas/intention/train0.csv",
+        eval_file="./datas/intention/val0.csv",
+        total_epoch=5,
+        batch_size=8,
+        hidden_size=64,
+        lr=0.01
+    )
+
+    trainer = Trainer(cfg)
+    trainer.training()
+
+
+if __name__ == '__main__':
+    # run_preprocess()
+    run_train_lstm()

@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1221_">
-      <change afterPath="$PROJECT_DIR$/code1221/01_Self-Attention理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1221/02_Bert API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/10_Transformer.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/11_Bert.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/Transformer Decoder执行过程1.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/Transformer Decoder执行过程2.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/对联唐诗生成/poems_edge_split.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/对联唐诗生成/poetry.txt" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1224_作业一">
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/fc/logs/events.out.tfevents.1772274611.lzx.32604.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/fc/models/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/label2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/lstm/logs/events.out.tfevents.1772275054.lzx.33460.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/lstm/models/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/token2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/tt_intent_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,42 +75,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_Self-Attention理解.executor": "Debug",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.02_Bert API.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code1221",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/homework/1214作业一/text_classify/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1221" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1220" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas\text_classify" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1207作业二" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\test" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\trainer" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\models" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\datas" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -108,7 +120,7 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_Bert API">
+  <component name="RunManager" selected="Python.tt_intent_train">
     <configuration name="01_深度学习案例代码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -147,29 +159,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1221/01_Self-Attention理解.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_文本分类数据文本数据分割" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1207" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1207/02_文本分类数据文本数据分割.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,13 +213,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tt_intent_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/1214作业一/text_classify/test/tt_intent_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tt_intent_train" />
         <item itemvalue="Python.02_Bert API" />
         <item itemvalue="Python.01_Self-Attention理解" />
         <item itemvalue="Python.02_Dataset API理解" />
         <item itemvalue="Python.01_深度学习案例代码" />
-        <item itemvalue="Python.02_文本分类数据文本数据分割" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +288,10 @@
       <workItem from="1772078125160" duration="19389000" />
       <workItem from="1772178187547" duration="111000" />
       <workItem from="1772178306462" duration="10407000" />
-      <workItem from="1772256259509" duration="5711000" />
+      <workItem from="1772256259509" duration="10156000" />
+      <workItem from="1772272653847" duration="2507000" />
+      <workItem from="1772275197375" duration="3802000" />
+      <workItem from="1772281549963" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -350,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772181228815</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="code1221_Transformer_Bert">
+      <option name="closed" value="true" />
+      <created>1772267380735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772267380735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +401,8 @@
     <MESSAGE value="code1217_作业二" />
     <MESSAGE value="code1219_作业二_文本分类模型的训练" />
     <MESSAGE value="code1220_Seq2Seq_Attention" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1220_Seq2Seq_Attention" />
+    <MESSAGE value="code1221_Transformer_Bert" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1221_Transformer_Bert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
