@@ -4,49 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1226_作业一">
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766751148.xm.19164.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752457.xm.14428.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752613.xm.15000.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752995.xm.13712.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753131.xm.16472.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753602.xm.13928.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766754623.xm.19756.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766755024.xm.3672.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/best.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/last.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/lstm/logs/events.out.tfevents.1766757895.dsw-273182-64b958484-mcdfh.3084.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/lstm/models/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/tt_intent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/tt_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1228_bert_其他语言模型_知识图谱_Neo4j">
+      <change afterPath="$PROJECT_DIR$/code1228/01_Bert API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1228/02_GPT API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1228/artists.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1228/artists2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +51,10 @@
     &quot;accountId&quot;: &quot;e5b7e43f-dedf-453c-9a67-b97de7b4a605&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/MySoftware/Anaconda3/envs/cv1/Lib/site-packages/transformers/modeling_outputs.py" root0="SKIP_INSPECTION" />
+    <setting file="file://C:/MySoftware/Anaconda3/envs/cv1/Lib/site-packages/transformers/models/bert/modeling_bert.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -97,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
     &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
     &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
     &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
@@ -104,6 +74,7 @@
     &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
     &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
     &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
     &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
     &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
     &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
@@ -115,23 +86,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/homework/1214作业一_1226&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code1228&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1228" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一_1226" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\test" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\trainer" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\models" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\datas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -141,8 +112,8 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tt_intent_train">
-    <configuration name="01_深度学习案例代码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.02_GPT API">
+    <configuration name="01_Bert API" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,35 +122,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1217" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1228" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1217/01_深度学习案例代码.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_Self-Attention理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1221" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1221/01_Self-Attention理解.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1228/01_Bert API.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,6 +182,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="02_GPT API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code1228" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code1228/02_GPT API.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tt_intent_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -257,13 +228,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.02_GPT API" />
+      <item itemvalue="Python.01_Bert API" />
+      <item itemvalue="Python.02_Bert API" />
+      <item itemvalue="Python.02_Dataset API理解" />
+      <item itemvalue="Python.tt_intent_train" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_GPT API" />
+        <item itemvalue="Python.01_Bert API" />
         <item itemvalue="Python.tt_intent_train" />
-        <item itemvalue="Python.02_Bert API" />
-        <item itemvalue="Python.01_Self-Attention理解" />
         <item itemvalue="Python.02_Dataset API理解" />
-        <item itemvalue="Python.01_深度学习案例代码" />
+        <item itemvalue="Python.02_Bert API" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +293,9 @@
       <workItem from="1772281549963" duration="168000" />
       <workItem from="1772281726590" duration="506000" />
       <workItem from="1772282242889" duration="3595000" />
-      <workItem from="1772332818404" duration="1254000" />
+      <workItem from="1772332818404" duration="7112000" />
+      <workItem from="1772341350494" duration="10821000" />
+      <workItem from="1772359157730" duration="4476000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -405,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772282022066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="code1226_作业一">
+      <option name="closed" value="true" />
+      <created>1772334110916</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772334110916</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +423,8 @@
     <MESSAGE value="code1220_Seq2Seq_Attention" />
     <MESSAGE value="code1221_Transformer_Bert" />
     <MESSAGE value="code1224_作业一" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1224_作业一" />
+    <MESSAGE value="code1226_作业一" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1226_作业一" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,6 +439,41 @@
           <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code1228/01_Bert API.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code1228/01_Bert API.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code1228/01_Bert API.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code1228/01_Bert API.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/MySoftware/Anaconda3/envs/cv1/Lib/site-packages/transformers/models/bert/modeling_bert.py</url>
+          <line>878</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code1228/01_Bert API.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/MySoftware/Anaconda3/envs/cv1/Lib/site-packages/transformers/models/bert/modeling_bert.py</url>
+          <line>1013</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -457,6 +481,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Bert_API.coverage" NAME="02_Bert API Coverage Results" MODIFIED="1772266530473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1772023964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
@@ -465,6 +490,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_深度学习案例代码 Coverage Results" MODIFIED="1772024908784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1217" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Dataset_API.coverage" NAME="02_Dataset API理解 Coverage Results" MODIFIED="1772025838761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1217" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_文本分类数据文本数据分割 Coverage Results" MODIFIED="1772024247149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
   </component>

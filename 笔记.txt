@@ -96,3 +96,337 @@
     2. 和训练采用相同的流程，对待预测的数据进行处理转换
     3. 调用模型的预测方法(前向过程)获取得到预测结果
     4. 后处理转换 --> 在模型预测结果的基础上额外的进行一些数据处理的工作
+=========================================================
+知识图谱
+    一、构建知识图谱
+        依赖最强的两个技术点: 命名实体识别、关系抽取
+        命名实体识别：从给定的文本/数据中找出业务关系的实体词语
+        关系抽取；在命名实体识别的基础上，判断实体之间的关系
+    二、知识图谱的使用
+        -1-. 风控：构建企业、老板、借贷、逾期、还款、纠纷、合同等等之间的关系，从而在发生借贷关系的时候，进行风控的评定
+        -2-. 故障检测：可以将故障、故障的表现、故障的解决方案等实体之间构建关系，从而自动化的进行故障检测；当设备出现什么症状表现的时候，可以直接查库得到可能的故障以及对应的解决方案
+        -3-. 智能医疗辅助系统/网上自助医疗诊断系统/辅助教学系统：从医院的诊疗记录中抽取出病症的表现的，病症的名称，病症的解决办法以及可能存在的后续病症等实体，构建实体与实体之间的关系，保存到数据库即可；直接基于病人的表征体现定位可能的疾病，从而得到需要的诊疗方案(如何检查、如何治疗<药品、手术、注意事项>)
+        -4- 聊天机器人/智能客服/语音的智能客服：针对特定领域构造智能的客服
+            意图识别 + 命名实体识别 + slot槽位设计
+            -a-. 针对用户的问题，判断对应的意图，当前流程仅处理特定意图
+            -b-. 对特定意图的场景进行分析，判断当前意图可能存在的实体信息,结合业务设计槽位，最后基于槽位信息进行业务数据的逻辑处理
+            NOTE: 针对用户的问题，进行意图识别，然后根据需要提取对应的实体，并按照对应的格式槽位进行填充
+            比如：
+                交通车票查询的槽位设计案例：A日期从B到C的D票还有没有?
+                    系统就需要从文本中提取出A日期、B起始地点、C目的地、D交通方式
+                    eg:
+                        从上海去张家界的火车票明天还有吗？
+                        买一张明天上海开出到张家界的火车票
+                        买一张明天到张家界的火车票
+                    判断的实体结果: 上海 --> 起始地点
+                                    张家界 --> 目的地
+                                    火车 --> 交通方式
+                                    明天 --> 日期
+                                NOTE: 代码逻辑上再对实体进行转换处理,比如日期明天转换为具体日期
+                eg:
+                    问句1: 还款日期是几号?
+                    问句2: 最迟可以时候还款?
+============================================================
+图数据库:
+    https://tugraph.antgroup.com/case
+	https://neo4j.com/product/
+	https://www.w3cschool.cn/neo4j/
+	基本概念:
+	    label: 标签，可以看成就是class类别，eg：演员、人、企业、信用卡、银行卡....
+	    node: 节点，具体的一个标签对象，可以看成就是一个class的对象，认为每个实体就是一个节点；eg: 周星驰 就是一个 演员 类型的节点
+	    relation_type: 关系标签，一般用来体现两个节点之间的关系，eg: 主演 ....
+	    属性：节点或者关系上的字段描述，NOTE: 属性可以转换为节点&关系
+============================================================
+neo4j:
+    参考网址:
+        https://neo4j.com/product/
+	    https://www.w3cschool.cn/neo4j/
+	    https://neo4j.com/docs/getting-started/
+
+	    https://neo4j.com/docs/operations-manual/current/
+	    https://neo4j.com/docs/operations-manual/current/database-administration/
+	    https://neo4j.com/docs/operations-manual/current/installation/
+	    https://neo4j.com/docs/operations-manual/current/installation/neo4j-desktop/
+	    https://neo4j.com/docs/operations-manual/current/docker/introduction/
+
+	    https://neo4j.com/docs/cypher-manual/4.4/introduction/
+	    https://neo4j.com/docs/cypher-refcard/4.4/
+	    https://neo4j.com/docs/cypher-cheat-sheet/4/neo4j-community/#_match
+	    https://neo4j.com/docs/cypher-manual/5/constraints/
+
+	    https://neo4j.com/docs/create-applications/
+    环境:
+        试用环境1 --> 保留一个月左右的时间
+            http://118.31.246.133:7474/browser/
+                neo4j://118.31.246.133:7687
+                用户名: neo4j
+                密码: 1234567890
+        安装环境1:
+            NOTE: 如果只是学习的话，建议安装Neo4j Desktop桌面版<Windows安装时候将防火墙之类的全部退出>；
+            NOTE: 用VPN或者关闭网络(启动安装好服务的时候)。
+            1. 任选一个地方进行下载:
+                https://neo4j.com/deployment-center/#desktop
+			    https://neo4j.com/download/
+			    NOTE: 版本选择1.5.8或者1.5.9
+			2. 下载页面随便填写一些联系方式等信息，复制保存下载页面的:activate key
+            3. 双击下载的文件，选择好路径就可以直接安装
+            4. 安装完成后，直接启动软件，在软件激活界面，将刚刚复制保存下来的activate key直接粘贴激活即可(Software key)
+        环境安装2：
+            NOTE: 如果你当前环境支持docker，那么建议直接运行docker容器
+                https://ecs.console.aliyun.com/home
+            1. 去docker中央镜像仓库搜索neo4j
+                https://hub.docker.com/
+            2. 在docker宿主机中执行以下命令:
+                docker run -d --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data  --restart on-failure neo4j:latest
+---------------------------------------------
+            PS: Docker加速
+Docker阿里云镜像加速:
+https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+"registry-mirrors": [
+    "https://0vmzj3q6.mirror.aliyuncs.com",
+    "https://fkphdehx.mirror.aliyuncs.com",
+    "https://docker.m.daocloud.io",
+    "https://dockerproxy.com",
+    "https://registry.docker-cn.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://hub-mirror.c.163.com",
+    "https://hub.uuuadc.top",
+    "https://docker.anyhub.us.kg",
+    "https://dockerhub.jobcher.com",
+    "https://dockerhub.icu",
+    "https://docker.ckyl.me",
+    "https://docker.awsl9527.cn",
+    "https://mirror.baidubce.com"
+  ]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+---------------------------------------------
+========================================
+Neo4j操作：
+    实际上就是一种数据库，所以主要操作就是增(CREATE)、删(MATCH + DELETE)、查(MATCH + RETURN)、改(MATCH + SET) --> Database的操作、数据的操作
+    假设存在以下实体、和关系信息：
+        实体/标签：Person、Moive
+            Person属性：name、birthday、birthplace、occupation
+            Moive属性：name、release(上映日期)
+        关系：
+            Person -参演-> Moive
+                参演关系的属性：扮演的角色名称
+            Moive -演员-> Person
+            Moive -主演-> Person
+            Moive -导演-> Person
+
+CREATE (zxc:Person {name:'周星驰', birthday:date('1962-06-22'), birthplace:'香港'});
+CREATE (:Person {name:'李连杰', birthday:'1963年4月26日', birthplace:'北京'});
+CREATE (n:Person {name:'李幼斌'}) RETURN n;
+CREATE (n:Person {name:'任达华'});
+
+CREATE
+	(cl:Person {name:'成龙', birthday:'1954年4月7日', birthplace:'香港', occupation: ['男演员', '导演', '歌手', '编剧']}),
+	(zmy:Person {name:'张曼玉', birthday:'1964年9月20日', birthplace:'香港', occupation: ['女演员', '歌手']}),
+	(m1:Moive {name:'警察故事', release:'1985年12月14日'}),
+	(m2:Moive {name:'十二生肖', release:'2012年12月20日'}),
+	(m3:Moive {name:'新警察故事', release:'2004年9月24日', 上映日期:'2004年9月24日'}),
+	(cl) -[:参演 {角色名称:'陈家驹'}]-> (m1),
+    (cl) -[:参演]-> (m2),
+    (cl) -[:参演]-> (m3),
+	(zmy) -[:参演]-> (m1);
+CREATE (:角色 {name:'陈家驹', 备注:'勇猛警察'});
+
+CREATE (:Person {name:'林青霞'})-[:参演 {角色名称: '女逃犯'}]->(m:Moive {name:'重庆森林'});
+
+
+MATCH (n) RETURN n LIMIT 3;
+MATCH (n:Person) WHERE n.name='成龙' RETURN n;
+MATCH (n:Person {name:'成龙'}) RETURN n;
+MATCH (n:Person) WHERE n.name in ['成龙','周星驰'] RETURN n;
+MATCH (n:Person) WHERE n.name in ['成龙','周星驰'] RETURN n.name, n.birthday;
+MATCH (n:Person) WHERE n.name in ['成龙','周星驰'] RETURN n.name AS 姓名, n.birthday AS birthday;
+MATCH (n:Person) WHERE (n.name = '成龙' or n.name='周星驰') and  '男演员' in n.occupation  RETURN n.name AS 姓名, n.birthday AS birthday;
+
+MATCH
+    (p1:Person {name:'林青霞'}),
+    (m1:Moive {name:'警察故事'})
+CREATE
+    (p1) -[r1:参演 {角色名称: '莎莲娜'}]-> (m1),
+    (m1) -[r2:演员 {角色名称: '莎莲娜'}]-> (p1)
+RETURN p1, m1;
+
+MATCH
+	(p1:Person {name:'周星驰'}),
+	(p2:Person {name:'李连杰'}),
+	(p3:Person {name:'成龙'})
+CREATE
+	(m1:Moive {name:'宝贝计划'}),
+	(m2:Moive {name:'A计划'}),
+	(m3:Moive {name:'快餐车'}),
+	(m4:Moive {name:'唐伯虎点秋香'}),
+	(m5:Moive {name:'逃学威龙'}),
+	(m6:Moive {name:'大话西游'}),
+	(m7:Moive {name:'喜剧之王'}),
+	(m8:Moive {name:'美人鱼'}),
+	(m9:Moive {name:'玻璃樽'}),
+	(m10:Moive {name:'戏剧之王'}),
+	(m11:Moive {name:'英雄'}),
+	(m12:Moive {name:'少林寺'}),
+	(m13:Moive {name:'太极张三丰'}),
+	(m14:Moive {name:'功夫之王'}),
+	(p1)-[:参演]->(m4),(p1)-[:参演]->(m5),(p1)-[:参演]->(m6),
+	(p1)-[:参演]->(m7),(p1)-[:参演]->(m8),(p1)-[:参演]->(m9),
+	(p1)-[:参演]->(m10),
+	(p3)-[:参演]->(m1),(p3)-[:参演]->(m2),(p3)-[:参演]->(m3),
+	(p3)-[:参演]->(m9),(p3)-[:参演]->(m10),(p3)-[:参演]->(m14),
+	(p2)-[:参演]->(m11),(p2)-[:参演]->(m12),(p2)-[:参演]->(m13),
+	(p2)-[:参演]->(m14);
+
+MATCH
+    (p1:Person {name:'周星驰'}),
+    (m1:Moive {name:'大话西游'}),
+    (m2:Moive {name:'喜剧之王'})
+CREATE
+    (wmd:Person {name:'吴孟达'}),
+    (m1) -[:主演]-> (p1),
+    (m1) -[:主演]-> (wmd),
+    (wmd) -[:参演]-> (m1),
+    (m2) -[:主演]-> (p1);
+
+
+MATCH
+    (p1:Person {name:'周星驰'})
+SET
+    p1.birthday = "1962-06-22",
+    p1.occupation = ['男演员', '导演'],
+    p1.sex = '男';
+
+CREATE (:Person {name:"小明", age:12, 性别:"男"});
+MATCH
+	(p:Person {name:'小明'})
+SET
+	p.occupation=['男演员', '导演', '歌手', '编剧'],
+	p.性别 = '男',
+	p.age = 16
+RETURN p;
+
+# insert or update: 当数据不存在的时候，执行插入操作；当数据存在的时候，执行更新操作;
+MERGE (n:Person {name: '小明'})
+ON CREATE SET
+    n.created = timestamp(),
+    n.age = 15
+ON MATCH SET
+  n.age = n.age + 1,
+  n.counter = coalesce(n.counter, 0) + 1,
+  n.accessTime = timestamp(),
+  n.性别 = '男'
+RETURN n;
+
+MATCH (a:Person) -[:参演]-> (b:Moive)
+MERGE (a) <-[r:演员]- (b)
+ON CREATE SET r.v = 1
+ON MATCH SET r.v = 2;
+
+MATCH (p:Person {name:'小明'}) REMOVE p.性别;
+MATCH (p:Person {name:'小明'}) DELETE p;
+MATCH (:Person {name:'周星驰'}) -[r:参演]-> (:Moive) DELETE r;
+
+MATCH (a:Person) <-[:演员]- (b:Moive)
+MERGE (a) -[r:参演]-> (b)
+ON CREATE SET r.u = 1
+ON MATCH SET r.u = 2;
+
+------------- 图数据库也是支持索引
+索引的作用：
+	-1. 唯一索引可以保证数据不重复；
+	-2. 索引可以加快在当前属性上的查询速度；
+
+MATCH (n:Person {name:"小明"}) RETURN n;
+EXPLAIN  MATCH (n:Person {name:"小明"}) RETURN n;
+CREATE (:Person {name:"小明", age:13, 性别:"男"});
+CREATE (:Person {name:"小明", age:14, 性别:"男"});
+CREATE (:Person {name:"小明", age:15, 性别:"男"});
+
+# 实体/节点创建唯一索引
+CREATE CONSTRAINT person_name IF NOT EXISTS
+FOR (p:Person)
+REQUIRE p.name IS UNIQUE;
+
+CREATE CONSTRAINT movie_name IF NOT EXISTS
+FOR (p:Moive)
+REQUIRE p.name IS UNIQUE;
+
+# 关系创建索引 5.7+ 商业版
+CREATE CONSTRAINT cy_rel
+FOR ()-[r:参演]-() REQUIRE r.name IS UNIQUE
+
+DROP CONSTRAINT person_name IF EXISTS;
+SHOW INDEXES;
+
+-------------图数据库特别的一点就是：查询支持基于路径的查询
+------ https://neo4j.com/docs/cypher-manual/4.4/syntax/patterns
+CREATE
+    (a:Person {name:'A'}), (b:Person {name:'B'}), (c:Person {name:'C'}), (d:Person {name:'D'}),
+    (a) -[:KNOW]-> (b),
+    (b) -[:KNOW]-> (c),
+    (c) -[:KNOW]-> (d);
+
+MATCH (c:Person {name:'C'})
+CREATE
+    (e: Person {name:'E'}),
+    (e) -[:KNOW]-> (c);
+
+MATCH p=(n:Person {name:'A'}) -[*]-> (m:Person {name:'D'})
+RETURN p;
+
+MATCH p=(n:Person {name:'A'}) -[*]- (m:Person {name:'E'})
+RETURN p;
+
+------------------------
+MATCH (p:Person) WHERE p.birthplace = '香港' RETURN p;
+MATCH (p:Person) WHERE '歌手' IN p.occupation RETURN p;
+MATCH (p:Person)-[:参演]->(moive) WHERE p.name = '成龙' RETURN p, moive;
+MATCH (p:Person{name:'成龙'})-[:参演]->(moive) RETURN p, moive;
+# 和成龙同时参演的情况
+MATCH (p1:Person {name:'成龙'})-[:参演]->(moive)<-[:参演]-(p2:Person) RETURN p1,p2,moive;
+
+# 和成龙同时参演演员参加的电影列表（其它演员和成龙同时参演的电影）
+MATCH (p1:Person {name:'成龙'})-[:参演]->(moive)<-[:参演]-(p2:Person) RETURN p2,moive;
+# 和成龙同时参演演员参加的电影列表（其它演员参演的所有电影,有可能有成龙没有参演的电源存在）
+MATCH
+    (p1:Person {name:'成龙'})-[:参演]->(moive)<-[:参演]-(p2:Person)
+WITH p2
+MATCH
+    (p2)-[:参演]->(moive2)
+RETURN p2,moive2;
+
+--------------------------------------------
+加载CSV文件到Neo4j中
+    https://neo4j.com/docs/cypher-manual/5/clauses/load-csv/
+    https://neo4j.com/docs/cypher-cheat-sheet/5/neo4j-enterprise/#_load_csv
+    https://neo4j.com/docs/getting-started/data-import/csv-import/
+操作：
+# 单纯的insert
+LOAD CSV FROM 'file:///artists.csv' AS line
+CREATE (a:Artist {id:toInteger(line[0]), name: line[1], year: toInteger(line[2])})
+RETURN a;
+# 查询
+LOAD CSV FROM 'file:///artists2.csv' AS line
+MATCH (a:Artist {id:toInteger(line[0])})
+RETURN a;
+# insert or update：基于csv进行数据的查询、更新以及插入
+LOAD CSV FROM 'file:///artists2.csv' AS line
+MERGE (a:Artist {id:toInteger(line[0])})
+ON CREATE SET
+	a.id = toInteger(line[0]),
+	a.name = line[1],
+	a.year = toInteger(line[2]),
+	a.age = toInteger(line[3]),
+	a.created = timestamp()
+ON MATCH SET
+	a.year = toInteger(line[2]),
+	a.age = toInteger(line[3])
+RETURN a;
+
