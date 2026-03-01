@@ -430,3 +430,25 @@ ON MATCH SET
 	a.age = toInteger(line[3])
 RETURN a;
 
+================================================================
+Python操作Neo4j数据库
+	参考：
+		https://neo4j.com/deployment-center/#desktop
+		https://pypi.org/project/neo4j/5.15.0
+		https://neo4j.com/docs/api/python-driver/current/
+		https://github.com/neo4j-examples/movies-python-bolt
+		https://neo4j.com/docs/python-manual/current/
+		https://neo4j.com/developer/python/
+		https://github.com/neo4j-examples/movies-python-py2neo
+		http://py2neo.org/
+
+	操作：
+		-1. 可选库：
+			neo4j: pip install neo4j==5.15.0
+			py2neo: pip install py2neo
+		-2. 参考文档编写python代码
+			NOTE: 实际上还是利用CQL(cypher)的命令来进行操作
+	    NOTE: 绝大多数的图数据库通用(绝大多数的图数据库也可以通过neo4j或者py2neo库进行访问)
+
+
+
