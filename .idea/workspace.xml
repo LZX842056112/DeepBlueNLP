@@ -4,29 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1224_作业一">
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/fc/logs/events.out.tfevents.1772274611.lzx.32604.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/fc/models/last.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/lstm/logs/events.out.tfevents.1772275054.lzx.33460.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/lstm/models/last.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/tt_intent_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1214作业一/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1226_作业一">
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/label2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766751148.xm.19164.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752457.xm.14428.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752613.xm.15000.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752995.xm.13712.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753131.xm.16472.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753602.xm.13928.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766754623.xm.19756.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766755024.xm.3672.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/best.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/lstm2/models/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/intention/token2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/lstm/logs/events.out.tfevents.1766757895.dsw-273182-64b958484-mcdfh.3084.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/lstm/models/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/output/sentiment/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/tt_intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/tt_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业一_1226/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +111,11 @@
     &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
     &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
     &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/homework/1214作业一/text_classify/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/homework/1214作业一_1226&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,11 +127,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一_1226" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\test" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\trainer" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\models" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify\datas" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\src\text_classify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -292,6 +313,9 @@
       <workItem from="1772272653847" duration="2507000" />
       <workItem from="1772275197375" duration="3802000" />
       <workItem from="1772281549963" duration="168000" />
+      <workItem from="1772281726590" duration="506000" />
+      <workItem from="1772282242889" duration="3595000" />
+      <workItem from="1772332818404" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -373,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772267380735</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="code1224_作业一">
+      <option name="closed" value="true" />
+      <created>1772282022066</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772282022066</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +434,8 @@
     <MESSAGE value="code1219_作业二_文本分类模型的训练" />
     <MESSAGE value="code1220_Seq2Seq_Attention" />
     <MESSAGE value="code1221_Transformer_Bert" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1221_Transformer_Bert" />
+    <MESSAGE value="code1224_作业一" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1224_作业一" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,6 +458,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1772023964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Self_Attention.coverage" NAME="01_Self-Attention理解 Coverage Results" MODIFIED="1772192053893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_GRU.coverage" NAME="03_GRU理解 Coverage Results" MODIFIED="1772017028162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
