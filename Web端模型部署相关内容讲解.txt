@@ -4,7 +4,7 @@ NOTE: 一般情况下，我们可以通过对外提供一个http接口完成部�
         模型恢复的相关方法：推理对象的构造方法，eg:__init__
         模型预测方法：接收入参，入参处理，调用模型，结果处理返回
     -2-. 在推理预测代码的外部套一层"壳"，这层"壳"相关的代码就是一些接收调用方传递特征数据、调用预测代码等相关逻辑
-        eg: 本地测试的命令行输入、HTTP接口、RPC接口......-->具体看公司的整体技术框架
+        eg: 本地测试的命令行输入、HTTP接口(Flask、FastAPI)、RPC接口......-->具体看公司的整体技术框架
     -3-. 相关的测试工作 --> 自己本地的一些测试
     -4-. 选择不同的部署方式，将代码 + 模型文件上传进行部署操作
         eg: 裸服务器的部署、Docker部署、各种第三方的人工智能平台的部署....
@@ -93,4 +93,21 @@ root        4693    4652  0 22:18 pts/0    00:00:00 grep --color=auto python
             curl http://127.0.0.1:5000
         5. 客户端访问
             通过python/java/....语言的http访问库进行访问
+========================================================
+fastapi
+    功能：和Flask类似，可以用来实现算法接口，但是不一样的点在于：FastAPI更适合实现流式数据返回的接口
+    参考:
+        https://pypi.org/project/fastapi/0.109.0/
+        https://fastapi.tiangolo.com/
+        https://github.com/fastapi/fastapi
+        https://www.uvicorn.org/
+        https://fastapi.tiangolo.com/async/#in-a-hurry
+    安装命令:
+        pip install fastapi==0.109.0
+    操作：
+        1. 首先弄一个Demo，运行看看：在官网的帮助文档中找quickstart/examples...
+        2. 了解基本概念:
+            get、post请求资源的定义
+            参数的获取
+            结果的返回
 ========================================================
