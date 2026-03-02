@@ -4,61 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1228_bert_其他语言模型_知识图谱_Neo4j">
-      <change afterPath="$PROJECT_DIR$/code1229/01_py2neo 操作API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1229/02_neo4j driver 操作API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1229/03_通过Python代码将CSV数据导入到Neo4j.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1229/artists3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/logs/events.out.tfevents.1767017253.xm.20584.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/models/best.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/models/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/models/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/models/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/bert1/models/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766751148.xm.19164.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752457.xm.14428.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752613.xm.15000.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766752995.xm.13712.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753131.xm.16472.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766753602.xm.13928.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766754623.xm.19756.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1766755024.xm.3672.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/logs/events.out.tfevents.1767014469.xm.11472.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/models/best.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/models/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/lstm2/models/last.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/sentiment/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/sentiment/lstm/logs/events.out.tfevents.1766757895.dsw-273182-64b958484-mcdfh.3084.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/sentiment/lstm/models/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/output/sentiment/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/tt_intent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/tt_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业一/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code1231_阿里云DSW云平台GPU模型训练_Linux及HTTP">
+      <change afterPath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/datas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/deploy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/logs/events.out.tfevents.1767184733.dsw-274985-79c7bcd7c8-fc8ks.1168.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/logs/events.out.tfevents.1767187070.xm.19864.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/best.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/bert1/models/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/output/intention/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/tt_intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/tt_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1231/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppt/扩展_01_Web基础：Flask初识.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,48 +98,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_Bert API.executor": "Debug",
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_Self-Attention理解.executor": "Debug",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_py2neo 操作API.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.02_Bert API.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_GPT API.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_neo4j driver 操作API.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
-    "Python.tt_intent_train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/homework/1221作业一",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyScientificConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code1231&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1231" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1221作业一" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1229" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1228" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一_1226" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1214作业一\text_classify\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -279,11 +266,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.01_Bert API" />
       <item itemvalue="Python.01_py2neo 操作API" />
+      <item itemvalue="Python.02_GPT API" />
       <item itemvalue="Python.02_neo4j driver 操作API" />
       <item itemvalue="Python.03_通过Python代码将CSV数据导入到Neo4j" />
-      <item itemvalue="Python.02_GPT API" />
-      <item itemvalue="Python.01_Bert API" />
     </list>
     <recent_temporary>
       <list>
@@ -345,7 +332,9 @@
       <workItem from="1772282242889" duration="3595000" />
       <workItem from="1772332818404" duration="7112000" />
       <workItem from="1772341350494" duration="10821000" />
-      <workItem from="1772359157730" duration="9363000" />
+      <workItem from="1772359157730" duration="11418000" />
+      <workItem from="1772440660556" duration="373000" />
+      <workItem from="1772441073666" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -451,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772366431495</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="code1229_Neo4j的Python库_1221作业一">
+      <option name="closed" value="true" />
+      <created>1772372124396</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772372124396</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +480,8 @@
     <MESSAGE value="code1224_作业一" />
     <MESSAGE value="code1226_作业一" />
     <MESSAGE value="code1228_bert_其他语言模型_知识图谱_Neo4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1228_bert_其他语言模型_知识图谱_Neo4j" />
+    <MESSAGE value="code1229_Neo4j的Python库_1221作业一" />
+    <option name="LAST_COMMIT_MESSAGE" value="code1229_Neo4j的Python库_1221作业一" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

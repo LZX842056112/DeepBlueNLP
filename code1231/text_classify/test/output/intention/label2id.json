@@ -1,0 +1,14 @@
+{
+  "Travel-Query": 0,
+  "Music-Play": 1,
+  "FilmTele-Play": 2,
+  "Video-Play": 3,
+  "Radio-Listen": 4,
+  "HomeAppliance-Control": 5,
+  "Weather-Query": 6,
+  "Alarm-Update": 7,
+  "Calendar-Query": 8,
+  "TVProgram-Play": 9,
+  "Audio-Play": 10,
+  "Other": 11
+}
