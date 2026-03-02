@@ -42,3 +42,55 @@ HTTP相关内容介绍：
     特殊IP地址:
         0.0.0.0: 表达当前机器的所有IP地址，但是不支持互联网访问0.0.0.0
         127.0.0.1: 当前机器的IP地址
+========================================================
+Flask
+    参考：
+        https://pypi.org/project/Flask/
+        https://github.com/pallets/flask
+        https://flask.palletsprojects.com/en/stable/
+        https://flask.palletsprojects.com/zh-cn/stable/
+        https://docs.jinkan.org/docs/flask/
+    安装命令：
+        pip install Flask==3.1.1
+    操作：
+        1. 首先弄一个Demo，运行看看：在官网的帮助文档中找quickstart
+        2. 了解一些基本概念:
+            @app.route: 给定一个资源请求路径，也就是路由
+            @app.route('/predict', methods=['GET', 'POST'])
+            text = request.args.get('text')
+            text = request.form.get('text')
+            jsonify({'code': 0, 'msg': '成功', 'data': pred_result})
+========================================================
+基于HTTP API接口 + 裸Linux服务器部署
+    参考：
+        https://www.runoob.com/linux/linux-command-manual.html
+    准备工作：准备一台linux服务器(实际工作的时候，运维会给你的)、下载一些软件WinSCP(可以负责将windows的文件上传到Linux上) + Putty(SSH远程连接的工具)
+    步骤：
+        1. 通过WinSCP将windows上的代码上传到linux服务器上，放到某个文件夹中即可
+        2. 安装Python环境以及依赖库
+            wget https://repo.anaconda.com/miniconda/Miniconda3-py310_24.9.2-0-Linux-x86_64.sh
+            sh Miniconda3-py310_24.9.2-0-Linux-x86_64.sh
+            pip install flask==3.1.1 flask-cors torch==2.3.1 transformers==4.57.3 jieba
+        3. 在linux命令行中启动web服务
+            # 进入代码所在文件夹
+            cd /root/deploy_nlp/text_classify/test
+            # 启动服务
+            python server_runner.py
+            ## PS: 启动服务之后，需要注意服务器的防火墙(服务器是否允许公网IP的访问以及允许那些端口的访问)
+            ## 建议启动方式：启动服务器，应该后台运行最好
+                nohup python server_runner.py &
+        4. 测试
+            # 查看进程是否存在
+            ps -ef | grep python
+(base) root@iZbp1go9moi8408vjeikjiZ:~/deploy_nlp/text_classify/test# ps -ef | grep python
+root         895       1  0 22:01 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         965       1  0 22:01 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1078       1  0 22:01 ?        00:00:00 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root        4595    4384  2 22:15 pts/2    00:00:04 python server_runner.py
+root        4693    4652  0 22:18 pts/0    00:00:00 grep --color=auto python
+
+            # 通过curl命令访问测试接口
+            curl http://127.0.0.1:5000
+        5. 客户端访问
+            通过python/java/....语言的http访问库进行访问
+========================================================
