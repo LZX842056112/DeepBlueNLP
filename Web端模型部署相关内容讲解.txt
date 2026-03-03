@@ -111,3 +111,131 @@ fastapi
             参数的获取
             结果的返回
 ========================================================
+Docker
+    简单来理解的话，可以将Docker看成是一种比较方便进行部署、运维管理的软件
+        image/镜像：理解成是一个包含某个服务/功能的安装包，内部包含了操作系统、服务/功能软件;
+        镜像仓库：用来保存构建好的image/镜像的网站；
+        container/容器：一个image镜像在docker软件中运行后最终形成的"微小的服务器" --> 其实就是一个进程
+        宿主机：运行container容器的服务器/机器
+    参考：
+        https://dockerdocs.org/
+        https://www.runoob.com/docker/ubuntu-docker-install.html
+        https://www.runoob.com/docker/docker-command-manual.html
+        https://hub.docker.com/
+    安装：可以直接选择阿里云默认支持的Docker容器的服务器
+    Docker阿里云镜像加速:
+            https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+"registry-mirrors": [
+    "https://0vmzj3q6.mirror.aliyuncs.com",
+    "https://fkphdehx.mirror.aliyuncs.com",
+    "https://docker.m.daocloud.io",
+    "https://dockerproxy.com",
+    "https://registry.docker-cn.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://hub-mirror.c.163.com",
+    "https://hub.uuuadc.top",
+    "https://docker.anyhub.us.kg",
+    "https://dockerhub.jobcher.com",
+    "https://dockerhub.icu",
+    "https://docker.ckyl.me",
+    "https://docker.awsl9527.cn",
+    "https://mirror.baidubce.com"
+  ]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+    常见命令:
+        docker相关命令: https://www.runoob.com/docker/docker-command-manual.html
+        docker ps
+        docker images
+        docker run
+        docker pull
+        docker push
+        docker build
+    分步骤构建docker镜像并启动服务:
+        NOTE:
+            宿主机：Docker软件运行的机器 或者 容器运行的机器
+            容器：Docker启动的镜像所形成的容器
+        1. 拉取基础镜像(宿主机内执行)
+            去镜像仓库进行检索:
+                https://hub.docker.com/
+            docker pull python:3.12
+        2. 运行镜像，形成容器，并且进入容器内部(宿主机内执行)
+            docker run -ti python:3.12 /bin/bash
+            run命令会进入docker容器内部，在容器内部就相当在一个操作系统里面，你可以在操作系统内进行你想操作的任何内容， exit就是推出镜像
+            重新启动退出关闭的容器
+            docker restart <CONTAINER ID>
+            # 重新进入容器内部
+            docker exec -ti 1e45ad4d3f21 /bin/bash
+        3. 在容器内部进行依赖库的安装(容器内执行)
+            pip install flask==3.1.1 flask-cors==6.0.2 transformers==4.57.3 jieba onnxruntime==1.22.0 fastapi==0.109.0 uvicorn==0.40.0 -i http://mirrors.cloud.aliyuncs.com/pypi/simple/ --trusted-host mirrors.cloud.aliyuncs.com
+        4. 将模型代码及模型文件从宿主机中copy到容器里面（宿主机里面执行）
+            docker cp <宿主机源路径> <容器id>:<容器内部目标路径>
+            docker cp text_classify 1e45ad4d3f21:/opt/text_classify
+            docker cp text_classify/test 1e45ad4d3f21:/opt/text_classify/test/server_runner.py
+        5. 复制代码及模型完成后，可以在容器内部测试一下代码环境是否正常(容器内执行)
+            # 启动服务
+            python /opt/text_classify/test/server_runner.py
+            # 使用docker exec命令重新启动一个界面，进行测试
+            curl http://127.0.0.1:9001
+            # 如果成功的情况下，直接退出容器；如果失败，那么针对失败内容进行解决
+            exit
+        6. 将容器转换为镜像(宿主机中执行)
+            docker commit <容器id> <镜像名称>:<镜像版本>
+            docker commit 1e45ad4d3f21 nlp_text_classify:v2601092109
+        7. 启动镜像(宿主机执行)
+            docker run -d -p 9001:9001 nlp_text_classify:v2601092109 python /opt/text_classify/test/server_runner.py
+            docker run -d -p 9002:9001 nlp_text_classify:v2601092109 python /opt/text_classify/test/server_runner.py
+            docker run -d -p 9003:9001 nlp_text_classify:v2601092109 python /opt/text_classify/test/server_runner.py
+        ------------ 上述docker相关代码合并
+            # 宿主机执行
+            docker run -ti python:3.12 /bin/bash
+
+            # 容器执行
+            pip install flask==3.1.1 flask-cors==6.0.2 transformers==4.57.3 jieba onnxruntime==1.22.0 fastapi==0.109.0 uvicorn==0.40.0 -i http://mirrors.cloud.aliyuncs.com/pypi/simple/ --trusted-host mirrors.cloud.aliyuncs.com
+
+            # 宿主机执行
+            docker ps
+            docker cp text_classify ee65d5ac0660:/opt/text_classify
+
+            # 容器执行
+            exit
+
+            # 宿主机执行
+            docker commit ee65d5ac0660 nlp_text_classify:v2601092109
+
+            # 宿主机执行
+            docker images
+            docker run -d -p 9003:9001 nlp_text_classify:v2601092109 python /opt/text_classify/test/server_runner.py
+========================================================
+Docker Dockerfile镜像构建
+    1. 找一个docker镜像仓库
+        https://hub.docker.com/
+        https://cr.console.aliyun.com/
+        登录：
+            sudo docker login --username=19410*****@qq.com registry.cn-shenzhen.aliyuncs.com
+        操作镜像：
+            docker pull crpi-u76zoyf108pvu6hu.cn-hangzhou.personal.cr.aliyuncs.com/deepblue_nlp_20260109/deploy:[镜像版本号]
+            docker login --username=lzx842056112 crpi-u76zoyf108pvu6hu.cn-hangzhou.personal.cr.aliyuncs.com
+            docker tag [ImageId] crpi-u76zoyf108pvu6hu.cn-hangzhou.personal.cr.aliyuncs.com/deepblue_nlp_20260109/deploy:[镜像版本号]
+            docker push crpi-u76zoyf108pvu6hu.cn-hangzhou.personal.cr.aliyuncs.com/deepblue_nlp_20260109/deploy:[镜像版本号]
+            docker run -d -p 5000:9001 crpi-u76zoyf108pvu6hu.cn-hangzhou.personal.cr.aliyuncs.com/deepblue_nlp_20260109/deploy:01092151 python /opt/text_classify/test/server_runner.py
+
+            docker tag f3396041c12d registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:python_3.12
+            docker push registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:python_3.12
+    2. 编写Dockerfile文件内容
+        https://www.runoob.com/docker/docker-dockerfile.html
+        a. 编写好Dockerfile文件并上传到linux服务器上(Docker宿主机中)
+        b. 在Dockerfile所在文件夹下执行下列命令，来构建docker镜像
+            docker build -t registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:v01092208 .
+        c. 测试
+            docker run -d -p 9003:9001 registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:v01092208
+        d. 将build好的镜像上传到镜像仓库
+            docker push registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:v01092208
+    3. 在任何一台安装好docker软件的服务器上均可以启动模型推理服务(必须有访问镜像仓库的权限)
+        docker run -d -p 9003:9001 registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:v01092208
+=====================================================

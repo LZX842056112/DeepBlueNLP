@@ -4,58 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260105_Flask">
-      <change afterPath="$PROJECT_DIR$/code20260107/fastapi_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/early_stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/trainer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/http_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/http_client_with_fastapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/bert1/deploy/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/server_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/tt_intent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/tt_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/文本分类实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/协程数据迭代生成案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/协程案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/多线程案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260107/多进程案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/Python asyncio异步编程.pdf" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260107_ONNX推理_asyncio异步_FastAPI">
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/datas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/http_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/http_client_with_fastapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/bert1/deploy/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/label2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/output/intention/token2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/server_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/tt_intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/tt_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/文本分类实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260109/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" afterDir="false" />
     </list>
@@ -145,7 +140,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260107",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260109",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,11 +152,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260109" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260107" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260105" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code0105" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1231" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
@@ -289,17 +284,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.fastapi_app" />
-      <item itemvalue="Python.协程数据迭代生成案例" />
-      <item itemvalue="Python.协程案例" />
       <item itemvalue="Python.多线程案例" />
-      <item itemvalue="Python.多进程案例" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.fastapi_app" />
-        <item itemvalue="Python.协程数据迭代生成案例" />
-        <item itemvalue="Python.多进程案例" />
-        <item itemvalue="Python.协程案例" />
         <item itemvalue="Python.多线程案例" />
       </list>
     </recent_temporary>
@@ -356,7 +345,8 @@
       <workItem from="1772341350494" duration="10821000" />
       <workItem from="1772359157730" duration="11418000" />
       <workItem from="1772440660556" duration="373000" />
-      <workItem from="1772441073666" duration="10612000" />
+      <workItem from="1772441073666" duration="11209000" />
+      <workItem from="1772504453735" duration="11917000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -486,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772455518632</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="code20260107_ONNX推理_asyncio异步_FastAPI">
+      <option name="closed" value="true" />
+      <created>1772459639743</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772459639743</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +519,8 @@
     <MESSAGE value="code1229_Neo4j的Python库_1221作业一" />
     <MESSAGE value="code1231_阿里云DSW云平台GPU模型训练_Linux及HTTP" />
     <MESSAGE value="code20260105_Flask" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260105_Flask" />
+    <MESSAGE value="code20260107_ONNX推理_asyncio异步_FastAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260107_ONNX推理_asyncio异步_FastAPI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
