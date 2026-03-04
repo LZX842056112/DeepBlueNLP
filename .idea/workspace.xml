@@ -5,45 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260111_命名实体识别">
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/NamedEntityRecognition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/early_stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/loss/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/loss/custom_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/entity_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/token_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/bert_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/bilstm_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/optim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/trainer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/01_网络结构.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/02_标签映射数据的构造.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/03_分词器的构造.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/04_自定义Dataset构建.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/05_DataLoader数据集加载测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/06_模型训练.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/07_模型推理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/training.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/http_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/http_client_with_fastapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/label2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/token2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/server_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/tt_intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/tt_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/pai_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/http_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/http_client_with_fastapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/label2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/token2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/token2ids.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/pai_eas_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/server_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/tt_intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/tt_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +193,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260111/NamedEntityRecognition/src/ner/metrics",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260114",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,11 +205,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260114" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260110" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260109" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
@@ -397,7 +452,7 @@
       <workItem from="1772440660556" duration="373000" />
       <workItem from="1772441073666" duration="11209000" />
       <workItem from="1772504453735" duration="32331000" />
-      <workItem from="1772597229213" duration="6927000" />
+      <workItem from="1772597229213" duration="12197000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -551,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772540999310</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="code20260111_命名实体识别">
+      <option name="closed" value="true" />
+      <created>1772614272593</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772614272593</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +652,8 @@
     <MESSAGE value="code20260107_ONNX推理_asyncio异步_FastAPI" />
     <MESSAGE value="code20260109_docker部署" />
     <MESSAGE value="code20260110_命名实体识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260110_命名实体识别" />
+    <MESSAGE value="code20260111_命名实体识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260111_命名实体识别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

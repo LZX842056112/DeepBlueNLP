@@ -7,7 +7,7 @@ NOTE: 一般情况下，我们可以通过对外提供一个http接口完成部�
         eg: 本地测试的命令行输入、HTTP接口(Flask、FastAPI)、RPC接口......-->具体看公司的整体技术框架
     -3-. 相关的测试工作 --> 自己本地的一些测试
     -4-. 选择不同的部署方式，将代码 + 模型文件上传进行部署操作
-        eg: 裸服务器的部署、Docker部署、各种第三方的人工智能平台的部署....
+        eg: 裸服务器的部署、Docker镜像部署、各种第三方的人工智能平台的部署....
         PS: 一般情况下仅需要编写一个Docker项目配置文件(Dockerfile)
         PS: 代码一般情况下使用git进行管理
     -5-. 部署好的服务进行测试check，输出一些文档即可
@@ -239,3 +239,115 @@ Docker Dockerfile镜像构建
     3. 在任何一台安装好docker软件的服务器上均可以启动模型推理服务(必须有访问镜像仓库的权限)
         docker run -d -p 9003:9001 registry.cn-shenzhen.aliyuncs.com/gerry_ai/deploy:v01092208
 =====================================================
+Git:
+    功能：代码管理
+    参考：
+        https://www.runoob.com/git/git-tutorial.html
+        https://git-scm.com/downloads
+        https://devops.console.aliyun.com/overview
+    相关命令:
+        git clone xxxx: 从远程(代码源/代码管理仓库)下载代码到本地
+        git push: 上传本地的代码到远程
+        git pull: 从远程拉取当前分支的最新代码
+--------------------
+# 部署脚本会在部署组的每台机器上执行。一个典型Docker部署脚本如下：
+#示例中使用的$image是您在脚本下方的变量处定义的变量（上游输出或自定义）
+#docker run $image
+CID=$(docker ps | grep text_classify_app | grep -v grep | awk '{print $1}')
+if [ -n "$CID" ]; then
+    docker stop text_classify_app
+fi
+docker run -d --rm -p 9999:9001 --name text_classify_app -t $image
+--------------------
+========================================================
+基于第三方的人工智能的平台进行部署
+    eg: 阿里云的PAI-EAS、AWS的Sagemaker
+    以EAS为例
+        https://pai.console.aliyun.com/
+        https://help.aliyun.com/zh/pai/user-guide/eas-model-serving/?spm=5176.pai-console-inland.help.dexternal.32de642d1ofCVZ
+        https://help.aliyun.com/zh/pai/user-guide/develop-custom-processors-by-using-python?spm=a2c4g.11186623.0.i8
+        https://help.aliyun.com/zh/pai/user-guide/sdk-for-python?spm=a2c4g.11186623.0.i18
+    步骤：
+        a. 编写PAI EAS的入口代码文件: pai_app.py
+        b. 将代码/模型上传到oss上，建议结构如下:
+            xxxxx/                  根文件夹
+            xxxxx/code              保存所有相关的代码(PAI-EAS会自动将这个文件夹添加到sys.path中)
+            xxxxx/models            保存所有的模型文件
+            NOTE: 先开通OSS，然后创建bucket，最后创建好根文件夹后上传对应的文件
+                https://oss.console.aliyun.com/
+        c. 在oss对应地域的PAI-EAS上进行模型部署
+---------
+{
+  "cloud": {
+    "computing": {
+      "disable_spot_protection_period": true,
+      "instances": [
+        {
+          "spot_price_limit": 0.06,
+          "type": "ecs.c7a.large"
+        }
+      ]
+    }
+  },
+  "containers": [
+    {
+      "env": [
+        {
+          "name": "MODEL_DIR",
+          "value": "/mnt/models/"
+        },
+        {
+          "name": "PAI_ENDPOINT",
+          "value": "0.0.0.0:8000"
+        }
+      ],
+      "image": "eas-registry-vpc.cn-shenzhen.cr.aliyuncs.com/pai-eas/python-inference:py39-ubuntu2004",
+      "port": 8000,
+      "prepare": {
+        "pythonRequirements": [
+          "transformers==4.57.3",
+          "jieba",
+          "onnxruntime==1.22.0"
+        ]
+      },
+      "script": "python /mnt/codes/pai_app.py"
+    }
+  ],
+  "metadata": {
+    "cpu": 2,
+    "instance": 1,
+    "memory": 4000,
+    "name": "text_classify_nlp0114",
+    "workspace_id": "16062"
+  },
+  "storage": [
+    {
+      "mount_path": "/mnt/codes/",
+      "oss": {
+        "path": "oss://ai-shenzhen/text_classify_pai_eas/20260114215400/code/",
+        "readOnly": false
+      }
+    },
+    {
+      "mount_path": "/mnt/models/",
+      "oss": {
+        "path": "oss://ai-shenzhen/text_classify_pai_eas/20260114215400/models/",
+        "readOnly": false
+      }
+    }
+  ]
+}
+----------------
+    d. 测试
+        入参: {"text":"从张家界怎么去慈利，帮我规划一下路线", "top_k":5}
+        d.1 页面测试
+        d.2 http测试
+            curl http://1757826125271350.cn-shenzhen.pai-eas.aliyuncs.com/api/predict/text_classify_nlp0114 -H 'Authorization: NDFlNTIxNmQ0OTcwZmI5ZGQ0OWEwZmM4NGRkMzA0NTdmMzdiNzJjMA==' -d '{"text":"从张家界怎么去慈利，帮我规划一下路线", "top_k":5}'
+        d3. 通过客户端测试
+            https://help.aliyun.com/zh/pai/user-guide/sdk-for-python?spm=a2c4g.11186623.0.i18
+
+
+
+
+
+
