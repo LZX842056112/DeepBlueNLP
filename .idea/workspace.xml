@@ -4,32 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260109_docker部署">
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/NamedEntityRecognition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/models/bert_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/models/bilstm_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/src/ner/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/01_网络结构.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/02_标签映射数据的构造.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/03_分词器的构造.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/04_自定义Dataset构建.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/datas/medical/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/datas/medical/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/datas/medical/training.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/datas/medical/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/命名实体识别数据/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/命名实体识别数据/training.txt" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260111_命名实体识别">
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/NamedEntityRecognition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/loss/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/loss/custom_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/entity_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/metrics/token_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/bert_ner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/models/bilstm_ner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/src/ner/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/01_网络结构.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/02_标签映射数据的构造.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/03_分词器的构造.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/04_自定义Dataset构建.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/05_DataLoader数据集加载测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/06_模型训练.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/07_模型推理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/training.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/datas/medical/vocab.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +121,9 @@
     "Python.03_分词器的构造.executor": "Run",
     "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
     "Python.04_自定义Dataset构建.executor": "Run",
+    "Python.05_DataLoader数据集加载测试.executor": "Run",
+    "Python.06_模型训练.executor": "Run",
+    "Python.07_模型推理.executor": "Run",
     "Python.fastapi_app.executor": "Run",
     "Python.flask_app.executor": "Run",
     "Python.flask_demo01.executor": "Run",
@@ -121,7 +138,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260110",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260111/NamedEntityRecognition/src/ner/metrics",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,67 +150,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260110" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260109" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260107" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260105" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\PyTorch API" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1206" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04_自定义Dataset构建">
-    <configuration name="01_网络结构" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/01_网络结构.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_标签映射数据的构造" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test/02_标签映射数据的构造.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.06_模型训练">
     <configuration name="03_分词器的构造" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -240,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="协程案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_DataLoader数据集加载测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,12 +220,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260107" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260107/协程案例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/05_DataLoader数据集加载测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06_模型训练" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/06_模型训练.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_模型推理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/07_模型推理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,43 +326,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fastapi_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260107" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260107/fastapi_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.01_网络结构" />
-      <item itemvalue="Python.02_标签映射数据的构造" />
+      <item itemvalue="Python.06_模型训练" />
+      <item itemvalue="Python.07_模型推理" />
       <item itemvalue="Python.03_分词器的构造" />
       <item itemvalue="Python.04_自定义Dataset构建" />
-      <item itemvalue="Python.fastapi_app" />
+      <item itemvalue="Python.05_DataLoader数据集加载测试" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_模型训练" />
+        <item itemvalue="Python.07_模型推理" />
+        <item itemvalue="Python.05_DataLoader数据集加载测试" />
         <item itemvalue="Python.04_自定义Dataset构建" />
         <item itemvalue="Python.03_分词器的构造" />
-        <item itemvalue="Python.02_标签映射数据的构造" />
-        <item itemvalue="Python.01_网络结构" />
-        <item itemvalue="Python.fastapi_app" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +396,8 @@
       <workItem from="1772359157730" duration="11418000" />
       <workItem from="1772440660556" duration="373000" />
       <workItem from="1772441073666" duration="11209000" />
-      <workItem from="1772504453735" duration="29094000" />
+      <workItem from="1772504453735" duration="32331000" />
+      <workItem from="1772597229213" duration="6927000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -548,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772519749047</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="code20260110_命名实体识别">
+      <option name="closed" value="true" />
+      <created>1772540999310</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772540999310</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +588,8 @@
     <MESSAGE value="code20260105_Flask" />
     <MESSAGE value="code20260107_ONNX推理_asyncio异步_FastAPI" />
     <MESSAGE value="code20260109_docker部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260109_docker部署" />
+    <MESSAGE value="code20260110_命名实体识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260110_命名实体识别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,6 +647,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_neo4j_driver_API.coverage" NAME="02_neo4j driver 操作API Coverage Results" MODIFIED="1772369515827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_py2neo_API.coverage" NAME="01_py2neo 操作API Coverage Results" MODIFIED="1772368797284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$07_.coverage" NAME="07_模型推理 Coverage Results" MODIFIED="1772604174132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
@@ -659,6 +664,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1772023964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$flask_demo01.coverage" NAME="flask_demo01 Coverage Results" MODIFIED="1772451639308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$server_runner.coverage" NAME="server_runner Coverage Results" MODIFIED="1772453032973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$06_.coverage" NAME="06_模型训练 Coverage Results" MODIFIED="1772604432985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Self_Attention.coverage" NAME="01_Self-Attention理解 Coverage Results" MODIFIED="1772192053893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_网络结构 Coverage Results" MODIFIED="1772533237978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
@@ -666,5 +672,6 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$fastapi_app.coverage" NAME="fastapi_app Coverage Results" MODIFIED="1772458557919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$04_Dataset.coverage" NAME="04_自定义Dataset构建 Coverage Results" MODIFIED="1772540148630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_.coverage" NAME="03_分词器的构造 Coverage Results" MODIFIED="1772534037864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_DataLoader.coverage" NAME="05_DataLoader数据集加载测试 Coverage Results" MODIFIED="1772600126893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
   </component>
 </project>
