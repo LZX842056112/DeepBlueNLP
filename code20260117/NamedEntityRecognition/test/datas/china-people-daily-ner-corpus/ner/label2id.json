@@ -1,0 +1,15 @@
+{
+  "Other": 0,
+  "B-LOC": 1,
+  "M-LOC": 2,
+  "E-LOC": 3,
+  "S-LOC": 4,
+  "B-ORG": 5,
+  "M-ORG": 6,
+  "E-ORG": 7,
+  "S-ORG": 8,
+  "B-PER": 9,
+  "M-PER": 10,
+  "E-PER": 11,
+  "S-PER": 12
+}

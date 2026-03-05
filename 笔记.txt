@@ -713,4 +713,25 @@ NOTE: 一般情况下，NLP领域的模型训练都是采用迁移学习的方�
             b. 编写"外壳"(eg: Flask Web API)
             c. 编写Dockerfile文件
             d. 上流水线部署
-
+-------------------------------------------------------------------
+transformers
+    参考及安装：
+        pip install transformers==4.57.3 -i https://mirrors.aliyun.com/pypi/simple
+        https://github.com/huggingface/transformers
+-------------------------------------------------------------------
+bert4torch
+    参考：
+        https://github.com/Tongjilibo/bert4torch
+        https://bert4torch.readthedocs.io/en/latest/
+        pip install bert4torch==0.5.9  -i https://mirrors.aliyun.com/pypi/simple
+        # bert4torch-0.5.9 torch4keras-0.3.0
+        https://huggingface.co/Tongjilibo/bert4torch_config
+    安装：
+        pip install bert4torch==0.5.9
+    使用：
+        1. 从下列网站中下载config配置文件：bert4torch_config.json
+            https://hf-mirror.com/Tongjilibo/bert4torch_config
+            https://huggingface.co/Tongjilibo/bert4torch_config
+        2. 下载模型
+        3. copy 案例代码
+        4. 修改运行
