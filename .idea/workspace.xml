@@ -4,101 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260111_命名实体识别">
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/early_stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/http_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/http_client_with_fastapi.py" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260114_流水线_PAI-EAS">
       <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/server_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/tt_intent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/tt_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/nlp_0114_text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/pai_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/datas/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/fastapi_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/flask_app_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/jit_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/deploy/onnx_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/early_stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/models/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/trainer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/src/text_classify/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/intention/val0_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/ChnSentiCorp_htl_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/train0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/datas/sentiment/val0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/http_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/http_client_with_fastapi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/best.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/tokenizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/bert1/deploy/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/label2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/label2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/token2id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/output/intention/token2ids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/pai_eas_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/server_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/tt_intent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/tt_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260114/text_classify/test/文本分类实现_LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/01_基于Transformers库的文本分类训练推理代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/datas/text_classify/intent/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/datas/text_classify/intention/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/datas/text_classify/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/datas/text_classify/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768567571.xm.19780.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768568041.xm.8308.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260116/TransformersDemo/training/基于transformers框架的文本分类.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/datas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/project-1-at-2026-03-05-14-38-0e649ac0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/project-2-at-2026-03-05-15-09-eeae437a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据标注.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web端模型部署相关内容讲解.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +53,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -151,75 +80,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_Bert API.executor": "Debug",
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_Self-Attention理解.executor": "Debug",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_py2neo 操作API.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.01_网络结构.executor": "Run",
-    "Python.02_Bert API.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_GPT API.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_neo4j driver 操作API.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_标签映射数据的构造.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "Python.03_分词器的构造.executor": "Run",
-    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
-    "Python.04_自定义Dataset构建.executor": "Run",
-    "Python.05_DataLoader数据集加载测试.executor": "Run",
-    "Python.06_模型训练.executor": "Run",
-    "Python.07_模型推理.executor": "Run",
-    "Python.fastapi_app.executor": "Run",
-    "Python.flask_app.executor": "Run",
-    "Python.flask_demo01.executor": "Run",
-    "Python.http_client (1).executor": "Run",
-    "Python.http_client.executor": "Run",
-    "Python.server_runner.executor": "Run",
-    "Python.tt_intent_train.executor": "Run",
-    "Python.协程数据迭代生成案例.executor": "Run",
-    "Python.协程案例.executor": "Run",
-    "Python.多线程案例.executor": "Run",
-    "Python.多进程案例.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260114",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyScientificConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code20260116&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260116" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas\text_classify" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260114" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260110" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\PyTorch API" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1217" />
     </key>
   </component>
   <component name="RunManager" selected="Python.06_模型训练">
+    <configuration name="多进程案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260107" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260107/多进程案例.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="03_分词器的构造" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -335,29 +287,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="多进程案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260107" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260107/多进程案例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="协程数据迭代生成案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -382,6 +311,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.多进程案例" />
       <item itemvalue="Python.06_模型训练" />
       <item itemvalue="Python.07_模型推理" />
       <item itemvalue="Python.03_分词器的构造" />
@@ -452,7 +382,9 @@
       <workItem from="1772440660556" duration="373000" />
       <workItem from="1772441073666" duration="11209000" />
       <workItem from="1772504453735" duration="32331000" />
-      <workItem from="1772597229213" duration="12197000" />
+      <workItem from="1772597229213" duration="15410000" />
+      <workItem from="1772631091640" duration="1839000" />
+      <workItem from="1772691487560" duration="3749000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -614,7 +546,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772614272593</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="code20260114_流水线_PAI-EAS">
+      <option name="closed" value="true" />
+      <created>1772626567254</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1772626567254</updated>
+    </task>
+    <task id="LOCAL-00022" summary="code20260114_流水线_PAI-EAS">
+      <option name="closed" value="true" />
+      <created>1772626635875</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1772626635875</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +601,8 @@
     <MESSAGE value="code20260109_docker部署" />
     <MESSAGE value="code20260110_命名实体识别" />
     <MESSAGE value="code20260111_命名实体识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260111_命名实体识别" />
+    <MESSAGE value="code20260114_流水线_PAI-EAS" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260114_流水线_PAI-EAS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

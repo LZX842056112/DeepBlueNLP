@@ -1,0 +1,5 @@
+Label Studio
+    https://labelstud.io/
+    安装及启动:
+        pip install label-studio
+        label-studio

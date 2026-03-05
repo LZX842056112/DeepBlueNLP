@@ -1,0 +1,422 @@
+[
+    {
+        "id": 5,
+        "annotations": [
+            {
+                "id": 5,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 3,
+                            "end": 5,
+                            "text": "长春",
+                            "labels": [
+                                "出发地"
+                            ]
+                        },
+                        "id": "J1rzgUQVJY",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 6,
+                            "end": 9,
+                            "text": "山海关",
+                            "labels": [
+                                "目的地"
+                            ]
+                        },
+                        "id": "r_wbCk_p7T",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 10,
+                            "end": 13,
+                            "text": "汽车票",
+                            "labels": [
+                                "交通方式"
+                            ]
+                        },
+                        "id": "5uzP5bG7_-",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 3,
+                            "end": 4,
+                            "text": "长",
+                            "labels": [
+                                "交通方式"
+                            ]
+                        },
+                        "id": "pBpx18qVJv",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "from_id": "J1rzgUQVJY",
+                        "to_id": "r_wbCk_p7T",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "org:出发地-目的地"
+                        ]
+                    },
+                    {
+                        "from_id": "J1rzgUQVJY",
+                        "to_id": "5uzP5bG7_-",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "org:出发地-交通工具"
+                        ]
+                    },
+                    {
+                        "from_id": "r_wbCk_p7T",
+                        "to_id": "5uzP5bG7_-",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "org:目的地-交通工具"
+                        ]
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-03-05T06:43:24.167081Z",
+                "updated_at": "2026-03-05T07:08:22.938178Z",
+                "draft_created_at": "2026-03-05T06:43:15.948661Z",
+                "lead_time": 695.22,
+                "prediction": {
+
+                },
+                "result_count": 0,
+                "unique_id": "de77ac68-bd18-4d36-9ac6-3a23779ee57f",
+                "import_id": null,
+                "last_action": null,
+                "task": 5,
+                "project": 2,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "59e31fcc-datas.txt",
+        "drafts": [
+
+        ],
+        "predictions": [
+
+        ],
+        "data": {
+            "text": "查一下长春到山海关的汽车票"
+        },
+        "meta": {
+
+        },
+        "created_at": "2026-03-05T06:40:36.385011Z",
+        "updated_at": "2026-03-05T07:08:23.022427Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 2,
+        "updated_by": 1,
+        "comment_authors": [
+
+        ]
+    },
+    {
+        "id": 6,
+        "annotations": [
+            {
+                "id": 6,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 5,
+                            "end": 7,
+                            "text": "株洲",
+                            "labels": [
+                                "出发地"
+                            ]
+                        },
+                        "id": "lMNe_4tPWI",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 8,
+                            "end": 10,
+                            "text": "醴陵",
+                            "labels": [
+                                "目的地"
+                            ]
+                        },
+                        "id": "RjSmpqW7fB",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 15,
+                            "end": 18,
+                            "text": "汽车票",
+                            "labels": [
+                                "交通方式"
+                            ]
+                        },
+                        "id": "KAUYo9wgo1",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-03-05T06:44:00.225251Z",
+                "updated_at": "2026-03-05T06:44:00.225251Z",
+                "draft_created_at": "2026-03-05T06:43:42.603195Z",
+                "lead_time": 27.007,
+                "prediction": {
+
+                },
+                "result_count": 0,
+                "unique_id": "d8eddd32-d99e-4d3b-a906-00c0047c7f98",
+                "import_id": null,
+                "last_action": null,
+                "task": 6,
+                "project": 2,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "59e31fcc-datas.txt",
+        "drafts": [
+
+        ],
+        "predictions": [
+
+        ],
+        "data": {
+            "text": "给我找一趟株洲去醴陵的最便宜的汽车票价格。"
+        },
+        "meta": {
+
+        },
+        "created_at": "2026-03-05T06:40:36.385011Z",
+        "updated_at": "2026-03-05T06:44:00.299210Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 2,
+        "updated_by": 1,
+        "comment_authors": [
+
+        ]
+    },
+    {
+        "id": 7,
+        "annotations": [
+            {
+                "id": 7,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 9,
+                            "end": 14,
+                            "text": "磁悬浮列车",
+                            "labels": [
+                                "交通方式"
+                            ]
+                        },
+                        "id": "wij5ALx3Zc",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 15,
+                            "end": 17,
+                            "text": "今天",
+                            "labels": [
+                                "到达时间"
+                            ]
+                        },
+                        "id": "qXXrhVDkDq",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 4,
+                            "end": 6,
+                            "text": "汉中",
+                            "labels": [
+                                "出发地"
+                            ]
+                        },
+                        "id": "wITKP59lfk",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-03-05T06:44:40.651432Z",
+                "updated_at": "2026-03-05T06:44:40.651432Z",
+                "draft_created_at": "2026-03-05T06:44:14.027704Z",
+                "lead_time": 39.507,
+                "prediction": {
+
+                },
+                "result_count": 0,
+                "unique_id": "87588adf-827f-4df7-979c-a2c4b9244df4",
+                "import_id": null,
+                "last_action": null,
+                "task": 7,
+                "project": 2,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "59e31fcc-datas.txt",
+        "drafts": [
+
+        ],
+        "predictions": [
+
+        ],
+        "data": {
+            "text": "去查一查汉中开来的磁悬浮列车是今天的吗"
+        },
+        "meta": {
+
+        },
+        "created_at": "2026-03-05T06:40:36.385011Z",
+        "updated_at": "2026-03-05T06:44:40.731860Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 2,
+        "updated_by": 1,
+        "comment_authors": [
+
+        ]
+    },
+    {
+        "id": 8,
+        "annotations": [
+            {
+                "id": 8,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 3,
+                            "end": 5,
+                            "text": "海边",
+                            "labels": [
+                                "目的地"
+                            ]
+                        },
+                        "id": "FmcM5Vhqs6",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-03-05T06:44:59.248673Z",
+                "updated_at": "2026-03-05T06:44:59.248673Z",
+                "draft_created_at": "2026-03-05T06:44:54.034161Z",
+                "lead_time": 16.599,
+                "prediction": {
+
+                },
+                "result_count": 0,
+                "unique_id": "61175efc-a7fb-43f4-92bb-ab44e8880d9e",
+                "import_id": null,
+                "last_action": null,
+                "task": 8,
+                "project": 2,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "59e31fcc-datas.txt",
+        "drafts": [
+
+        ],
+        "predictions": [
+
+        ],
+        "data": {
+            "text": "能把去海边的最快路线给我吗"
+        },
+        "meta": {
+
+        },
+        "created_at": "2026-03-05T06:40:36.385011Z",
+        "updated_at": "2026-03-05T06:44:59.321834Z",
+        "inner_id": 4,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 2,
+        "updated_by": 1,
+        "comment_authors": [
+
+        ]
+    }
+]
