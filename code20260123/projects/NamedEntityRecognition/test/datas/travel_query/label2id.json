@@ -1,0 +1,23 @@
+{
+  "Other": 0,
+  "B-Date": 1,
+  "M-Date": 2,
+  "E-Date": 3,
+  "S-Date": 4,
+  "B-FromAddress": 5,
+  "M-FromAddress": 6,
+  "E-FromAddress": 7,
+  "S-FromAddress": 8,
+  "B-ToAddress": 9,
+  "M-ToAddress": 10,
+  "E-ToAddress": 11,
+  "S-ToAddress": 12,
+  "B-Type": 13,
+  "M-Type": 14,
+  "E-Type": 15,
+  "S-Type": 16,
+  "B-Type_Attr": 17,
+  "M-Type_Attr": 18,
+  "E-Type_Attr": 19,
+  "S-Type_Attr": 20
+}

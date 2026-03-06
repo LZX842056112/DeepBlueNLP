@@ -1,0 +1,1 @@
+{"originalText": "还有双鸭山到淮阴的汽车票吗13号的", "entities": [{"label_type": "FromAddress", "overlap": 0, "start_pos": 2, "end_pos": 5}, {"label_type": "ToAddress", "overlap": 0, "start_pos": 6, "end_pos": 8}, {"label_type": "Date", "overlap": 0, "start_pos": 13, "end_pos": 16}, {"label_type": "Type", "overlap": 0, "start_pos": 9, "end_pos": 12}]}
