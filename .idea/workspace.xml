@@ -4,41 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260117_命名实体识别_transformers库的命名实体">
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/config_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/configs/duie_train.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/configs/example_eval.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/configs/example_predict.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/configs/example_train.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/duie_data_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/scripts/conversion/convert_ade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/scripts/conversion/convert_conll04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/scripts/conversion/convert_scierc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/scripts/fetch_datasets.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/scripts/fetch_models.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/entities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/input_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/opt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/sampling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/spert_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/templates/entity_examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/templates/relation_examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260118/RelationExtraction/spert/spert/util.py" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260118_SpERT关系抽取">
+      <change afterPath="$PROJECT_DIR$/code20260121/01_优化器理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260121/dataset_visualization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260121/runs/simple_nn_20260121_213732/events.out.tfevents.1769002652.xm.8912.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260121/runs/simple_nn_20260121_214317/events.out.tfevents.1769002997.xm.21736.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260121/runs/simple_nn_20260121_215320/events.out.tfevents.1769003600.xm.22396.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260121/simple_nn_model.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/datas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/datas/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/datas/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/datas/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/deploy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/deploy/fastapi_app_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/deploy/onnx_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/loss/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/loss/custom_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/metrics/entity_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/metrics/token_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/models/bert_ner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/models/bilstm_ner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/trainer/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/src/ner/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/02_标签映射数据的构造-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/03_分词器的构造-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/04_自定义Dataset构建-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/06_模型训练-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/extract_mapping-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/server_starter-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/travel_query-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/.ipynb_checkpoints/中文分词模型-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/01_网络结构.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/02_标签映射数据的构造.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/03_分词器的构造.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/04_自定义Dataset构建.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/05_DataLoader数据集加载测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/06_模型训练.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/07_模型推理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/china-people-daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/example.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/example.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/example.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/min_example.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/min_example.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/ner/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/ner/min_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/china-people-daily-ner-corpus/ner/min_training.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/medical/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/medical/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/medical/training.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/medical/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/.ipynb_checkpoints/training-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/project-2-at-2026-01-17-03-18-55b6bb0c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/training.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/travel_query/training0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/.ipynb_checkpoints/label2id-checkpoint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/.ipynb_checkpoints/test-checkpoint.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/label2id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/original/.ipynb_checkpoints/01-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/original/01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/test.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/datas/word_segment/train.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/extract_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/logs/events.out.tfevents.1768898172.dsw-1613692-869fdb57b-9d5m5.575.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/logs/events.out.tfevents.1768898226.dsw-1613692-869fdb57b-9d5m5.575.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/logs2/events.out.tfevents.1768898172.dsw-1613692-869fdb57b-9d5m5.575.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/models/best.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/models/best.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/output/word_segment/bert/models/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/server_starter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/.ipynb_checkpoints/inference-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/.ipynb_checkpoints/training-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/logs/events.out.tfevents.1768897788.dsw-1613692-869fdb57b-9d5m5.2820.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/output/word_segment/modules/final-best-model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/transformers_code/training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/travel_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/NamedEntityRecognition/test/中文分词模型.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/199801_people_s_daily.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/BERT/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/LSTMpredict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/PD_BiLSTM-CRF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/PD_BiLSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/Useless/getError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/Useless/learnEmbedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/Useless/test_to_categorical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/Useless/testkeras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/Useless/textpreprocess.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/acc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/PeoplesDailyNER/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/all_data.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/original/.ipynb_checkpoints/01-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/original/01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/test.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/tmp/few_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/datas/train.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/output/20260119_111034/model/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/output/20260119_120631/model/last.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1214作业二/中文分词模型/构建流程.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,67 +181,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.training.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code20260118&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_Bert API.executor": "Debug",
+    "Python.01_PyTorch API.executor": "Run",
+    "Python.01_Self-Attention理解.executor": "Debug",
+    "Python.01_jieba分词理解.executor": "Run",
+    "Python.01_py2neo 操作API.executor": "Run",
+    "Python.01_优化器理解.executor": "Debug",
+    "Python.01_机器学习案例代码.executor": "Run",
+    "Python.01_深度学习案例代码.executor": "Run",
+    "Python.01_网络结构.executor": "Run",
+    "Python.02_Bert API.executor": "Run",
+    "Python.02_Dataset API理解.executor": "Run",
+    "Python.02_GPT API.executor": "Run",
+    "Python.02_LSTM理解.executor": "Run",
+    "Python.02_neo4j driver 操作API.executor": "Run",
+    "Python.02_文本分类数据文本数据分割.executor": "Run",
+    "Python.02_标签映射数据的构造.executor": "Run",
+    "Python.02_深度学习案例代码 (1).executor": "Run",
+    "Python.02_深度学习案例代码.executor": "Run",
+    "Python.03_BP过程理解.executor": "Run",
+    "Python.03_GRU理解.executor": "Run",
+    "Python.03_sklearn TF-IDF Demo.executor": "Run",
+    "Python.03_分词器的构造.executor": "Run",
+    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
+    "Python.04_自定义Dataset构建.executor": "Run",
+    "Python.05_DataLoader数据集加载测试.executor": "Run",
+    "Python.06_模型训练.executor": "Run",
+    "Python.07_模型推理.executor": "Run",
+    "Python.fastapi_app.executor": "Run",
+    "Python.flask_app.executor": "Run",
+    "Python.flask_demo01.executor": "Run",
+    "Python.http_client (1).executor": "Run",
+    "Python.http_client.executor": "Run",
+    "Python.inference.executor": "Run",
+    "Python.server_runner.executor": "Run",
+    "Python.training.executor": "Run",
+    "Python.tt_intent_train.executor": "Run",
+    "Python.协程数据迭代生成案例.executor": "Run",
+    "Python.协程案例.executor": "Run",
+    "Python.多线程案例.executor": "Run",
+    "Python.多进程案例.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260121",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "PyScientificConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260121" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260118" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260117" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260116" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas\text_classify" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
@@ -162,8 +252,8 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.inference">
-    <configuration name="协程数据迭代生成案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01_优化器理解">
+    <configuration name="01_优化器理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,35 +262,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260107" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260121" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260107/协程数据迭代生成案例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_DataLoader数据集加载测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test/05_DataLoader数据集加载测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260121/01_优化器理解.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,20 +369,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.协程数据迭代生成案例" />
+      <item itemvalue="Python.01_优化器理解" />
       <item itemvalue="Python.inference" />
       <item itemvalue="Python.training" />
       <item itemvalue="Python.06_模型训练" />
       <item itemvalue="Python.07_模型推理" />
-      <item itemvalue="Python.05_DataLoader数据集加载测试" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_优化器理解" />
         <item itemvalue="Python.inference" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.06_模型训练" />
         <item itemvalue="Python.07_模型推理" />
-        <item itemvalue="Python.05_DataLoader数据集加载测试" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +444,7 @@
       <workItem from="1772691487560" duration="5398000" />
       <workItem from="1772698163053" duration="14432000" />
       <workItem from="1772718206131" duration="1021000" />
-      <workItem from="1772764761758" duration="2730000" />
+      <workItem from="1772764761758" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -580,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772712761764</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="code20260118_SpERT关系抽取">
+      <option name="closed" value="true" />
+      <created>1772771598371</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1772771598371</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +696,8 @@
     <MESSAGE value="code20260114_流水线_PAI-EAS" />
     <MESSAGE value="code20260116_基于transformers库的文本分类_LabelStudio数据标注" />
     <MESSAGE value="code20260117_命名实体识别_transformers库的命名实体" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260117_命名实体识别_transformers库的命名实体" />
+    <MESSAGE value="code20260118_SpERT关系抽取" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260118_SpERT关系抽取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,7 +777,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$06_.coverage" NAME="06_模型训练 Coverage Results" MODIFIED="1772604432985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Self_Attention.coverage" NAME="01_Self-Attention理解 Coverage Results" MODIFIED="1772192053893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_网络结构 Coverage Results" MODIFIED="1772533237978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_优化器理解 Coverage Results" MODIFIED="1772780188890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260121" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Dataset_API.coverage" NAME="02_Dataset API理解 Coverage Results" MODIFIED="1772025838761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1217" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$fastapi_app.coverage" NAME="fastapi_app Coverage Results" MODIFIED="1772458557919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$04_Dataset.coverage" NAME="04_自定义Dataset构建 Coverage Results" MODIFIED="1772540148630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
