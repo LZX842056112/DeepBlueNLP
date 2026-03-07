@@ -1,0 +1,58 @@
+LOAD CSV WITH HEADERS  FROM "file:///hudong_pedia.csv" AS line
+CREATE (p:HudongItem{title:line.title,image:line.image,detail:line.detail,url:line.url,openTypeList:line.openTypeList,baseInfoKeyList:line.baseInfoKeyList,baseInfoValueList:line.baseInfoValueList});
+
+
+LOAD CSV WITH HEADERS  FROM "file:///hudong_pedia2.csv" AS line
+CREATE (p:HudongItem{title:line.title,image:line.image,detail:line.detail,url:line.url,openTypeList:line.openTypeList,baseInfoKeyList:line.baseInfoKeyList,baseInfoValueList:line.baseInfoValueList});
+
+CREATE CONSTRAINT hudongitem_constraint IF NOT EXISTS
+FOR (c:HudongItem)
+REQUIRE c.title IS UNIQUE;
+
+LOAD CSV WITH HEADERS FROM "file:///new_node.csv" AS line
+CREATE (:NewNode { title: line.title });
+
+CREATE CONSTRAINT newnode_tile IF NOT EXISTS FOR (c:NewNode)
+REQUIRE c.title IS UNIQUE;
+
+LOAD CSV  WITH HEADERS FROM "file:///wikidata_relation2.csv" AS line
+MATCH (entity1:HudongItem{title:line.HudongItem}) , (entity2:NewNode{title:line.NewNode})
+CREATE (entity1)-[:RELATION { type: line.relation }]->(entity2);
+
+LOAD CSV  WITH HEADERS FROM "file:///wikidata_relation.csv" AS line
+MATCH (entity1:HudongItem{title:line.HudongItem1}) , (entity2:HudongItem{title:line.HudongItem2})
+CREATE (entity1)-[:RELATION { type: line.relation }]->(entity2);
+
+
+
+LOAD CSV WITH HEADERS FROM "file:///attributes.csv" AS line
+MATCH (entity1:HudongItem{title:line.Entity}), (entity2:HudongItem{title:line.Attribute})
+CREATE (entity1)-[:RELATION { type: line.AttributeName }]->(entity2);
+
+LOAD CSV WITH HEADERS FROM "file:///attributes.csv" AS line
+MATCH (entity1:HudongItem{title:line.Entity}), (entity2:NewNode{title:line.Attribute})
+CREATE (entity1)-[:RELATION { type: line.AttributeName }]->(entity2);
+
+LOAD CSV WITH HEADERS FROM "file:///attributes.csv" AS line
+MATCH (entity1:NewNode{title:line.Entity}), (entity2:NewNode{title:line.Attribute})
+CREATE (entity1)-[:RELATION { type: line.AttributeName }]->(entity2);
+
+LOAD CSV WITH HEADERS FROM "file:///attributes.csv" AS line
+MATCH (entity1:NewNode{title:line.Entity}), (entity2:HudongItem{title:line.Attribute})
+CREATE (entity1)-[:RELATION { type: line.AttributeName }]->(entity2) ;
+
+LOAD CSV WITH HEADERS FROM "file:///static_weather_list.csv" AS line
+MERGE (:Weather { title: line.title });
+
+CREATE CONSTRAINT weather_tile  IF NOT EXISTS
+FOR (c:Weather)
+REQUIRE c.title IS UNIQUE;
+
+
+LOAD CSV  WITH HEADERS FROM "file:///weather_plant.csv" AS line
+MATCH (entity1:Weather{title:line.Weather}) , (entity2:HudongItem{title:line.Plant})
+CREATE (entity1)-[:Weather2Plant { type: line.relation }]->(entity2);
+
+LOAD CSV WITH HEADERS FROM "file:///city_weather.csv" AS line
+MATCH (city{title:line.city}) , (weather{title:line.weather})
+CREATE (city)-[:CityWeather { type: line.relation }]->(weather);

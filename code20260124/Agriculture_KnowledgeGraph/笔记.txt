@@ -1,0 +1,11 @@
+1. 修改demo/demo/settings.py文件内容:
+    ALLOWED_HOSTS = ['*']
+2. 修改demo/Model/neo_models.py文件内容：
+    PS: 任选其一
+    self.graph = Graph("bolt://127.0.0.1:7687", auth=("neo4j", "1234567890"))
+    self.graph = Graph("bolt://127.0.0.1:7687", name="agriculture", auth=("neo4j", "1234567890"))
+3. 将数据导入到Neo4j图数据库中
+    数据所在文件夹: neo4j_datas
+    数据导入命令: neo4j命令.txt
+4. 启动web页面
+    运行demo/manage.py，并且给定参数 runserver 0.0.0.0:9999

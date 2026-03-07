@@ -864,3 +864,24 @@ spert:（片段网络）
         a. 候选实体的产生方式上
         b. 损失上的优化
         c. 网络结构上
+=========================================================
+CasRel: 指针网络
+    参考:
+        https://github.com/powerycy/Lic2020-
+        https://github.com/weizhepei/CasRel
+        https://blog.csdn.net/weixin_43901423/article/details/107109490
+		https://spaces.ac.cn/
+		https://arxiv.org/pdf/1909.03227
+    步骤：
+        -1. 从github上下载代码
+            git clone  https://github.com/powerycy/Lic2020-.git
+            git clone https://gitee.com/jtay/lic2020-re.git
+        -2. 导入到pycharm中
+        -3. 创建一个新的分支、设定python执行环境
+        -4. 下载/准备训练数据:
+            直接迁移spert中的duie原始数据集
+        -5. 修改config.ini文件内容
+        -6. 运行ie_torch_ycy.py文件
+            NOTE: 需要修改部分代码逻辑
+    最核心的概念就是：预测token是否属于某个类别/头或者尾(2分类) + 一个模型中存在多个分类
+

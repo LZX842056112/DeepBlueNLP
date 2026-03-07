@@ -1,0 +1,9 @@
+# The following contains only Python package dependencies
+
+Cython>=0.28.5
+Django==4.2.7
+thulac==0.2.2
+py2neo==2021.2.4
+pyfasttext==0.4.5
+pinyin==0.4.0
+pymongo==4.6.0
