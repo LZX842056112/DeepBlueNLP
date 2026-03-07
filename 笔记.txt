@@ -885,3 +885,31 @@ CasRel: 指针网络
             NOTE: 需要修改部分代码逻辑
     最核心的概念就是：预测token是否属于某个类别/头或者尾(2分类) + 一个模型中存在多个分类
 
+============================================================
+文本生成
+    核心的模型类型: Seq2Seq、Transformer、大语言模型
+        ----> Decoder结构
+    你觉得为什么模型可以生成数据?
+        你觉得为什么分类模型可以正常判断样本类别?
+            当样本具有某些特定的特征的时候，就可以判断属于某个特定的类别 --> 以决策树来理解
+            模型是在具有这些映射特征的数据集上，经过长时间的迭代更新后，才具有参数决策能力
+        自然语言文本本身存在的特性导致，模型(Decoder)可以通过学习下一个token是什么的方式来学会自然语言文本的特征转换信息
+        从而当你给定一个query(text),可以做模型"续写"操作
+        白话一点来讲就是，"你/模型"觉得下一个token应该是什么字?
+    huggingface/transformers库:
+        https://huggingface.co/models?sort=trending
+        https://hf-mirror.com/
+        安装：
+            pip install transformers==4.48.3
+    modelscope库：
+        https://modelscope.cn/models
+        https://modelscope.cn/aggregatedTopic
+        https://modelscope.cn/models/iic/nlp_structbert_sentiment-classification_chinese-base
+        https://modelscope.cn/topic/9ae88b6a1ffd4de59a9f1948314ebc2b/pub/summary
+        https://modelscope.cn/topic/90e5cc4f574a40d09d540d1dd9292f48/pub/summary
+        https://modelscope.cn/topic/b7b23b6011044ea5af9c8cadc680b935/pub/summary
+        https://modelscope.cn/models/iic/nlp_structbert_siamese-uninlu_chinese-base
+        安装:
+            pip install modelscope==1.27.1
+        NOTE: modelscope的底层也依赖transformers库
+

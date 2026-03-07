@@ -5,389 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260124_CasRel关系抽取_农业知识图谱应用">
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/adjust_parameter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/create_vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/hudong_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/neo_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/predict_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/predict_labels2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/read_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/KNN_predict/text_fasttext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/data/agri_economic.json.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/data/hudong_pedia.json.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/data/hudong_pedia2.json.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/spiders/agri_pedia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/MyCrawler/spiders/hudong_pedia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/crawled_leaf_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/fenlei_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/merge_table3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/MyCrawler/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/SSRN-id1764343.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/attributes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/agri_economic.json.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/create_word2vec_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/create_word_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/data/merge_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/data/merge_table1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/data/merge_table2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/data/merge_table3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/data processing/error_table.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/Model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/Model/hudong_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/Model/mongo_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/Model/neo_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/Model/read_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/_404_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/decisions_making.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/detail_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/index_ERform_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/index_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/overview_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/question_answering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/relation_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/tagging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/tagging_data_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/tagging_data_writefile_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/demo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/django_server_start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/city_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Agricultural_implements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Animal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Chemicals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Climate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Nutrients.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Plant.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Political_economy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/Technology.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/disease.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/foodItem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/invalid.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/invalid2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/location.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/organization.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/person.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/handwork/sieve_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/tagging_seed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/label_data/word_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/elegant-icons-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/footable.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/footable.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/jquery-jvectormap-1.2.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/jquery-ui-1.10.4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/style-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/tagcloud.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/tree_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/css/xcharts.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/ElegantIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/ElegantIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/ElegantIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/arrow-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/chart-texture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/line-icon-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/line-icon-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/line-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/search-line-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/social.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/weather-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/icons/weather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/img/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/bootstrap-wysiwyg-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/bootstrap-wysiwyg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/calendar-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/chartjs-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/charts-flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/charts-other.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/charts-xcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/dynamic-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/echarts.common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/footable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/footable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/form-validation-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/fullcalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/ga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/gdp-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery-ui-1.10.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.customSelect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.localscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.rateit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.smartWizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.sparkline-11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.stepy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/lte-ie7 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/lte-ie7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/morris-script 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/morris-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/morris.min 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/owl.carousel 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/scripts 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sliders 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sparkline-chart 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sparkline-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sparklines 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/sparklines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/tagcloud.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/testjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/tree_control.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/xcharts.min 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/static/js/xcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/test/00_实体识别理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/test/00_测试图数据库.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/test/01_实体查询理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/test/02_智能问答理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/NER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/PCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/id2obj.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/img_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/leaf_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/micropedia_tree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/pre_load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/predict_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/relationStaticResult.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/tree_API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/vec_API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/toolkit/vector_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/crawled_leaf_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/create_leaflist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/dfs_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/hudong_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/leaf_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/leaf_list_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/micropedia_tree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/neo_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/dfs_tree_crawler/treenode_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/hudong_pedia2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/attributes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/city_weather.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/hudong_pedia2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/new_node.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/static_weather_list.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/weather_plant.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/wikidata_relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j_datas/wikidata_relation2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/neo4j命令.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/ppt/关键技术.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/ppt/项目介绍and系统架构.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/adjust_parameter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/hudong_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/neo_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/read_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict label/text_fasttext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/predict_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/relationExtraction/data/dosomething.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/relationExtraction/data/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/relationExtraction/data/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/relationExtraction/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/dataScrubbing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/deduplication.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/extractTrainingData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/fileReaded.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/filterRelation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/finalData/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/finalData/train_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/finalData/txtToJson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/parallel_extract_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/TrainDataBaseOnWiki/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/city_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/city_weather.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/city_weather.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/citydata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/static_weather_list.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/static_weather_list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/weather2weather.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/weatherCrawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/weatherPlant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/weatherData/weather_plant.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/attributes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/extractEntityAttribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/getCorpus.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/hudong_pedia2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/new_node.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/staticResult.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/wikidataAnalyse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/wikidata_relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataAnalyse/wikidata_relation2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/mergeChrmentionToRelation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataCrawler/spiders/getRelationList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/entityRelation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/langconv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/new_node.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/relationDataProcessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/wikidata_relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/wikidata_relation2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataProcessing/zh_wiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/preProcess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikidataRelation/wikidataRelation/spiders/getEntityRelation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/predict_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/loadjson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/processError.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikientities/wikientities/spiders/getEntities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikiextractor/extracted/convLan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikiextractor/extracted/langconv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/wikidataSpider/wikiextractor/extracted/zh_wiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/笔记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_dev_min.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_test2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_train.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/duie2.0_original/duie_train_min.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/output/dev_pred_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/output/res.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/关系抽取 指针网络代码实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/duie_train.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/duie_data_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/server_starter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/deploy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/deploy/fastapi_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/deploy/predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/tt_invoke_predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DeepBlueNLP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepBlueNLP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/01_文本分类模型初始.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/02_信息抽取初识.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/03_零样本学习_抽取式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/datas/text_classify/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/datas/text_classify/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/01_基于Transformers库的文本分类训练推理代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/datas/text_classify/intent/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/datas/text_classify/intention/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/datas/text_classify/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/datas/text_classify/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768567571.xm.19780.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768568041.xm.8308.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/关系抽取 指针网络代码实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260125/TextGeneration/TransformersDemo/training/基于transformers框架的文本分类.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260123/bert4torch-0.5.9/.github/issue_template.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/.idea/HBT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/REmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/REmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/ie_torch_ycy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/ie_torch_ycy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re/roberta/vocab.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/config_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/config_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_eval.conf" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_eval.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_predict.conf" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_predict.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_train.conf" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/configs/example_train.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/entities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/evaluator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/input_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/input_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/sampling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/spert_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/spert_trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/templates/entity_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/templates/relation_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/spert/spert/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -410,6 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -444,6 +93,7 @@
     "Python.01_jieba分词理解.executor": "Run",
     "Python.01_py2neo 操作API.executor": "Run",
     "Python.01_优化器理解.executor": "Debug",
+    "Python.01_文本分类模型初始.executor": "Run",
     "Python.01_机器学习案例代码.executor": "Run",
     "Python.01_深度学习案例代码.executor": "Run",
     "Python.01_网络结构.executor": "Run",
@@ -452,6 +102,7 @@
     "Python.02_GPT API.executor": "Run",
     "Python.02_LSTM理解.executor": "Run",
     "Python.02_neo4j driver 操作API.executor": "Run",
+    "Python.02_信息抽取初识.executor": "Run",
     "Python.02_文本分类数据文本数据分割.executor": "Run",
     "Python.02_标签映射数据的构造.executor": "Run",
     "Python.02_深度学习案例代码 (1).executor": "Run",
@@ -461,6 +112,7 @@
     "Python.03_sklearn TF-IDF Demo.executor": "Run",
     "Python.03_分词器的构造.executor": "Run",
     "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
+    "Python.03_零样本学习_抽取式.executor": "Run",
     "Python.04_自定义Dataset构建.executor": "Run",
     "Python.05_DataLoader数据集加载测试.executor": "Run",
     "Python.06_模型训练.executor": "Run",
@@ -485,23 +137,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260124",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260125",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyScientificConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260125" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260124" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260123" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260121" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260118" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
@@ -511,8 +163,8 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="01_优化器理解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.03_零样本学习_抽取式">
+    <configuration name="01_文本分类模型初始" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -521,12 +173,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260121" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260121/01_优化器理解.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/01_文本分类模型初始.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_信息抽取初识" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/02_信息抽取初识.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_零样本学习_抽取式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepBlueNLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/03_零样本学习_抽取式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -558,29 +256,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code/inference.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -597,29 +272,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo/manage.py" />
       <option name="PARAMETERS" value="runserver 0.0.0.0:9999" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_sentiment_classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260123/projects/NamedEntityRecognition/test/bert4torch_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260123/projects/NamedEntityRecognition/test/bert4torch_code/task_sentiment_classification.py" />
-      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -653,19 +305,19 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.DeepBlueNLP" />
+      <item itemvalue="Python.01_文本分类模型初始" />
+      <item itemvalue="Python.02_信息抽取初识" />
+      <item itemvalue="Python.03_零样本学习_抽取式" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.ie_torch_ycy" />
-      <item itemvalue="Python.01_优化器理解" />
-      <item itemvalue="Python.task_sentiment_classification" />
-      <item itemvalue="Python.inference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_零样本学习_抽取式" />
+        <item itemvalue="Python.02_信息抽取初识" />
+        <item itemvalue="Python.01_文本分类模型初始" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.ie_torch_ycy" />
-        <item itemvalue="Python.task_sentiment_classification" />
-        <item itemvalue="Python.01_优化器理解" />
-        <item itemvalue="Python.inference" />
       </list>
     </recent_temporary>
   </component>
@@ -731,7 +383,7 @@
       <workItem from="1772764761758" duration="21620000" />
       <workItem from="1772804485411" duration="1013000" />
       <workItem from="1772858443647" duration="5568000" />
-      <workItem from="1772867818424" duration="3047000" />
+      <workItem from="1772867818424" duration="15645000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -957,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772798391635</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="code20260124_CasRel关系抽取_农业知识图谱应用">
+      <option name="closed" value="true" />
+      <created>1772871741503</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1772871741503</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -968,19 +628,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1078,7 +726,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client__1_.coverage" NAME="http_client (1) Coverage Results" MODIFIED="1772455418020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$.coverage" NAME="协程数据迭代生成案例 Coverage Results" MODIFIED="1772457981060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_标签映射数据的构造 Coverage Results" MODIFIED="1772533501902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_信息抽取初识 Coverage Results" MODIFIED="1772885512645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_PythonCSVNeo4j.coverage" NAME="03_通过Python代码将CSV数据导入到Neo4j Coverage Results" MODIFIED="1772369966659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
@@ -1087,6 +735,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client.coverage" NAME="http_client Coverage Results" MODIFIED="1772452775741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$training.coverage" NAME="training Coverage Results" MODIFIED="1772705586943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1772868802128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03__.coverage" NAME="03_零样本学习_抽取式 Coverage Results" MODIFIED="1772889450887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$inference.coverage" NAME="inference Coverage Results" MODIFIED="1772711676625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1772023964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$flask_demo01.coverage" NAME="flask_demo01 Coverage Results" MODIFIED="1772451639308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
@@ -1095,7 +744,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Self_Attention.coverage" NAME="01_Self-Attention理解 Coverage Results" MODIFIED="1772192053893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$task_sentiment_classification.coverage" NAME="task_sentiment_classification Coverage Results" MODIFIED="1772791370199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260123/projects/NamedEntityRecognition/test/bert4torch_code" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_优化器理解 Coverage Results" MODIFIED="1772780188890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260121" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_文本分类模型初始 Coverage Results" MODIFIED="1772884843843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Dataset_API.coverage" NAME="02_Dataset API理解 Coverage Results" MODIFIED="1772025838761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1217" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$fastapi_app.coverage" NAME="fastapi_app Coverage Results" MODIFIED="1772458557919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$04_Dataset.coverage" NAME="04_自定义Dataset构建 Coverage Results" MODIFIED="1772540148630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
