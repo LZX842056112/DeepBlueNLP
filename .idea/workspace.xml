@@ -5,74 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260128_1221作业二对联生成">
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v0.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v0_b.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v2.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v3.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/01_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/02_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/03_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/04_lstm_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/05_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/06_bert_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/07_dsw_final_bert_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/text8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/04_lstm/model/net.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/logs/events.out.tfevents.1741671168.dsw-546387-6b9d88d647-2lgrt.24663.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/logs/events.out.tfevents.1772960764.lzx.25996.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/01_构建思路.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/02_构建思路-Bert.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/03_构建思路-GPT-v1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/04_构建思路-GPT-v2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/05_构建思路-GPT-v3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/06_构建思路-基于transformers框架迁移GPT模型.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/eval_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/eval_words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/gpt_tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/gptid_newid_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/new_gpt_tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/text8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/train_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/train_words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/bert_models/model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/logs/events.out.tfevents.1769764600.dsw-1613692-544966594b-sg2j5.3043.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/training_args.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v1/model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v2/model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v3/model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/lstm/models/model.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v1-checkpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v1-checkpoint.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v2-checkpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v2-checkpoint.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,84 +63,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_Transofrmer模型下载.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_优化器理解.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_文本分类模型初始.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_信息抽取初识.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_零样本学习_抽取式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bert_train_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ie_torch_ycy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_sentiment_classification.executor&quot;: &quot;Run&quot;,
-    &quot;Python.training.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code20260128&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_Bert API.executor": "Debug",
+    "Python.01_PyTorch API.executor": "Run",
+    "Python.01_Self-Attention理解.executor": "Debug",
+    "Python.01_Transofrmer模型下载.executor": "Run",
+    "Python.01_jieba分词理解.executor": "Run",
+    "Python.01_py2neo 操作API.executor": "Run",
+    "Python.01_优化器理解.executor": "Debug",
+    "Python.01_文本分类模型初始.executor": "Run",
+    "Python.01_机器学习案例代码.executor": "Run",
+    "Python.01_深度学习案例代码.executor": "Run",
+    "Python.01_网络结构.executor": "Run",
+    "Python.02_Bert API.executor": "Run",
+    "Python.02_Dataset API理解.executor": "Run",
+    "Python.02_GPT API.executor": "Run",
+    "Python.02_LSTM理解.executor": "Run",
+    "Python.02_neo4j driver 操作API.executor": "Run",
+    "Python.02_信息抽取初识.executor": "Run",
+    "Python.02_文本分类数据文本数据分割.executor": "Run",
+    "Python.02_标签映射数据的构造.executor": "Run",
+    "Python.02_深度学习案例代码 (1).executor": "Run",
+    "Python.02_深度学习案例代码.executor": "Run",
+    "Python.03_BP过程理解.executor": "Run",
+    "Python.03_GRU理解.executor": "Run",
+    "Python.03_sklearn TF-IDF Demo.executor": "Run",
+    "Python.03_分词器的构造.executor": "Run",
+    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
+    "Python.03_零样本学习_抽取式.executor": "Run",
+    "Python.04_自定义Dataset构建.executor": "Run",
+    "Python.05_DataLoader数据集加载测试.executor": "Run",
+    "Python.06_模型训练.executor": "Run",
+    "Python.07_模型推理.executor": "Run",
+    "Python.bert_train_01.executor": "Run",
+    "Python.fastapi_app.executor": "Run",
+    "Python.flask_app.executor": "Run",
+    "Python.flask_demo01.executor": "Run",
+    "Python.http_client (1).executor": "Run",
+    "Python.http_client.executor": "Run",
+    "Python.ie_torch_ycy.executor": "Run",
+    "Python.inference.executor": "Run",
+    "Python.manage.executor": "Run",
+    "Python.server_runner.executor": "Run",
+    "Python.task_sentiment_classification.executor": "Run",
+    "Python.training.executor": "Run",
+    "Python.tt_intent_train.executor": "Run",
+    "Python.协程数据迭代生成案例.executor": "Run",
+    "Python.协程案例.executor": "Run",
+    "Python.多线程案例.executor": "Run",
+    "Python.多进程案例.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/homework/1221作业二",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1221作业二" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260128" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260125" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260124" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260123" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1221作业二" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\PyTorch API" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP" />
     </key>
   </component>
   <component name="RunManager" selected="Python.bert_train_01">
@@ -432,6 +365,7 @@
       <workItem from="1772858443647" duration="5568000" />
       <workItem from="1772867818424" duration="15970000" />
       <workItem from="1772951894477" duration="5696000" />
+      <workItem from="1772961701461" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -673,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772891653065</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="code20260128_1221作业二对联生成">
+      <option name="closed" value="true" />
+      <created>1772961991102</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1772961991102</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
