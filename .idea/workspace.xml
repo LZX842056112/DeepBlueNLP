@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="整理" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="整理">
+      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -363,7 +365,7 @@
       <workItem from="1772858443647" duration="5568000" />
       <workItem from="1772867818424" duration="15970000" />
       <workItem from="1772951894477" duration="5696000" />
-      <workItem from="1772961701461" duration="1341000" />
+      <workItem from="1772961701461" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -621,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772963046007</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="整理">
+      <option name="closed" value="true" />
+      <created>1772963365732</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1772963365732</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
