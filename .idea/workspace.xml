@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260128_1221作业二对联生成">
-      <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
-    </list>
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="整理" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -365,7 +363,7 @@
       <workItem from="1772858443647" duration="5568000" />
       <workItem from="1772867818424" duration="15970000" />
       <workItem from="1772951894477" duration="5696000" />
-      <workItem from="1772961701461" duration="304000" />
+      <workItem from="1772961701461" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -615,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772961991102</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="整理">
+      <option name="closed" value="true" />
+      <created>1772963046007</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1772963046007</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code1213_gensim_Word2Vec_Char2Vec_Doc2Vec_HanLP_Jiagu" />
     <MESSAGE value="code1214_RNN_LSTM_GRU_意图识别" />
     <MESSAGE value="code1217_作业二" />
     <MESSAGE value="code1219_作业二_文本分类模型的训练" />
@@ -658,7 +663,8 @@
     <MESSAGE value="code20260124_CasRel关系抽取_农业知识图谱应用" />
     <MESSAGE value="code20260125_文本生成_ModelScope" />
     <MESSAGE value="code20260128_1221作业二对联生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260128_1221作业二对联生成" />
+    <MESSAGE value="整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
