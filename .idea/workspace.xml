@@ -5,477 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260128_1221作业二对联生成">
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/.github/issue_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/activations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/callbacks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/generation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/generation/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/generation/logits_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/attention/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/attention/attention_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/attention/attention_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/global_point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/moe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/position_encoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/layers/transformer_block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/losses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/albert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/bart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/bert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/bloom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/deberta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/deepseek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/electra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/ernie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/ernied4_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/falcon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/gau_alpha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/glm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/glm4v/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/glm4v/glm4v.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/glm4v/visual.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/gpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/internlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/internvl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/internvl/internvl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/internvl/modeling_intern_vit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/internvl/vision_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/llama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/minicpmv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/minicpmv/minicpmv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/minicpmv/modeling_navit_siglip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/minicpmv/resampler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/mllama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/modernbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/nezha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/qwen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/qwen2_vl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/qwen2_vl/qwen2_vl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/qwen2_vl/vision_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/roformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/t5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/transformer_xl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/uie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/models/xlnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/optimizers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/chat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/chat/conversation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/chat/llm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/chat/vlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/fill_mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/text2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/pipelines/uie_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/quantization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/data_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/hub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/import_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/snippets/openai_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/tokenizers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/trainer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/trainer/dpo_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/trainer/ppo_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/trainer/ptuningv2_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/bert4torch/trainer/sequence_classification_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/data/LCCD-large-shuf.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/data/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/data/auto_instructions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/data/data_similarity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/data/nbce_contexts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/Update.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/GPT_Training.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/bert4torch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/cli_chat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/training_process.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/pics/wechat_group.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/Examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/Quick-Start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.activations.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.layers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.losses.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.models.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.optimizers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.snippets.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/bert4torch.tokenizers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/source/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/docs/task_relation_extraction_tplinker_dynamic_len.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/Experiments.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/MiniCPM/basic_language_model_llama_MiniCPM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/MiniCPM/basic_language_model_llama_MiniCPMV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/Qwen/basic_Qwen3_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/Qwen/basic_Qwen3_reranker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/Qwen/basic_language_model_Qwen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/Qwen/basic_language_model_Qwen2VL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/Qwen/basic_language_model_Qwen_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/albert/basic_language_model_albert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bart/basic_language_model_bart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_extract_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_gibbs_sampling_via_mlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_language_model_bert-base-cased_uncased.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_language_model_bert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_language_model_macbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bert/basic_make_uncased_model_cased.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/bloom/basic_language_model_bloom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/deberta/basic_language_model_deberta_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/deepseek/basic_language_model_deepseek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/embedding/basic_bge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/embedding/basic_gte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/embedding/basic_m3e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/embedding/basic_simbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/embedding/basic_text2vec-base-chinese.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/ernie/basic_language_model_ernie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/ernie4_5/basic_language_model_Ernie4_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/falcon/basic_language_model_falcon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gau/basic_language_model_GAU_alpha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/basic_language_model_chatglm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/basic_language_model_chatglm_batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/basic_language_model_chatglm_stream_multigpus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/basic_language_model_chatglm_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/glm/basic_language_model_glm-4v.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gpt/basic_language_model_CDial_GPT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gpt/basic_language_model_cpm_lm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gpt/basic_language_model_gpt2_chinese_uer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gpt/basic_language_model_gpt2_ml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/gpt/basic_language_model_nezha_gen_gpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/internlm/basic_language_model_InternLM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/internlm/basic_language_model_InternLM_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/internlm/basic_language_model_InternVL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_Yi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_baichuan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_belle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_chinese_llama_alpaca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_vicuna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_llama_ziya.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/llama/basic_language_model_mllama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/modernbert/basic_language_model_modernbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/nezha/basic_language_model_nezha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/nezha/basic_language_model_nezha_gpt_dialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/others/basic_language_model_moss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/others/basic_test_openai_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/others/basic_test_parallel_apply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/roberta/basic_language_model_chinese-roberta-wwm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/roberta/basic_language_model_guwenbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/roberta/basic_language_model_roberta-base-english.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/roberta/basic_language_model_roberta_small_tiny.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/roformer/basic_language_model_roformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/simbert/basic_language_model_simbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/t5/basic_language_model_PromptCLUE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/t5/basic_language_model_chatyuan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/t5/basic_language_model_t5_pegasus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/t5/basic_language_model_t5_uer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/uie/basic_language_model_uie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/wobert/basic_language_model_wobert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/xlnet/basic_language_model_transformer_xl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/basic/xlnet/basic_language_model_xlnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/build_MiniLLM_from_scratch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/step0_continue_pretrain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/step1_sft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/step2_reward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/step3_rlhf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/step4_dpo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/instruct_gpt/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_deepspeed/deepspeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_deepspeed/finetune.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_deepspeed/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_lora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_nbce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_chatglm_ptuning_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_llama-2_lora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_llama_deepspeed/deepspeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_llama_deepspeed/finetune.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/llm/task_llama_deepspeed/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_conditional_language_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_event_extraction_gplinker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_iflytek_bert_of_theseus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_language_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_language_model_chinese_chess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_nl2sql_RESDSQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_nl2sql_baseline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/others/task_nlu_intent_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/gpt_lm_pretrain/pretrain_gpt_lm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roberta_pretrain/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roberta_pretrain/pretrain_roberta_mlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roberta_pretrain/pretrain_roberta_mlm_data_gen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roformer-sim_pretrain/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roformer-sim_pretrain/stage1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roformer-sim_pretrain/stage2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/pretrain/roformer-sim_pretrain/supervised.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_CasRel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_CasRel_VAT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_PRGC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_SPN4RE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_gplinker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_tplinker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/relation_extraction/task_relation_extraction_tplinker_plus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Sohu_2022_ABSA/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Sohu_2022_ABSA/baseline/data_processing.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Sohu_2022_ABSA/baseline/task_sentiment_sohu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Sohu_2022_ABSA/top1/training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Sohu_2022_ABSA/top1/training_bert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Tianchi_News_Classification/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Tianchi_News_Classification/convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Tianchi_News_Classification/inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/Tianchi_News_Classification/training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentence_similarity_lcqmc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_GAU_alpha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_PET.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_P_tuning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_albert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_albert_lion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_deberta_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_electra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_hierarchical_position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_nezha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_roformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_roformer_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_wobert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_classfication/task_sentiment_classification_xlnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step1_0.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step1_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step2_0.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step3_inference.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/task_sentence_embedding_FinanceFAQ_step3_predict.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/FinanceFAQ/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_DimensionalityReduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_model_distillation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_sup_CoSENT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_sup_ContrastiveLoss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_sup_CosineMSELoss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_sup_InfoNCE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_sup_concat_CrossEntropyLoss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_CT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_CT_In-Batch_Negatives.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_DiffCSE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_ESimCSE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_PromptBert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_SimCSE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_TSDAE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sentence_embedding/task_sentence_embedding_unsup_bert_whitening.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_dialogpt_finetune.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_kgclue_seq2seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_promptclue_finetune.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_question_answer_generation_by_seq2seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_reading_comprehension_by_mlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_reading_comprehension_by_seq2seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_ape210k_math_word_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_csl_bart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_csl_mt5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_csl_t5_pegasus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_csl_uer_t5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_csl_unilm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_autotitle_guwenbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/seq2seq/task_seq2seq_simbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_cws_crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_CNN_Nested_NER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_W2NER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_cascade_crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_crf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_crf_add_posseg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_crf_freeze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_efficient_global_pointer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_global_pointer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_lear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_mrc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_span.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/task_sequence_labeling_ner_tplinker_plus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/finetune.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/finetune_step1_dataprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/finetune_step2_doccano.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/finetune_step3_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/uie_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/sequence_labeling/uie/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/basic_simple_web_serving_simbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/src/create_documents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/src/create_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/src/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/src/index_documents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/src/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/elasticsearch/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/conf/configurations.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/conf/logger.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/config/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/model/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/utils/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/utils/loggers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/utils/trace_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/view/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/sanic_server/src/view/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/task_bert_cls_onnx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/task_bert_cls_onnx_tensorrt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/triton/client_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/triton/client_tritonclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/triton/task_tensorrt_triton.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/serving/triton/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/fp16.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/multi_gpus-multi_node.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/multi_gpus.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/multi_tpus.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/nlp_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/single_cpu.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/accelerate/single_gpu.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/deepspeed/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/deepspeed/deepspeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/deepspeed/finetune.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/deepspeed/task_sentiment_classification_ds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_amp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_data_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_data_parallel_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_distributed_data_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_distributed_data_parallel_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_R-Drop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_TemporalEnsembling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_UDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_adversarial_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_exponential_moving_average.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_exponential_moving_average_warmup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_lora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_mixup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/examples/training_trick/task_sentiment_virtual_adversarial_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_bloom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_falcon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_glm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_internlm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_llama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/llm/test_qwen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_albert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_bart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_bert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_deberta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_electra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_ernie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_gau.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_gpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_gpt2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_nezha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_roberta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_roformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_simbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_t5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_uie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/models/test_xlnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_fill_mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_generate_speed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_hf_download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_save_pretrained.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/test/test_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/tutorials/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/tutorials/tutorials_custom_fit_progress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/tutorials/tutorials_load_transformers_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/bert4torch-0.5.9/tutorials/tutorials_small_tips.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/poetry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/poetry_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/poetry_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/poetry_train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/poetry_valid.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/bert_train_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/bert_train_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/bert_train_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert01/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert02/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/output/bert03/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/01_Transofrmer模型下载-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/predict-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v0-checkpoint.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v1-checkpoint.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v2-checkpoint.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/对联模型1-a-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/对联模型1-b-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/对联模型1-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/对联模型2-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/01_Transofrmer模型下载.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v0.pt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v0_b.pt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v2.pt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/best_model_v3.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-b.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert_train_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/output/bert01/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/output/bert01/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/output/bert01/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/output/bert01/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/output/bert01/model/vocab.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/01_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/02_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/03_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/04_lstm_training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/05_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/06_bert_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/07_dsw_final_bert_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/text8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/datas/words_min.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/04_lstm/model/net.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/generation_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/06_bert/model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/logs/events.out.tfevents.1741671168.dsw-546387-6b9d88d647-2lgrt.24663.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/logs/events.out.tfevents.1772960764.lzx.25996.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/generation_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen/output/final/model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/01_构建思路.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/02_构建思路-Bert.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/03_构建思路-GPT-v1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/04_构建思路-GPT-v2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/05_构建思路-GPT-v3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/06_构建思路-基于transformers框架迁移GPT模型.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/eval_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/eval_words_min.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/gpt_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/gptid_newid_mapping.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/new_gpt_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/text8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/train_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/train_words_min.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/datas/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/bert_models/model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/logs/events.out.tfevents.1769764600.dsw-1613692-544966594b-sg2j5.3043.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/generation_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v1/model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v2/model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/gpt_models_v3/model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/notebook/output/lstm/models/model.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v1-checkpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v1-checkpoint.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v2-checkpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/.ipynb_checkpoints/v2-checkpoint.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -533,70 +130,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_Bert API.executor": "Debug",
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_Self-Attention理解.executor": "Debug",
-    "Python.01_Transofrmer模型下载.executor": "Run",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_py2neo 操作API.executor": "Run",
-    "Python.01_优化器理解.executor": "Debug",
-    "Python.01_文本分类模型初始.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.01_网络结构.executor": "Run",
-    "Python.02_Bert API.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_GPT API.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_neo4j driver 操作API.executor": "Run",
-    "Python.02_信息抽取初识.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_标签映射数据的构造.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "Python.03_分词器的构造.executor": "Run",
-    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
-    "Python.03_零样本学习_抽取式.executor": "Run",
-    "Python.04_自定义Dataset构建.executor": "Run",
-    "Python.05_DataLoader数据集加载测试.executor": "Run",
-    "Python.06_模型训练.executor": "Run",
-    "Python.07_模型推理.executor": "Run",
-    "Python.bert_train_01.executor": "Run",
-    "Python.fastapi_app.executor": "Run",
-    "Python.flask_app.executor": "Run",
-    "Python.flask_demo01.executor": "Run",
-    "Python.http_client (1).executor": "Run",
-    "Python.http_client.executor": "Run",
-    "Python.ie_torch_ycy.executor": "Run",
-    "Python.inference.executor": "Run",
-    "Python.manage.executor": "Run",
-    "Python.server_runner.executor": "Run",
-    "Python.task_sentiment_classification.executor": "Run",
-    "Python.training.executor": "Run",
-    "Python.tt_intent_train.executor": "Run",
-    "Python.协程数据迭代生成案例.executor": "Run",
-    "Python.协程案例.executor": "Run",
-    "Python.多线程案例.executor": "Run",
-    "Python.多进程案例.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260128",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_Transofrmer模型下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_优化器理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_文本分类模型初始.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_信息抽取初识.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_零样本学习_抽取式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bert_train_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ie_torch_ycy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_sentiment_classification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code20260128&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260128" />
@@ -1180,15 +777,20 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$07_.coverage" NAME="07_模型推理 Coverage Results" MODIFIED="1772604174132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_tmp.coverage" NAME="05_tmp Coverage Results" MODIFIED="1772960185612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$bert_train_01.coverage" NAME="bert_train_01 Coverage Results" MODIFIED="1772958166335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$07_dsw_final_bert_train.coverage" NAME="07_dsw_final_bert_train Coverage Results" MODIFIED="1772960934913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_GRU.coverage" NAME="03_GRU理解 Coverage Results" MODIFIED="1772017028162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Transofrmer.coverage" NAME="01_Transofrmer模型下载 Coverage Results" MODIFIED="1772956683865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_tmp.coverage" NAME="03_tmp Coverage Results" MODIFIED="1772959183049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client__1_.coverage" NAME="http_client (1) Coverage Results" MODIFIED="1772455418020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$.coverage" NAME="协程数据迭代生成案例 Coverage Results" MODIFIED="1772457981060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_信息抽取初识 Coverage Results" MODIFIED="1772885512645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_tmp.coverage" NAME="02_tmp Coverage Results" MODIFIED="1772959071438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_PythonCSVNeo4j.coverage" NAME="03_通过Python代码将CSV数据导入到Neo4j Coverage Results" MODIFIED="1772369966659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_tmp.coverage" NAME="01_tmp Coverage Results" MODIFIED="1772959064110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$flask_app.coverage" NAME="flask_app Coverage Results" MODIFIED="1772452760423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
