@@ -1,0 +1,60 @@
+## 更新历史
+
+- **20240928**：【新功能】增加deepseek系列、MiniCPM、MiniCPMV、llama3.2、Qwen2.5；支持device_map=auto;【修复】修复batch_generate和n>1的bug
+- **20240814**：【新功能】增加llama3.1/Yi1.5；自动选择从hfmirror下载；支持命令行参数`bert4torch serve`|
+- **20240801**：【新功能】chatglm/qwen系列支持function call调用, 增加internlm2系列；【小优化】简化pipeline中chat demo的调用，generate的终止token元素允许为列表, 统一rope_scaling参数名，增加rope衍生类；【bug】修复flash_attn2的推理bug, 修复bart的tie_word_embedding的bug
+- **20240619**：增加Qwen1.5, Qwen2, glm4; 增加SWA/convert_logits_dtype；调整各个trainer(重点DPOTrainer), generation中segment_ids, repetition_penalty需带query
+- **20240426**：简化大模型调用demo, generation_config从config读取, 增加Qwen2和SWA, 修复RMSNorm中转类型bug
+- **20240418**：修改Text2Vec的bug, 完善openai client, 增加get_weight_decay_optim_groups
+- **20240331**: 修复chatglm3的bug, 修复save_pretrained时多文件的bug，增加CausalLMLoss, 修改deepspeed的传参逻辑
+- **20240317**: 修复config_path的bug，允许num_key_value_heads参数
+- **20240316**: 增加get_weight_decay_optim_groups函数, attention中允许is_causal，修改repetition_penalty的bug，把baichuan从llama中剥离，[torch4keras-v0.2.1](https://github.com/Tongjilibo/torch4keras/releases/tag/v0.2.1)更新特性
+- **20240216**: fastapi发布服务允许闲时offload到cpu, `build_transformer_model`允许从hf下载, 添加`FillMask`的pipeline, 添加`SequenceClassificationTrainer`
+- **20240204**：增加deepseek_moe模型，修复generation并发错误，优化大模型耗时
+- **20240121**：修改`save_pretrained`用于保存文件夹, 增加GenerateSpeed用于统计token生成速度，修复t5在use_states=True时候的错误, 修改层次编码的bug
+- **20240116**：bug修复，增加`save_pretrained`用于保存`transformer`格式的权重, 增加部分`embedding`模型|
+- **20240111**：`training`时候不生成`past_key_values`, 增加`streamlit`的example, 修复句向量`max`时的bug, `batch_generate`合并到`generate`, 修改`generation`的默认参数名(兼容过去的参数名), 多轮对话中可保留`past_key_values`, 把`attention`中的`mask`补齐逻辑移到`apply_embedding`中, 增加`uie`的`pipeline`，增加`PtuningV2Trainer`
+- **20231228**：新增`pipelines`模块，把`chat`整理进去，并新增`Text2Vec`模块用于向量生成，新增`snapshot_download`用于hf模型下载
+- **20231224**：在`chat`中增加常见chat模型, 简化大模型调用的代码逻辑
+- **20231219**：参数`checkpoint_path`支持传入文件夹地址，增加`chat`模块用于快速发布demo/api, 支持加载`.safetensors`, `meta`的device提示报错
+- **20231126**：修复flash_attn的bug, stream_generate支持仅输出last_token
+- **20231119**：修复random_sample采样n>1, 新增Yi-6B, 支持flash_attn
+- **20231112**：支持chatglm 32k的rope_ratio，config中可以指定mapping, 增加m3e和bge
+- **20231106**：🔥大部分模型文件无需convert，修复multi_query_group_num在int4/int8下bug, 简化`build_transformer_model`中配置到`config`中
+- **20231022**：增加falcon，layernorm支持torch自带
+- **20230912**：修复generation（既可初始化传参，也可以generate传参），decoder架构、encoder-decoder架构的增加generate系列方法直接推理, 增加internlm/baichuan2模型，训练时会默认自动把dataloader转移到model.device上, 增加xformers
+- **20230902**：修复gradient_checkpoint在低版本torch时仅支持位置参数的问题, 增加trainer.py, 增加PPOTrainerTrl以及相应的三阶段rlhf训练+dpo训练
+- **20230812**：增加llama-2的微调, 增加大模型deepspeed的使用，增加Qwen模型(增加ntk和logn_attn)，generation的end_id支持多个token_id，修复多文件权重加载资源占用问题
+- **20230726**：修改baichuan的alibi逻辑，增加bloom, 简化decoder架构代码(gpt, llama, chatglm均继承decoder)
+- **20230716**：修改models和layers为文件夹方便扩展, 增加flash_attention参数控制，增加chatglm-api示例，修改skip_init逻辑减少显存占用，generation增加repetition_penalty，修复chatglm的pv2的bug，generation支持transformers的tokenize，增加ziya，Baichuan
+- **20230705**：使用accelerate来实现skip_init精简代码, 修复add_trainer的代码提示, 增加chatglm的load_in_8bit+lora/qlora的训练, 修复grad_chechpoint, 增加chinese_llama_alpaca, torch2.0默认使用scaled_dot_product_attention加速, 增加chatglm2-6b+pv2+lora微调
+- **20230518**：增加vicuna的集成, 增加batch_generate()功能, 把_token_pad_ids重命名为pad_token_ids, tokenizor中重命名部分字段
+- **20230408**：增加苏神Tiger的pytorch实现, 集成苏神、uer的roberta-small/Tiny模型以及ChatYuan v2模型, 增加了对attention_key_size的入参支持，单向decoder模型和encoder decoder模型解码增加cache, 更新fnlp的bart2.0, 增加chatglm-6b预训练模型推理, 集成BELLE_llama模型, 增加量化模块并适配llama，增加skip_init参数加快加载, 增加stream输出/网页demo, 增加ptuning_v2，增加moss模型的int4/int8推理
+- **20230326**：增加llama-7b预训练模型, 修改rope为不使用max_position, 增加prompt_clue和nezha_gpt_dialog的finetune示例(skykiseki用户)，修复model.half()类型不一致问题，生成式解码新增SeqGeneration和Seq2SeqGeneration, 支持加载多个权重文件, gpt系列默认不加softmax
+- **20230310**：增加lion优化器, 修改dp和ddp示例更易用，增加PromptCLUE模型, 修复albert_unshared加载权重, 增加uer-gpt2-chinese预训练模型，修复lm系列(gpt, seq2seq)存在的forward参数不对的问题，修复GlobalPointer使用rope的bug
+- **20230212**：兼容accelerate包, 增加ChatYuan v1模型，修复random_sample()的bug
+- **20221230**：增加macbert，text2vec-bert-chinese, wobert模型，增加LEAR的ner示例, 增加PGRC、SPN4RE的关系提取示例，transformer.configs支持点操作，可以使用torch4keras的Trainer(net)来初始化, 修复tokenizer的切分subtoken的bug, 允许embedding_size!=hidden_size
+- **20221127**：增加deberta_v2模型, 对抗训练从compile转为使用Callback来实现，修复1.7.1版本兼容bug, uie模型内置, 增加triton示例, build_transformer_model需显式指定add_trainer才从BaseModel继承, 增加guwenbert预训练模型，允许position_ids从padding开始
+- **20221102**：增加CNN_Nested_NER示例, 删除SpTokenizer基类中的rematch
+- **20221022**：修复DP和DDP出现resume_epoch不存在的bug, tokenizer的never_split去除None, transformer_xl的bug, 增加gradient_checkpoint
+- **20221011**：虚拟对抗VAT在多个ouput时支持指定，增加elasticsearch示例, 把Trainer抽象到[torch4keras](https://github.com/Tongjilibo/torch4keras)中供更多项目使用，把梯度累积移到compile中
+- **20220920**：增加TensorRT示例，支持多个schedule(如同时ema+warmup)，sanic+onnx部署
+- **20220910**：增加默认Logger和Tensorboard日志，ONNX推理，增加ERNIE模型，修复t5的norm_mode问题，允许hidden_size不整除num_attention_heads
+- **20220828**：增加nl2sql示例，增加自定义metrics，支持断点续训
+- **20220821**：增加W2NER和DiffCSE示例，打印Epoch开始的时间戳，增加parallel_apply，兼容torch<=1.7.1的torch.div无rounding_mode
+- **20220814**：增加有监督句向量、关系抽取、文本生成实验指标，兼容torch<1.9.0的缺失take_along_dim，修复bart中位置向量514的问题，修复Sptokenizer对符号不转换
+- **20220727**：增加mixup/manifold_mixup/temporal_ensembling策略，修复pgd策略param.grad为空的问题，修改tokenizer支持批量，增加uie示例
+- **20220716**：修复原来CRF训练中loss陡增的问题，修复xlnet的token_type_ids输入显存占用大的问题
+- **20220710**：增加金融中文FAQ示例，天池新闻分类top1案例，增加EarlyStop，CRF中自带转bool类型
+- **20220629**：增加ner的实验，测试crf不同初始化的效果，bert-whitening中文实验
+- **20220613**：增加seq2seq+前缀树，增加SimCSE/ESimCSE/PromptBert等无监督语义相似度的中文实验
+- **20220605**：增加PromptBert、PET、P-tuning示例，修改tokenizer对special_tokens分词错误的问题，增加t5_pegasus
+- **20220529**：transformer_xl、xlnet模型，修改sinusoid位置向量被init_weight的bug，EMA，sohu情感分类示例
+- **20220517**：增加预训练代码，支持增加embedding输入(如词性，word粒度embedding)
+- **20220501**：增加了混合梯度，梯度裁剪，单机多卡训练(DP、DDP)
+- **20220425**：增加了VAT、GAU-alpha等示例，增加了梯度累积，自定义fit()示例
+- **20220415**：增加了ner_mrc、ner_span、roformer_v2、roformer-sim等示例
+- **20220405**：增加了GPLinker、TPlinker、SimBERT等示例
+- **20220329**：增加了CoSENT、R-Drop、UDA等示例
+- **20220322**：添加GPT、GPT2、T5模型
+- **20220312**：初版提交
