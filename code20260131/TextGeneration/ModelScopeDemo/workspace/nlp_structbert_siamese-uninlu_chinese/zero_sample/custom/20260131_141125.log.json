@@ -1,0 +1,7 @@
+{"mode": "train", "epoch": 1, "iter": 1, "lr": 3e-05, "data_load_time": 0.00302, "loss": 2.27386, "iter_time": 6.04158}
+{"mode": "train", "epoch": 1, "iter": 2, "lr": 3e-05, "data_load_time": 0.00455, "loss": 2.73201, "iter_time": 6.0598}
+{"mode": "train", "epoch": 1, "iter": 3, "lr": 3e-05, "data_load_time": 0.00468, "loss": 1.5301, "iter_time": 1.71173}
+{"mode": "train", "epoch": 1, "iter": 4, "lr": 3e-05, "data_load_time": 0.00663, "loss": 2.09327, "iter_time": 5.22876}
+{"mode": "train", "epoch": 1, "iter": 5, "lr": 3e-05, "data_load_time": 0.00466, "loss": 2.52276, "iter_time": 1.96757}
+{"mode": "train", "epoch": 1, "iter": 6, "lr": 3e-05, "data_load_time": 0.00701, "loss": 1.92297, "iter_time": 6.03043}
+{"mode": "train", "epoch": 1, "iter": 7, "lr": 3e-05, "data_load_time": 0.00207, "loss": 1.35237, "iter_time": 0.71105}

@@ -1,0 +1,2 @@
+{"mode": "eval", "epoch": 1, "iter": 3, "lr": 2.9999999999999992e-06, "evaluation/accuracy": 0.11111, "evaluation/micro-f1": 0.11111, "evaluation/macro-f1": 0.06111, "evaluation/f1": 0.11111}
+{"mode": "eval", "epoch": 2, "iter": 3, "lr": 1.65e-05, "evaluation/accuracy": 0.11111, "evaluation/micro-f1": 0.11111, "evaluation/macro-f1": 0.06667, "evaluation/f1": 0.11111}

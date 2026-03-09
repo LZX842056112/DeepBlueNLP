@@ -1,0 +1,64 @@
+{
+    "framework": "pytorch",
+    "task": "text2text-generation",
+    "model": {
+        "type": "T5",
+        "language": "zh"
+    },
+    "pipeline": {
+        "type": "text2text-generation"
+    },
+    "preprocessor": {
+        "type": "text-gen-tokenizer",
+        "mode": "inference",
+        "use_fast": true
+    },
+    "train": {
+        "work_dir": "./workspace/generator/custom-datas",
+        "max_epochs": 2,
+        "dataloader": {
+            "batch_size_per_gpu": 2,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "lr": 0.001,
+            "options": {}
+        },
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "lr_lambda": null,
+            "options": {
+                "by_epoch": false
+            }
+        },
+        "hooks": [
+            {
+                "type": "IterTimerHook"
+            }
+        ],
+        "logging": {
+            "interval": 1,
+            "out_dir": "./workspace/generator/custom-datas"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 1,
+                "save_dir": "./workspace/generator/custom-datas"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 32,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "metrics": [
+            {
+                "type": "text-gen-metric"
+            }
+        ]
+    },
+    "allow_remote": true
+}

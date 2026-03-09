@@ -1,0 +1,135 @@
+{
+    "task": "text-classification",
+    "framework": "pytorch",
+    "preprocessor": {
+        "train": {
+            "type": "sen-cls-tokenizer",
+            "first_sequence": "sentence",
+            "mode": "train",
+            "label2id": {
+                "\u8d1f\u9762": 0,
+                "\u6b63\u9762": 1
+            },
+            "label": "label",
+            "use_fast": true
+        },
+        "val": {
+            "type": "sen-cls-tokenizer",
+            "first_sequence": "sentence",
+            "mode": "inference",
+            "label2id": {
+                "\u8d1f\u9762": 0,
+                "\u6b63\u9762": 1
+            },
+            "label": "label",
+            "use_fast": true
+        }
+    },
+    "model": {
+        "type": "text-classification",
+        "backbone": {
+            "type": "structbert",
+            "prefix": "encoder",
+            "attention_probs_dropout_prob": 0.1,
+            "easynlp_version": "0.0.3",
+            "gradient_checkpointing": false,
+            "hidden_act": "gelu",
+            "hidden_dropout_prob": 0.1,
+            "hidden_size": 768,
+            "initializer_range": 0.02,
+            "intermediate_size": 3072,
+            "layer_norm_eps": 1e-12,
+            "max_position_embeddings": 512,
+            "num_attention_heads": 12,
+            "num_hidden_layers": 12,
+            "pad_token_id": 0,
+            "position_embedding_type": "absolute",
+            "transformers_version": "4.6.0.dev0",
+            "type_vocab_size": 2,
+            "use_cache": true,
+            "vocab_size": 21128
+        },
+        "head": {
+            "type": "text-classification",
+            "hidden_dropout_prob": 0.1,
+            "hidden_size": 768
+        },
+        "id2label": {
+            "0": "\u8d1f\u9762",
+            "1": "\u6b63\u9762"
+        },
+        "label2id": {
+            "\u8d1f\u9762": 0,
+            "\u6b63\u9762": 1
+        },
+        "num_labels": 2
+    },
+    "pipeline": {
+        "type": "text-classification"
+    },
+    "train": {
+        "work_dir": "workspace/text_classify/jd",
+        "max_epochs": 2,
+        "dataloader": {
+            "batch_size_per_gpu": 4,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "SGD",
+            "lr": 3e-05,
+            "options": {
+                "grad_clip": {
+                    "max_norm": 2.0
+                }
+            }
+        },
+        "lr_scheduler": {
+            "type": "StepLR",
+            "step_size": 2,
+            "options": {
+                "warmup": {
+                    "type": "LinearWarmup",
+                    "warmup_iters": 2
+                }
+            }
+        },
+        "hooks": [],
+        "logging": {
+            "interval": 100,
+            "out_dir": "workspace/text_classify/jd"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 1,
+                "save_dir": "workspace/text_classify/jd"
+            },
+            "best": {
+                "metric_key": "f1",
+                "save_dir": "workspace/text_classify/jd"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 8,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "metrics": [
+            "seq-cls-metric"
+        ],
+        "period": {
+            "interval": 1
+        }
+    },
+    "dataset": {
+        "train": {
+            "labels": [
+                "\u8d1f\u9762",
+                "\u6b63\u9762"
+            ],
+            "first_sequence": "sentence",
+            "label": "label"
+        }
+    }
+}
