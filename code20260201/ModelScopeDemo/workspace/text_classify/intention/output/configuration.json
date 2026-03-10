@@ -1,0 +1,186 @@
+{
+    "task": "text-classification",
+    "framework": "pytorch",
+    "preprocessor": {
+        "train": {
+            "type": "sen-cls-tokenizer",
+            "first_sequence": "text",
+            "mode": "train",
+            "label2id": {
+                "Alarm-Update": 0,
+                "Audio-Play": 1,
+                "Calendar-Query": 2,
+                "FilmTele-Play": 3,
+                "HomeAppliance-Control": 4,
+                "Music-Play": 5,
+                "Other": 6,
+                "Radio-Listen": 7,
+                "TVProgram-Play": 8,
+                "Travel-Query": 9,
+                "Video-Play": 10,
+                "Weather-Query": 11
+            },
+            "label": "label",
+            "use_fast": true
+        },
+        "val": {
+            "type": "sen-cls-tokenizer",
+            "first_sequence": "text",
+            "mode": "inference",
+            "label2id": {
+                "Alarm-Update": 0,
+                "Audio-Play": 1,
+                "Calendar-Query": 2,
+                "FilmTele-Play": 3,
+                "HomeAppliance-Control": 4,
+                "Music-Play": 5,
+                "Other": 6,
+                "Radio-Listen": 7,
+                "TVProgram-Play": 8,
+                "Travel-Query": 9,
+                "Video-Play": 10,
+                "Weather-Query": 11
+            },
+            "label": "label",
+            "use_fast": true
+        }
+    },
+    "model": {
+        "type": "text-classification",
+        "backbone": {
+            "type": "structbert",
+            "prefix": "encoder",
+            "attention_probs_dropout_prob": 0.1,
+            "easynlp_version": "0.0.3",
+            "gradient_checkpointing": false,
+            "hidden_act": "gelu",
+            "hidden_dropout_prob": 0.1,
+            "hidden_size": 768,
+            "initializer_range": 0.02,
+            "intermediate_size": 3072,
+            "layer_norm_eps": 1e-12,
+            "max_position_embeddings": 512,
+            "num_attention_heads": 12,
+            "num_hidden_layers": 12,
+            "pad_token_id": 0,
+            "position_embedding_type": "absolute",
+            "transformers_version": "4.6.0.dev0",
+            "type_vocab_size": 2,
+            "use_cache": true,
+            "vocab_size": 21128
+        },
+        "head": {
+            "type": "text-classification",
+            "hidden_dropout_prob": 0.1,
+            "hidden_size": 768
+        },
+        "load_state_fn": null,
+        "id2label": {
+            "0": "Alarm-Update",
+            "1": "Audio-Play",
+            "2": "Calendar-Query",
+            "3": "FilmTele-Play",
+            "4": "HomeAppliance-Control",
+            "5": "Music-Play",
+            "6": "Other",
+            "7": "Radio-Listen",
+            "8": "TVProgram-Play",
+            "9": "Travel-Query",
+            "10": "Video-Play",
+            "11": "Weather-Query"
+        },
+        "label2id": {
+            "Alarm-Update": 0,
+            "Audio-Play": 1,
+            "Calendar-Query": 2,
+            "FilmTele-Play": 3,
+            "HomeAppliance-Control": 4,
+            "Music-Play": 5,
+            "Other": 6,
+            "Radio-Listen": 7,
+            "TVProgram-Play": 8,
+            "Travel-Query": 9,
+            "Video-Play": 10,
+            "Weather-Query": 11
+        },
+        "num_labels": 12
+    },
+    "pipeline": {
+        "type": "text-classification"
+    },
+    "train": {
+        "work_dir": "workspace/text_classify/intention",
+        "max_epochs": 2,
+        "dataloader": {
+            "batch_size_per_gpu": 4,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "SGD",
+            "lr": 3e-05,
+            "options": {
+                "grad_clip": {
+                    "max_norm": 2.0
+                }
+            }
+        },
+        "lr_scheduler": {
+            "type": "StepLR",
+            "step_size": 2,
+            "options": {
+                "warmup": {
+                    "type": "LinearWarmup",
+                    "warmup_iters": 2
+                }
+            }
+        },
+        "hooks": [],
+        "logging": {
+            "interval": 100,
+            "out_dir": "workspace/text_classify/intention"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 1,
+                "save_dir": "workspace/text_classify/intention"
+            },
+            "best": {
+                "metric_key": "f1",
+                "save_dir": "workspace/text_classify/intention"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 8,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "metrics": [
+            "seq-cls-metric"
+        ],
+        "period": {
+            "interval": 1
+        }
+    },
+    "dataset": {
+        "train": {
+            "labels": [
+                "Alarm-Update",
+                "Audio-Play",
+                "Calendar-Query",
+                "FilmTele-Play",
+                "HomeAppliance-Control",
+                "Music-Play",
+                "Other",
+                "Radio-Listen",
+                "TVProgram-Play",
+                "Travel-Query",
+                "Video-Play",
+                "Weather-Query"
+            ],
+            "first_sequence": "text",
+            "label": "label"
+        }
+    }
+}

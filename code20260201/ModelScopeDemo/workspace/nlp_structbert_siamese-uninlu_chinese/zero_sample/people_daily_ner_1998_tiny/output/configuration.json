@@ -1,0 +1,70 @@
+{
+    "task": "siamese-uie",
+    "framework": "pytorch",
+    "preprocessor": {
+        "train": {
+            "type": "siamese-uie-preprocessor",
+            "mode": "train"
+        },
+        "val": {
+            "type": "siamese-uie-preprocessor",
+            "mode": "inference"
+        }
+    },
+    "model": {
+        "type": "bert"
+    },
+    "pipeline": {
+        "type": "siamese-uie"
+    },
+    "train": {
+        "work_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny",
+        "max_epochs": 3,
+        "dataloader": {
+            "batch_size_per_gpu": 4,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "lr": 3e-05,
+            "options": {}
+        },
+        "lr_scheduler": {
+            "type": "StepLR",
+            "step_size": 1,
+            "options": {
+                "by_epoch": true
+            }
+        },
+        "hooks": [
+            {
+                "type": "IterTimerHook"
+            }
+        ],
+        "logging": {
+            "interval": 1,
+            "out_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 2,
+                "save_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+            },
+            "best": {
+                "metric_key": "f1",
+                "save_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 8,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "period": {
+            "interval": 1
+        }
+    },
+    "allow_remote": true
+}

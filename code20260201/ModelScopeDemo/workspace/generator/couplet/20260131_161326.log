@@ -1,0 +1,113 @@
+2026-01-31 16:13:29,372 - modelscope - WARNING - ('CUSTOM_DATASETS', 'text2text-generation', 'T5') not found in ast index file
+2026-01-31 16:13:29,372 - modelscope - WARNING - ('CUSTOM_DATASETS', 'text2text-generation', 'T5') not found in ast index file
+2026-01-31 16:13:29,380 - modelscope - INFO - cuda is not available, using cpu instead.
+2026-01-31 16:13:29,380 - modelscope - INFO - ==========================Training Config Start==========================
+2026-01-31 16:13:29,380 - modelscope - INFO - {
+    "framework": "pytorch",
+    "task": "text2text-generation",
+    "model": {
+        "type": "T5",
+        "language": "zh"
+    },
+    "pipeline": {
+        "type": "text2text-generation"
+    },
+    "preprocessor": {
+        "type": "text-gen-tokenizer",
+        "sequence_length": 15,
+        "mode": "eval",
+        "use_fast": true
+    },
+    "train": {
+        "work_dir": "./workspace/generator/couplet",
+        "max_epochs": 2,
+        "dataloader": {
+            "batch_size_per_gpu": 2,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "lr": 0.001,
+            "options": {}
+        },
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "lr_lambda": null,
+            "options": {
+                "by_epoch": false
+            }
+        },
+        "hooks": [
+            {
+                "type": "IterTimerHook"
+            }
+        ],
+        "logging": {
+            "interval": 1,
+            "out_dir": "./workspace/generator/couplet"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 1,
+                "save_dir": "./workspace/generator/couplet"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 1,
+            "workers_per_gpu": 0
+        },
+        "metrics": [
+            {
+                "type": "text-gen-metric"
+            }
+        ]
+    },
+    "allow_remote": true
+}
+2026-01-31 16:13:29,381 - modelscope - INFO - ===========================Training Config End===========================
+2026-01-31 16:13:29,381 - modelscope - WARNING - ('OPTIMIZER', 'default', 'AdamW') not found in ast index file
+2026-01-31 16:13:29,383 - modelscope - WARNING - ('LR_SCHEDULER', 'default', 'LambdaLR') not found in ast index file
+2026-01-31 16:13:29,384 - modelscope - INFO - Stage: before_run:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: before_train_epoch:
+    (LOW         ) LrSchedulerHook                    
+ -------------------- 
+Stage: before_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+ -------------------- 
+Stage: after_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_train_epoch:
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_val_epoch:
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_run:
+    (LOW         ) CheckpointHook                     
+ -------------------- 
+2026-01-31 16:13:29,394 - modelscope - INFO - Checkpoints will be saved to ./workspace/generator/couplet
+2026-01-31 16:13:29,394 - modelscope - INFO - Text logs will be saved to ./workspace/generator/couplet
+2026-01-31 16:13:51,432 - modelscope - INFO - epoch [1][1/10]	lr: 1.789e-07, eta: 0:06:57, iter_time: 21.990, data_load_time: 3.940, loss: 13.2731
+2026-01-31 16:14:01,279 - modelscope - INFO - epoch [1][2/10]	lr: 2.683e-07, eta: 0:04:46, iter_time: 9.850, data_load_time: 0.179, loss: 12.4785
+2026-01-31 16:14:04,668 - modelscope - INFO - epoch [1][3/10]	lr: 3.578e-07, eta: 0:03:19, iter_time: 3.431, data_load_time: 0.176, loss: 12.0370
+2026-01-31 16:14:07,532 - modelscope - INFO - epoch [1][4/10]	lr: 4.472e-07, eta: 0:02:32, iter_time: 2.864, data_load_time: 0.020, loss: 13.0927
+2026-01-31 16:14:10,437 - modelscope - INFO - epoch [1][5/10]	lr: 5.367e-07, eta: 0:02:03, iter_time: 2.905, data_load_time: 0.019, loss: 12.8146
+2026-01-31 16:14:13,257 - modelscope - INFO - epoch [1][6/10]	lr: 6.261e-07, eta: 0:01:42, iter_time: 2.820, data_load_time: 0.019, loss: 12.5484
+2026-01-31 16:14:16,091 - modelscope - INFO - epoch [1][7/10]	lr: 7.155e-07, eta: 0:01:26, iter_time: 2.833, data_load_time: 0.012, loss: 13.4663
+2026-01-31 16:14:18,912 - modelscope - INFO - epoch [1][8/10]	lr: 8.050e-07, eta: 0:01:14, iter_time: 2.823, data_load_time: 0.018, loss: 13.5555
+2026-01-31 16:14:22,075 - modelscope - INFO - epoch [1][9/10]	lr: 8.944e-07, eta: 0:01:04, iter_time: 3.163, data_load_time: 0.016, loss: 12.6556
+2026-01-31 16:14:25,038 - modelscope - INFO - epoch [1][10/10]	lr: 9.839e-07, eta: 0:00:55, iter_time: 2.963, data_load_time: 0.016, loss: 13.6879
+2026-01-31 16:14:25,042 - modelscope - INFO - Saving checkpoint at 1 epoch

@@ -926,7 +926,7 @@ CasRel: 指针网络
         4. 构建置信度的处理器 --> 为了改变数据生成的概率修正器(修改预测token的置信度值的)
             _get_logits_processor 方法:-->主要在do_sample=True的时候生效(目的是为了生成数据的多样性)  --> 在步骤6的生效
                 temperature: 温度系数，要求取值范围为: (0, 1]  也可以是一个大于1的值
-                    将模型预测的置信度除以给定的temperature
+                    将模型预测的置信度除以给定的temperature ---> 不同框架中可能实现方式有一定的差异
                     用来控制随机采样的时候的一个多样性，针对一个相同的输入，如果你期望模型生成的内容是比较固定的，那么将该参数调小(小于1 eg:0.01), 如果你希望返回结果相对来讲是不固定的，可以考虑该参数调大(大于1)
                 top_k: Top K系数
                     针对每个样本，仅保留最大的K个置信度，并将其它token对应的置信度重置为-inf
@@ -955,10 +955,11 @@ CasRel: 指针网络
                 sequence_bias:
                 diversity_penalty:
                 encoder_repetition_penalty:
-                repetition_penalty:
+                repetition_penalty:  ** 抑制重复序列生成 **
                 no_repeat_ngram_size:
                 encoder_no_repeat_ngram_size:
                 bad_words_ids:
+                ......
         5. 获取生成停止判断器对象
             prepared_stopping_criteria = self._get_stopping_criteria
         6. 调用解码器，遍历生成每个token，并且进行stop的停止判断 --> 针对不同的方式代码是不同的
@@ -1006,6 +1007,20 @@ CasRel: 指针网络
             选择当前策略的逻辑: 不是策略7、num_beams>1、num_beam_groups>1
             逻辑：
                 和beam search的唯一区别在于，beam search只有一个组; group beam search是将计算分割为多个组分别来计算；为了防止各个组的结果重复；基于参数diversity_penalty做了概率置信度的修正(如果在上一个beam中出现过，那么在当前时刻对应的组中，token的置信度减小diversity_penalty*出现的频次)
+======================================================
+分词方式：
+    Token解析方式主要分为三个级别：Word(词粒度)、Char(字符粒度)、SubWord(子词粒度, 包括：WordPiece、BPE(Byte-Pair Encoding)、BBPE(Byte-level BPE))
+    参考：https://zhuanlan.zhihu.com/p/652520262
+======================================================
+扩展网站：
+    -1. 免费大模型接口网站
+        https://openrouter.ai/
+    -2. 搜索引擎/数据爬取 API网站
+        https://serper.dev/playground
+        https://app.tavily.com/home
+    -3. OpenAI API接口转发的网站
+        https://dash.cloudflare.com/
+            https://dash.cloudflare.com/67b8ebfcb6b836e009e1fb540f160fa5/ai/ai-gateway
 ============================================================
 大语言模型：
     如何提高大模型的预测效果呢?
@@ -1020,3 +1035,4 @@ CasRel: 指针网络
             MCP: 模型上下文协议 --> 定义的一个通用的规范的agent function定义的协议
         4. 微调模型
         选择上: 提示词工程 >> RAG(额外的知识/信息) >> Agent >> 微调
+============================================================

@@ -1,0 +1,196 @@
+2026-01-31 12:11:18,428 - modelscope - INFO - Sample 7 of the training set: {'id': '798c5175d803b8f0ef1920cc7611da74-1', 'shift': 0, 'tokens': ['[CLS]', '从', '而', '使', '得', '《', '军', '嫂', '》', '、', '《', '警', '魂', '》', '、', '《', '一', '个', '独', '生', '子', '女', '的', '故', '事', '》', '等', '影', '片', '，', '在', '广', '州', '都', '获', '得', '了', '较', '好', '的', '票', '房', '收', '入', '。', '[SEP]'], 'token_ids': [101, 794, 5445, 886, 2533, 517, 1092, 2064, 518, 510, 517, 6356, 7789, 518, 510, 517, 671, 702, 4324, 4495, 2094, 1957, 4638, 3125, 752, 518, 5023, 2512, 4275, 8024, 1762, 2408, 2336, 6963, 5815, 2533, 749, 6772, 1962, 4638, 4873, 2791, 3119, 1057, 511, 102], 'hint_tokens': ['[CLS]', '人', '物', ':', '[SEP]'], 'hint_token_ids': [101, 782, 4289, 131, 102], 'attention_masks': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'cross_attention_masks': [1, 1, 1, 1, 1], 'head_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'tail_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+2026-01-31 12:11:18,429 - modelscope - INFO - Sample 29 of the training set: {'id': '8b195d4ea4839b492269343ea5011e8d-2', 'shift': 0, 'tokens': ['[CLS]', '法', '律', '是', '一', '种', '有', '别', '于', '情', '与', '理', '的', '特', '殊', '的', '语', '言', '，', '当', '事', '人', '的', '动', '与', '静', '、', '雄', '辩', '与', '沉', '默', '都', '会', '构', '成', '准', '证', '据', '。', '[SEP]'], 'token_ids': [101, 3791, 2526, 3221, 671, 4905, 3300, 1166, 754, 2658, 680, 4415, 4638, 4294, 3654, 4638, 6427, 6241, 8024, 2496, 752, 782, 4638, 1220, 680, 7474, 510, 7413, 6796, 680, 3756, 7949, 6963, 833, 3354, 2768, 1114, 6395, 2945, 511, 102], 'hint_tokens': ['[CLS]', '组', '织', '机', '构', ':', '[SEP]'], 'hint_token_ids': [101, 5299, 5302, 3322, 3354, 131, 102], 'attention_masks': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'cross_attention_masks': [1, 1, 1, 1, 1, 1, 1], 'head_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'tail_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+2026-01-31 12:11:18,429 - modelscope - INFO - Sample 4 of the training set: {'id': 'b08e22bdbe9ff24bc6990752a34f1cab-1', 'shift': 0, 'tokens': ['[CLS]', '由', '于', '保', '护', '区', '内', '的', '防', '护', '设', '施', '不', '配', '套', '，', '加', '上', '保', '护', '区', '本', '身', '管', '理', '上', '存', '在', '的', '问', '题', '，', '使', '天', '鹅', '洲', '保', '护', '区', '难', '以', '起', '到', '应', '有', '的', '保', '护', '作', '用', '。', '[SEP]'], 'token_ids': [101, 4507, 754, 924, 2844, 1277, 1079, 4638, 7344, 2844, 6392, 3177, 679, 6981, 1947, 8024, 1217, 677, 924, 2844, 1277, 3315, 6716, 5052, 4415, 677, 2100, 1762, 4638, 7309, 7579, 8024, 886, 1921, 7900, 3828, 924, 2844, 1277, 7410, 809, 6629, 1168, 2418, 3300, 4638, 924, 2844, 868, 4500, 511, 102], 'hint_tokens': ['[CLS]', '人', '物', ':', '[SEP]'], 'hint_token_ids': [101, 782, 4289, 131, 102], 'attention_masks': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'cross_attention_masks': [1, 1, 1, 1, 1], 'head_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'tail_labels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+2026-01-31 12:11:18,431 - modelscope - WARNING - ('CUSTOM_DATASETS', 'siamese-uie', 'bert') not found in ast index file
+2026-01-31 12:11:18,431 - modelscope - WARNING - ('CUSTOM_DATASETS', 'siamese-uie', 'bert') not found in ast index file
+2026-01-31 12:11:18,438 - modelscope - INFO - cuda is not available, using cpu instead.
+2026-01-31 12:11:18,438 - modelscope - INFO - ==========================Training Config Start==========================
+2026-01-31 12:11:18,438 - modelscope - INFO - {
+    "task": "siamese-uie",
+    "framework": "pytorch",
+    "preprocessor": {
+        "train": {
+            "type": "siamese-uie-preprocessor",
+            "mode": "train"
+        },
+        "val": {
+            "type": "siamese-uie-preprocessor",
+            "mode": "eval"
+        }
+    },
+    "model": {
+        "type": "bert"
+    },
+    "pipeline": {
+        "type": "siamese-uie"
+    },
+    "train": {
+        "work_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny",
+        "max_epochs": 3,
+        "dataloader": {
+            "batch_size_per_gpu": 4,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "lr": 3e-05,
+            "options": {}
+        },
+        "lr_scheduler": {
+            "type": "StepLR",
+            "step_size": 1,
+            "options": {
+                "by_epoch": true
+            }
+        },
+        "hooks": [
+            {
+                "type": "IterTimerHook"
+            }
+        ],
+        "logging": {
+            "interval": 1,
+            "out_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 2,
+                "save_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+            },
+            "best": {
+                "metric_key": "f1",
+                "save_dir": "workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 8,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "period": {
+            "interval": 1
+        }
+    },
+    "allow_remote": true
+}
+2026-01-31 12:11:18,438 - modelscope - INFO - ===========================Training Config End===========================
+2026-01-31 12:11:18,439 - modelscope - WARNING - ('OPTIMIZER', 'default', 'AdamW') not found in ast index file
+2026-01-31 12:11:18,440 - modelscope - WARNING - ('LR_SCHEDULER', 'default', 'StepLR') not found in ast index file
+2026-01-31 12:11:18,441 - modelscope - INFO - Stage: before_run:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) BestCkptSaverHook                  
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: before_train_epoch:
+    (LOW         ) LrSchedulerHook                    
+ -------------------- 
+Stage: before_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+ -------------------- 
+Stage: after_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (NORMAL      ) EvaluationHook                     
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) BestCkptSaverHook                  
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_train_epoch:
+    (NORMAL      ) EvaluationHook                     
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) BestCkptSaverHook                  
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_val_epoch:
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_run:
+    (LOW         ) BestCkptSaverHook                  
+    (LOW         ) CheckpointHook                     
+ -------------------- 
+2026-01-31 12:11:18,452 - modelscope - INFO - Checkpoints will be saved to workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny
+2026-01-31 12:11:18,461 - modelscope - INFO - Checkpoints will be saved to workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny
+2026-01-31 12:11:18,461 - modelscope - INFO - Text logs will be saved to workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny
+2026-01-31 12:11:21,040 - modelscope - INFO - epoch [1][1/23]	lr: 3.000e-05, eta: 0:02:55, iter_time: 2.577, data_load_time: 0.002, loss: 0.1894
+2026-01-31 12:11:21,973 - modelscope - INFO - epoch [1][2/23]	lr: 3.000e-05, eta: 0:01:57, iter_time: 0.934, data_load_time: 0.003, loss: 0.0104
+2026-01-31 12:11:22,893 - modelscope - INFO - epoch [1][3/23]	lr: 3.000e-05, eta: 0:01:37, iter_time: 0.920, data_load_time: 0.003, loss: 0.0042
+2026-01-31 12:11:25,002 - modelscope - INFO - epoch [1][4/23]	lr: 3.000e-05, eta: 0:01:46, iter_time: 2.109, data_load_time: 0.003, loss: 1.7626
+2026-01-31 12:11:26,042 - modelscope - INFO - epoch [1][5/23]	lr: 3.000e-05, eta: 0:01:37, iter_time: 1.041, data_load_time: 0.004, loss: 0.0221
+2026-01-31 12:11:26,994 - modelscope - INFO - epoch [1][6/23]	lr: 3.000e-05, eta: 0:01:29, iter_time: 0.951, data_load_time: 0.003, loss: 0.0440
+2026-01-31 12:11:28,087 - modelscope - INFO - epoch [1][7/23]	lr: 3.000e-05, eta: 0:01:25, iter_time: 1.094, data_load_time: 0.004, loss: 0.0004
+2026-01-31 12:11:29,207 - modelscope - INFO - epoch [1][8/23]	lr: 3.000e-05, eta: 0:01:21, iter_time: 1.119, data_load_time: 0.003, loss: 0.0005
+2026-01-31 12:11:30,612 - modelscope - INFO - epoch [1][9/23]	lr: 3.000e-05, eta: 0:01:20, iter_time: 1.404, data_load_time: 0.003, loss: 0.8965
+2026-01-31 12:11:31,894 - modelscope - INFO - epoch [1][10/23]	lr: 3.000e-05, eta: 0:01:19, iter_time: 1.283, data_load_time: 0.004, loss: 0.0141
+2026-01-31 12:11:32,823 - modelscope - INFO - epoch [1][11/23]	lr: 3.000e-05, eta: 0:01:15, iter_time: 0.928, data_load_time: 0.003, loss: 0.4107
+2026-01-31 12:11:34,103 - modelscope - INFO - epoch [1][12/23]	lr: 3.000e-05, eta: 0:01:14, iter_time: 1.280, data_load_time: 0.005, loss: 2.0466
+2026-01-31 12:11:35,247 - modelscope - INFO - epoch [1][13/23]	lr: 3.000e-05, eta: 0:01:12, iter_time: 1.146, data_load_time: 0.004, loss: 2.3764
+2026-01-31 12:11:36,552 - modelscope - INFO - epoch [1][14/23]	lr: 3.000e-05, eta: 0:01:11, iter_time: 1.305, data_load_time: 0.005, loss: 2.0727
+2026-01-31 12:11:38,064 - modelscope - INFO - epoch [1][15/23]	lr: 3.000e-05, eta: 0:01:10, iter_time: 1.513, data_load_time: 0.005, loss: 0.2211
+2026-01-31 12:11:40,041 - modelscope - INFO - epoch [1][16/23]	lr: 3.000e-05, eta: 0:01:11, iter_time: 1.975, data_load_time: 0.005, loss: 0.0143
+2026-01-31 12:11:41,197 - modelscope - INFO - epoch [1][17/23]	lr: 3.000e-05, eta: 0:01:09, iter_time: 1.157, data_load_time: 0.003, loss: 0.0003
+2026-01-31 12:11:42,421 - modelscope - INFO - epoch [1][18/23]	lr: 3.000e-05, eta: 0:01:07, iter_time: 1.223, data_load_time: 0.004, loss: 0.2484
+2026-01-31 12:11:44,339 - modelscope - INFO - epoch [1][19/23]	lr: 3.000e-05, eta: 0:01:08, iter_time: 1.919, data_load_time: 0.003, loss: 2.2059
+2026-01-31 12:11:45,944 - modelscope - INFO - epoch [1][20/23]	lr: 3.000e-05, eta: 0:01:07, iter_time: 1.605, data_load_time: 0.004, loss: 0.4721
+2026-01-31 12:11:47,402 - modelscope - INFO - epoch [1][21/23]	lr: 3.000e-05, eta: 0:01:06, iter_time: 1.458, data_load_time: 0.003, loss: 1.6907
+2026-01-31 12:11:48,990 - modelscope - INFO - epoch [1][22/23]	lr: 3.000e-05, eta: 0:01:05, iter_time: 1.588, data_load_time: 0.004, loss: 0.0002
+2026-01-31 12:11:49,976 - modelscope - INFO - epoch [1][23/23]	lr: 3.000e-05, eta: 0:01:03, iter_time: 0.986, data_load_time: 0.002, loss: 0.0002
+2026-01-31 12:11:51,266 - modelscope - INFO - Saving checkpoint at 1 epoch
+2026-01-31 12:11:56,116 - modelscope - INFO - epoch(eval) [1][23]	evaluation/precision: 0.8611, evaluation/recall: 0.9688, evaluation/f1: 0.9118
+2026-01-31 12:11:57,386 - modelscope - INFO - epoch [2][1/23]	lr: 3.000e-06, eta: 0:01:01, iter_time: 1.268, data_load_time: 0.002, loss: 0.1572
+2026-01-31 12:11:58,549 - modelscope - INFO - epoch [2][2/23]	lr: 3.000e-06, eta: 0:00:59, iter_time: 1.165, data_load_time: 0.005, loss: 1.3941
+2026-01-31 12:11:59,539 - modelscope - INFO - epoch [2][3/23]	lr: 3.000e-06, eta: 0:00:57, iter_time: 0.990, data_load_time: 0.005, loss: 0.1288
+2026-01-31 12:12:00,935 - modelscope - INFO - epoch [2][4/23]	lr: 3.000e-06, eta: 0:00:56, iter_time: 1.396, data_load_time: 0.003, loss: 0.6373
+2026-01-31 12:12:01,920 - modelscope - INFO - epoch [2][5/23]	lr: 3.000e-06, eta: 0:00:54, iter_time: 0.985, data_load_time: 0.002, loss: 0.4384
+2026-01-31 12:12:03,031 - modelscope - INFO - epoch [2][6/23]	lr: 3.000e-06, eta: 0:00:53, iter_time: 1.111, data_load_time: 0.004, loss: 0.1538
+2026-01-31 12:12:04,095 - modelscope - INFO - epoch [2][7/23]	lr: 3.000e-06, eta: 0:00:51, iter_time: 1.064, data_load_time: 0.004, loss: 0.0328
+2026-01-31 12:12:05,336 - modelscope - INFO - epoch [2][8/23]	lr: 3.000e-06, eta: 0:00:49, iter_time: 1.241, data_load_time: 0.003, loss: 4.0884
+2026-01-31 12:12:07,277 - modelscope - INFO - epoch [2][9/23]	lr: 3.000e-06, eta: 0:00:49, iter_time: 1.940, data_load_time: 0.003, loss: 0.0005
+2026-01-31 12:12:08,367 - modelscope - INFO - epoch [2][10/23]	lr: 3.000e-06, eta: 0:00:47, iter_time: 1.092, data_load_time: 0.004, loss: 0.0111
+2026-01-31 12:12:09,664 - modelscope - INFO - epoch [2][11/23]	lr: 3.000e-06, eta: 0:00:46, iter_time: 1.297, data_load_time: 0.002, loss: 0.0931
+2026-01-31 12:12:10,709 - modelscope - INFO - epoch [2][12/23]	lr: 3.000e-06, eta: 0:00:44, iter_time: 1.044, data_load_time: 0.004, loss: 0.0004
+2026-01-31 12:12:11,616 - modelscope - INFO - epoch [2][13/23]	lr: 3.000e-06, eta: 0:00:43, iter_time: 0.907, data_load_time: 0.004, loss: 0.0369
+2026-01-31 12:12:13,172 - modelscope - INFO - epoch [2][14/23]	lr: 3.000e-06, eta: 0:00:42, iter_time: 1.556, data_load_time: 0.002, loss: 1.6011
+2026-01-31 12:12:14,554 - modelscope - INFO - epoch [2][15/23]	lr: 3.000e-06, eta: 0:00:40, iter_time: 1.381, data_load_time: 0.003, loss: 1.2253
+2026-01-31 12:12:16,615 - modelscope - INFO - epoch [2][16/23]	lr: 3.000e-06, eta: 0:00:40, iter_time: 2.061, data_load_time: 0.003, loss: 0.0452
+2026-01-31 12:12:18,382 - modelscope - INFO - epoch [2][17/23]	lr: 3.000e-06, eta: 0:00:38, iter_time: 1.767, data_load_time: 0.003, loss: 0.3231
+2026-01-31 12:12:19,931 - modelscope - INFO - epoch [2][18/23]	lr: 3.000e-06, eta: 0:00:37, iter_time: 1.549, data_load_time: 0.004, loss: 0.0049
+2026-01-31 12:12:20,946 - modelscope - INFO - epoch [2][19/23]	lr: 3.000e-06, eta: 0:00:36, iter_time: 1.015, data_load_time: 0.004, loss: 0.4817
+2026-01-31 12:12:22,136 - modelscope - INFO - epoch [2][20/23]	lr: 3.000e-06, eta: 0:00:34, iter_time: 1.190, data_load_time: 0.003, loss: 0.0943
+2026-01-31 12:12:23,598 - modelscope - INFO - epoch [2][21/23]	lr: 3.000e-06, eta: 0:00:33, iter_time: 1.462, data_load_time: 0.003, loss: 0.8592
+2026-01-31 12:12:24,612 - modelscope - INFO - epoch [2][22/23]	lr: 3.000e-06, eta: 0:00:32, iter_time: 1.013, data_load_time: 0.004, loss: 0.0004
+2026-01-31 12:12:25,379 - modelscope - INFO - epoch [2][23/23]	lr: 3.000e-06, eta: 0:00:30, iter_time: 0.767, data_load_time: 0.002, loss: 0.0608
+2026-01-31 12:12:26,506 - modelscope - INFO - Saving checkpoint at 2 epoch
+2026-01-31 12:12:31,163 - modelscope - INFO - epoch(eval) [2][23]	evaluation/precision: 0.8611, evaluation/recall: 0.9688, evaluation/f1: 0.9118
+2026-01-31 12:12:32,450 - modelscope - INFO - epoch [3][1/23]	lr: 3.000e-07, eta: 0:00:29, iter_time: 1.286, data_load_time: 0.002, loss: 0.0005
+2026-01-31 12:12:33,563 - modelscope - INFO - epoch [3][2/23]	lr: 3.000e-07, eta: 0:00:27, iter_time: 1.111, data_load_time: 0.003, loss: 0.0020
+2026-01-31 12:12:34,894 - modelscope - INFO - epoch [3][3/23]	lr: 3.000e-07, eta: 0:00:26, iter_time: 1.333, data_load_time: 0.004, loss: 0.0528
+2026-01-31 12:12:36,247 - modelscope - INFO - epoch [3][4/23]	lr: 3.000e-07, eta: 0:00:25, iter_time: 1.351, data_load_time: 0.002, loss: 0.0046
+2026-01-31 12:12:37,596 - modelscope - INFO - epoch [3][5/23]	lr: 3.000e-07, eta: 0:00:23, iter_time: 1.350, data_load_time: 0.004, loss: 0.4274
+2026-01-31 12:12:39,152 - modelscope - INFO - epoch [3][6/23]	lr: 3.000e-07, eta: 0:00:22, iter_time: 1.556, data_load_time: 0.002, loss: 0.0798
+2026-01-31 12:12:40,351 - modelscope - INFO - epoch [3][7/23]	lr: 3.000e-07, eta: 0:00:21, iter_time: 1.200, data_load_time: 0.002, loss: 0.0494
+2026-01-31 12:12:41,308 - modelscope - INFO - epoch [3][8/23]	lr: 3.000e-07, eta: 0:00:19, iter_time: 0.956, data_load_time: 0.003, loss: 0.0007
+2026-01-31 12:12:42,410 - modelscope - INFO - epoch [3][9/23]	lr: 3.000e-07, eta: 0:00:18, iter_time: 1.103, data_load_time: 0.004, loss: 1.3606
+2026-01-31 12:12:43,751 - modelscope - INFO - epoch [3][10/23]	lr: 3.000e-07, eta: 0:00:17, iter_time: 1.340, data_load_time: 0.004, loss: 0.6562
+2026-01-31 12:12:45,614 - modelscope - INFO - epoch [3][11/23]	lr: 3.000e-07, eta: 0:00:15, iter_time: 1.863, data_load_time: 0.005, loss: 0.2590
+2026-01-31 12:12:46,601 - modelscope - INFO - epoch [3][12/23]	lr: 3.000e-07, eta: 0:00:14, iter_time: 0.987, data_load_time: 0.003, loss: 0.0556
+2026-01-31 12:12:48,449 - modelscope - INFO - epoch [3][13/23]	lr: 3.000e-07, eta: 0:00:13, iter_time: 1.848, data_load_time: 0.002, loss: 0.0573
+2026-01-31 12:12:50,059 - modelscope - INFO - epoch [3][14/23]	lr: 3.000e-07, eta: 0:00:11, iter_time: 1.610, data_load_time: 0.004, loss: 0.3769
+2026-01-31 12:12:51,485 - modelscope - INFO - epoch [3][15/23]	lr: 3.000e-07, eta: 0:00:10, iter_time: 1.426, data_load_time: 0.003, loss: 0.8748
+2026-01-31 12:12:52,778 - modelscope - INFO - epoch [3][16/23]	lr: 3.000e-07, eta: 0:00:09, iter_time: 1.293, data_load_time: 0.004, loss: 0.2553
+2026-01-31 12:12:54,068 - modelscope - INFO - epoch [3][17/23]	lr: 3.000e-07, eta: 0:00:07, iter_time: 1.290, data_load_time: 0.003, loss: 2.6048
+2026-01-31 12:12:55,845 - modelscope - INFO - epoch [3][18/23]	lr: 3.000e-07, eta: 0:00:06, iter_time: 1.776, data_load_time: 0.003, loss: 0.0013
+2026-01-31 12:12:57,358 - modelscope - INFO - epoch [3][19/23]	lr: 3.000e-07, eta: 0:00:05, iter_time: 1.514, data_load_time: 0.005, loss: 0.0006
+2026-01-31 12:12:58,312 - modelscope - INFO - epoch [3][20/23]	lr: 3.000e-07, eta: 0:00:03, iter_time: 0.954, data_load_time: 0.002, loss: 0.0007
+2026-01-31 12:12:59,513 - modelscope - INFO - epoch [3][21/23]	lr: 3.000e-07, eta: 0:00:02, iter_time: 1.201, data_load_time: 0.004, loss: 0.4619
+2026-01-31 12:13:00,631 - modelscope - INFO - epoch [3][22/23]	lr: 3.000e-07, eta: 0:00:01, iter_time: 1.117, data_load_time: 0.002, loss: 0.0003
+2026-01-31 12:13:01,305 - modelscope - INFO - epoch [3][23/23]	lr: 3.000e-07, eta: 0:00:00, iter_time: 0.674, data_load_time: 0.003, loss: 1.6105
+2026-01-31 12:13:02,567 - modelscope - INFO - Saving checkpoint at 3 epoch
+2026-01-31 12:13:07,276 - modelscope - INFO - epoch(eval) [3][23]	evaluation/precision: 0.8611, evaluation/recall: 0.9688, evaluation/f1: 0.9118
+2026-01-31 12:13:07,276 - modelscope - INFO - Train finished. Uploading models, waiting...
+2026-01-31 12:13:13,308 - modelscope - INFO - Checkpoint workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/epoch_2.pth saving time: Sat Jan 31 12:12:26 2026, modelscope version: 1.27.1
+2026-01-31 12:13:14,944 - modelscope - INFO - Checkpoint workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/epoch_3.pth saving time: Sat Jan 31 12:13:02 2026, modelscope version: 1.27.1

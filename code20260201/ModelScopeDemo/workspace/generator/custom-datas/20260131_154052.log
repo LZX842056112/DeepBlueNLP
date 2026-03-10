@@ -1,0 +1,102 @@
+2026-01-31 15:41:03,582 - modelscope - INFO - cuda is not available, using cpu instead.
+2026-01-31 15:41:03,583 - modelscope - INFO - ==========================Training Config Start==========================
+2026-01-31 15:41:03,583 - modelscope - INFO - {
+    "framework": "pytorch",
+    "task": "text2text-generation",
+    "model": {
+        "type": "T5",
+        "language": "zh"
+    },
+    "pipeline": {
+        "type": "text2text-generation"
+    },
+    "preprocessor": {
+        "type": "text-gen-tokenizer",
+        "mode": "eval",
+        "use_fast": true
+    },
+    "train": {
+        "work_dir": "./workspace/generator/custom-datas",
+        "max_epochs": 2,
+        "dataloader": {
+            "batch_size_per_gpu": 4,
+            "workers_per_gpu": 0
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "lr": 0.001,
+            "options": {}
+        },
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "lr_lambda": null,
+            "options": {
+                "by_epoch": false
+            }
+        },
+        "hooks": [
+            {
+                "type": "IterTimerHook"
+            }
+        ],
+        "logging": {
+            "interval": 1,
+            "out_dir": "./workspace/generator/custom-datas"
+        },
+        "checkpoint": {
+            "period": {
+                "interval": 1,
+                "save_dir": "./workspace/generator/custom-datas"
+            }
+        }
+    },
+    "evaluation": {
+        "dataloader": {
+            "batch_size_per_gpu": 32,
+            "workers_per_gpu": 0,
+            "shuffle": false
+        },
+        "metrics": [
+            {
+                "type": "text-gen-metric"
+            }
+        ]
+    },
+    "allow_remote": true
+}
+2026-01-31 15:41:03,583 - modelscope - INFO - ===========================Training Config End===========================
+2026-01-31 15:41:03,583 - modelscope - WARNING - ('OPTIMIZER', 'default', 'AdamW') not found in ast index file
+2026-01-31 15:41:03,585 - modelscope - WARNING - ('LR_SCHEDULER', 'default', 'LambdaLR') not found in ast index file
+2026-01-31 15:41:03,588 - modelscope - INFO - Stage: before_run:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: before_train_epoch:
+    (LOW         ) LrSchedulerHook                    
+ -------------------- 
+Stage: before_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+ -------------------- 
+Stage: after_train_iter:
+    (ABOVE_NORMAL) OptimizerHook                      
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_train_epoch:
+    (LOW         ) LrSchedulerHook                    
+    (LOW         ) CheckpointHook                     
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_val_epoch:
+    (VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+Stage: after_run:
+    (LOW         ) CheckpointHook                     
+ -------------------- 
+2026-01-31 15:41:03,605 - modelscope - INFO - Checkpoints will be saved to ./workspace/generator/custom-datas
+2026-01-31 15:41:03,605 - modelscope - INFO - Text logs will be saved to ./workspace/generator/custom-datas
+2026-01-31 15:41:35,333 - modelscope - INFO - epoch [1][1/1]	lr: 1.789e-07, eta: 0:00:31, iter_time: 31.676, data_load_time: 0.012, loss: 23.0778
+2026-01-31 15:41:35,373 - modelscope - INFO - Saving checkpoint at 1 epoch
