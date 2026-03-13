@@ -1,0 +1,280 @@
+============================================================
+文本生成
+    核心的模型类型: Seq2Seq、Transformer、大语言模型
+        ----> Decoder结构
+    你觉得为什么模型可以生成数据?
+        你觉得为什么分类模型可以正常判断样本类别?
+            当样本具有某些特定的特征的时候，就可以判断属于某个特定的类别 --> 以决策树来理解
+            模型是在具有这些映射特征的数据集上，经过长时间的迭代更新后，才具有参数决策能力
+        自然语言文本本身存在的特性导致，模型(Decoder)可以通过学习下一个token是什么的方式来学会自然语言文本的特征转换信息
+        从而当你给定一个query(text),可以做模型"续写"操作
+        白话一点来讲就是，"你/模型"觉得下一个token应该是什么字?
+    huggingface/transformers库:
+        https://huggingface.co/models?sort=trending
+        https://hf-mirror.com/
+        安装：
+            pip install transformers==4.48.3
+    modelscope库：
+        https://modelscope.cn/models
+        https://modelscope.cn/aggregatedTopic
+        https://modelscope.cn/models/iic/nlp_structbert_sentiment-classification_chinese-base
+        https://modelscope.cn/topic/9ae88b6a1ffd4de59a9f1948314ebc2b/pub/summary
+        https://modelscope.cn/topic/90e5cc4f574a40d09d540d1dd9292f48/pub/summary
+        https://modelscope.cn/topic/b7b23b6011044ea5af9c8cadc680b935/pub/summary
+        https://modelscope.cn/models/iic/nlp_structbert_siamese-uninlu_chinese-base
+        安装:
+            pip install modelscope==1.27.1
+        NOTE: modelscope的底层也依赖transformers库
+    基于Transformers框架的生成模块执行逻辑：对应的代码是: transformers/generation/utils.py/GenerationMixin --> generate
+        参考：
+            DEEP THINK WITH CONFIDENCE:
+                https://arxiv.org/pdf/2508.15260
+                https://github.com/facebookresearch/deepconf/blob/main/deepconf-online.py
+        1. (有编码器)首先获取编码器输出的特征向量
+            _prepare_encoder_decoder_kwargs_for_generation
+        2. 构建解码器生成config相关配置信息/对象
+            _prepare_generated_length
+        3. 构建对应的生成方式(策略)
+            generation_mode = generation_config.get_generation_mode(assistant_model)
+        4. 构建置信度的处理器 --> 为了改变数据生成的概率修正器(修改预测token的置信度值的)
+            _get_logits_processor 方法:-->主要在do_sample=True的时候生效(目的是为了生成数据的多样性)  --> 在步骤6的生效
+                temperature: 温度系数，要求取值范围为: (0, 1]  也可以是一个大于1的值
+                    将模型预测的置信度除以给定的temperature ---> 不同框架中可能实现方式有一定的差异
+                    用来控制随机采样的时候的一个多样性，针对一个相同的输入，如果你期望模型生成的内容是比较固定的，那么将该参数调小(小于1 eg:0.01), 如果你希望返回结果相对来讲是不固定的，可以考虑该参数调大(大于1)
+                top_k: Top K系数
+                    针对每个样本，仅保留最大的K个置信度，并将其它token对应的置信度重置为-inf
+                    top_k越大，表示随机采样时候涉及到样本越多，生成越多样性
+                    top_k越小，表示随机采样时候涉及到样本越少，生成就越固定
+                top_p: 取值范围(0,1.0)
+                    针对每个样本，预测概率从小到大排序后，概率累计值小于1-top_p的预测置信度全部重置为-inf
+                    top_p越大，保留的token越多，生成就越随机
+                    top_p越小，保留的token越少，生成就越固定
+                typical_p:
+                    和参数top_p类似, 区别在于排序的逻辑不一样: top_p中是直接对原始的置信度/概率排序, typical_p对修正后的置信度/概率进行排序
+                    修正方式:
+                        normalized = torch.nn.functional.log_softmax(scores, dim=-1)
+                        p = torch.exp(normalized)
+                        ent = -(normalized * p).nansum(-1, keepdim=True)
+                        shifted_scores = torch.abs((-normalized) - ent)
+                epsilon_cutoff:
+                    针对每个样本的每个token而言，如果softmax概率值小于epsilon_cutoff，那么该token对应的置信度重置为-info
+                eta_cutoff:
+                    针对每个样本的每个token而言，如果softmax概率值小于某个锚定概率值(eta)，那么该token对应的置信度重置为-info
+                    锚定概率值计算方式:
+                        entropy = torch.distributions.Categorical(logits=scores).entropy()
+                        eta = torch.min(eta_cutoff, torch.sqrt(eta_cutoff) * torch.exp(-entropy))[..., None]
+            _get_logits_processor方法: ---> 通用的(绝大多数生成逻辑中，均可以生效的)
+                guidance_scale:
+                sequence_bias:
+                diversity_penalty:
+                encoder_repetition_penalty:
+                repetition_penalty:  ** 抑制重复序列生成 **
+                no_repeat_ngram_size:
+                encoder_no_repeat_ngram_size:
+                bad_words_ids:
+                ......
+        5. 获取生成停止判断器对象
+            prepared_stopping_criteria = self._get_stopping_criteria
+        6. 调用解码器，遍历生成每个token，并且进行stop的停止判断 --> 针对不同的方式代码是不同的
+            NOTE: 不管采用什么生成方式，生成数据都是一个一个token来生成的。
+
+        NOTE: 主要生成方式如下:
+            generation_mode = generation_config.get_generation_mode(assistant_model)
+            transformers/generation/configuration_utils.py --> get_generation_mode
+        -1. contrastive search 对比检索
+            选择当前逻辑策略: num_beams=1、do_sample=False、top_k>1、penalty_alpha>0、不是策略7
+            逻辑：
+                1. 在预测当前时刻token的时候，采用以下执行逻辑:
+                    a. 基于当前的输入，获取当前最后一层的高阶特征向量U[N,768]，以及top_k置信度最大的候选预测token id列表
+                    b. 将top k的候选token id再次输入到模型中，得到每个token id对应的高阶特征向量V[N, 50, 768]
+                    c. 计算U和V两个矩阵的余弦相似度(针对每个样本，独立计算上一层的高阶特征向量和当前50个高阶特征向量之间的相似度)
+                    d. 将候选的top k个token对应概率值和相似度进行加权，得到加权后的概率值
+                    d. 选择概率值最高的对应的token id作为当前时刻的预测结果（最终选择的token不仅考虑预测置信度要大，还要求连续两个时刻decoder最终的高阶特征向量也需要相似度）
+        ☆-2. greedy search 贪心检索策略  -- 需要理解  --> 默认策略
+            选择当前逻辑策略: num_beams=1、do_sample=False、top_k为None或者top_k=1或者penalty_alpha为None或者penalty_alpha<=0、不是策略7
+            逻辑：
+                每个时刻对应的预测token均选择当前时刻预测概率最大的对应token
+        ☆-3. sample 抽样 ---> 大语言模型中，该策略使用的比较多   -- 需要理解
+            选择当前策略的逻辑: 不是策略7、num_beams=1、do_sample=True
+            逻辑：
+                先对模型输出的置信度进行重置/转换计算，仅保留TopK的置信度(最大的)，其它token的置信度重置为-inf
+                将重置后的预测置信度转换为softmax概率值(-inf的位置概率为0)
+                最终基于概率值进行随机采样(均匀分布)，采样结果就是预测的下个token
+        -4. assisted generation
+            选择当前策略的逻辑: assistant_model或者prompt_lookup_num_tokens非None、并且其它参数决定策略为2或者3
+        ☆-5. beam search 集束检索  -- 需要理解
+            选择当前策略的逻辑: 不是策略7、num_beams>1、num_beam_groups≤1、do_sample=False
+            逻辑:
+                在每个时刻选择num_beams个预测概率最大的token(选择的时候需要考虑之前选择的token --> 选择的是和之前token组成的序列概率最大化)
+                在每一个token预测的时候，选择若干个最有可能的候选项，所以在每次token选择的时候，都是在之前选择的基础上，从当前序列置信度最大的角度进行选择当前预测token
+        ☆-6. beam sample ---> 大语言模型中，该策略使用的比较多   -- 需要理解
+            选择当前策略的逻辑: 不是策略7、num_beams>1、num_beam_groups≤1、do_sample=True
+            逻辑：在beam search的基础上，更改选择token的逻辑，在beam search中，每次是选择最有可能的token作为预测值，但是在beam sample中是随机选择
+                先对模型输出置信度进行log-softmax概率转换
+                在对模型输出的log-softmax概率值进行重置计算，仅保留TopK的置信度(最大的)，其它token的重置为-inf
+                将重置后的log-softmax概率值转换为softmax采样概率值
+                最终基于采样概率值进行随机采样(均匀分布)，采样结果就是预测的下个token --> 和sample相比，相当于每次采样更多的token(num_beams)
+        -7. constrained beam search
+            选择当前策略逻辑: constraints 或者 force_words_ids 非None
+        -8. group beam search
+            选择当前策略的逻辑: 不是策略7、num_beams>1、num_beam_groups>1
+            逻辑：
+                和beam search的唯一区别在于，beam search只有一个组; group beam search是将计算分割为多个组分别来计算；为了防止各个组的结果重复；基于参数diversity_penalty做了概率置信度的修正(如果在上一个beam中出现过，那么在当前时刻对应的组中，token的置信度减小diversity_penalty*出现的频次)
+======================================================
+分词方式：
+    Token解析方式主要分为三个级别：Word(词粒度)、Char(字符粒度)、SubWord(子词粒度, 包括：WordPiece、BPE(Byte-Pair Encoding)、BBPE(Byte-level BPE))
+    参考：https://zhuanlan.zhihu.com/p/652520262
+======================================================
+扩展网站：
+    -1. 免费大模型接口网站
+        https://openrouter.ai/
+    -2. 搜索引擎/数据爬取 API网站
+        https://serper.dev/playground
+        https://app.tavily.com/home
+    -3. OpenAI API接口转发的网站
+        https://dash.cloudflare.com/
+            https://dash.cloudflare.com/67b8ebfcb6b836e009e1fb540f160fa5/ai/ai-gateway
+============================================================
+大语言模型：
+    如何提高大模型的预测效果呢?
+        1. 通过提示词工程  --> 效果、成本
+        2. 在输入大模型的数据中，增加和问题相关的额外数据/知识 ---> RAG的一部分
+            --> 如何增加外部知识呢?
+                RAG: 检索增强生成(Retrieval Augmented Generation)
+                方式一：通过搜索引擎来增加 --> 可选使用一个搜索引擎Agent工具方法
+                方式二：基于query和知识之间的相似度匹配(Embedding)
+        3. 链式思路(问题/需求进行拆解) + Agent（外部工具）
+            Function Call: 方法的调用
+            MCP: 模型上下文协议 --> 定义的一个通用的规范的agent function定义的协议
+        4. 微调模型
+        选择上: 提示词工程 >> RAG(额外的知识/信息) >> Agent >> 微调
+============================================================
+======================================================
+Bert:
+    论文: https://arxiv.org/pdf/1810.04805.pdf
+    特殊Token:
+        CLS、SEP、PAD、UNK、MASK
+    主结构：
+        1层embedding + 12层的Transformer Encoder结构(就是一种重复)
+        embedding：
+            包含了三个embedding： word(静态词向量)、token type、position(绝对位置编码)
+            输入：[N,T]
+            输出: [N,T,E]
+        Transformer Encoder Layer：
+            输入: [N,T,E]
+            输出: [N,T,E]
+            内部结构：
+                多头self-attention: 头与头之间的独立的，所有头value提取后，再经过一个全连接进行特征交叉融合 - attention是"双向"的
+                残差
+                LayerNorm：PostNorm
+                FFN: 维度的扩展压缩
+                残差
+                LayerNorm: PostNorm
+    预训练方式:
+        预测token（MLM） + 预测文本的类别(NSP)
+            预测token: 针对文本中的token进行随机mask处理，针对随机mask的token进行预测(15%的随机mask -> 80%随机mask丢弃<替换成MASK>、10%随机替换成其它token、10%保持原样)
+                目的：是为了让最终每个token的输出特征向量都是能够比较好的表达当前token的语义信息的
+            预测文本的类别: 直接提取[CLS]这个特殊token对应的特征向量，进行分类训练
+                目的: 是为了让CLS的特征能够体现整个文本的特征
+    迁移微调：
+        主方向：使用bert模型提取token的词向量
+            1. 使用bert输出的每个token的特征向量进行后续处理
+            2. 使用CLS这个特殊token对应的特征向量进行后续处理
+        注意项:
+            1. Bert允许输入的token序列最大长度为512(510 + 2)
+            2. Bert输入的token序列的前后必须添加特殊token([CLS]、[SEP])
+GPT:
+    论文：
+        https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+    特殊token：
+        <|endoftext|>
+    主结构：
+        1层embedding + 12层的Transformer Decoder结构(就是一种重复)
+        embedding：
+            包含了三个embedding： word(静态词向量)、position(绝对位置编码)
+            输入：[N,T]
+            输出: [N,T,E]
+        Transformer Decoder Layer：
+            输入: [N,T,E]
+            输出: [N,T,E]
+            内部结构：
+                LayerNorm：PreNorm
+                多头self-attention: 头与头之间的独立的，所有头value提取后，再经过一个全连接进行特征交叉融合 - attention是"单向"的
+                残差
+                LayerNorm：PreNorm
+                FFN: 维度的扩展压缩
+                残差
+    预训练方式:
+        Next Token(预测下一个token是什么)：
+            目的：让模型学习文本的语法特征，进行token续写的逻辑的训练
+    迁移微调：
+        主方向：生成方向/续写方向
+        注意项:
+            1. GPT默认允许输入的token序列最大长度为1024
+AlBert:
+    论文: https://arxiv.org/pdf/1909.11942.pdf
+    说明：bert模型的一种优化：减少参数量，但是效果不要变得太差(相比bert模型)
+    特殊Token: 基本同Bert
+    主结构(默认/任一): 基本同Bert
+        区别如下:
+            1. Embedding到第一个Transformer Encoder之间存在一个全连接，作用是将:
+                [N,T,V] --全连接--> [N,T,E]   : V << E
+                为了减少embedding部分的参数
+                参数量从 Vocab_size * E --> Vocab_size * V + V * E
+            2. 不同层的Transformer Encoder之间进行参数共享
+    预训练方式: 基本同Bert
+        区别如下:
+            1. 只有MLM的训练(Mask预测token的训练)
+            2. 增加训练数据、增加训练的epoch
+    迁移微调：同Bert
+    NOTE: 转静态结构的时候，不是特别好。
+RoBERTa:
+    论文: https://arxiv.org/pdf/1907.11692.pdf
+    特殊Token:
+        bos_token="<s>",
+        eos_token="</s>",
+        sep_token="</s>",
+        cls_token="<s>",
+        unk_token="<unk>",
+        pad_token="<pad>",
+        mask_token="<mask>",
+    主结构(默认/任一)：同Bert
+    预训练：
+        1. 采用更多的训练数据
+        2. 采用动态Mask机制
+            Bert中，针对一条样本随机选择15%的位置进行mask处理，在接下来的n个epoch中，当前样本都是一样(mask的位置是一样的)
+            RoBERTa: 针对一样样本而言，会在每个批次数据加载的时候，进行随机mask处理，所以在接下来的n个epoch中，相当于都是不同的样本数据
+        3. NSP --> FULL-SENTENCES (不采用NSP损失，单纯仅使用MLM Loss；尽量长的输入数据(尽量输入的是一个完整的文本序列，而不是单一句子，只要求不要超过最大长度))
+        4. 使用更大的批次
+        5. Text编码预处理的使用采用BBPE Token分词处理
+            BPE: Byte-Pair Encoding
+            BBPE: Byte-level BPE
+            常规: 分词、分字、笔画、偏旁部首、Word Piece、sub-word
+    迁移：
+        同bert
+DeBERTa:
+    论文：
+        https://arxiv.org/abs/2006.03654
+    特殊token：CLS、SEP、PAD、UNK、MASK
+    主结构(默认/任一)：基本同Bert结构，区别如下:
+        -1. 在特征提取过程中，增加了相对位置编码, 在Self-Attention计算过程中增加
+            Bert中仅加入了绝对位置编码信息
+                eg： 我 爱 我 的 妈 妈
+        -2. 类似RoBerta使用BBPE字节编码进行分词处理
+    训练：
+        随机15%的Mask
+T5:
+    论文: https://arxiv.org/abs/1910.10683
+    特殊Token: PAD、UNK、EOS
+    主结构(默认/任一):
+        Transformer Encoder + Transformer Decoder结构
+        内部增加了一个相对位置编码
+        FFN中间的激活函数采用门结构
+        相比于Bert结构来讲，Transformer Layer中，LN(Layer-Norm)放到Attention前面
+            Post-Norm: Bert系列的算法使用的相比比较多一点
+            Pre-Norm: LLM或者任务相对复杂一点的模型应用比较多一点
+    训练/预训练方式:
+        数据生成(给定编码器的输入，输出解码器的结果)
+    迁移：
+        1. 单独迁移encoder部分(作为语言模型的基础，一般用于分类、命名实体识别之类任务的前置网络)
+        2. 迁移encoder + decoder部分，作为文本生成领域的基础模型

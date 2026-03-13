@@ -36,6 +36,7 @@
             d. 包括模型训练、推理 + 部署
             PS:
                 模型可以考虑 自定义的Seq2Seq结构(+Attention)、transformers框架的Bert结构(其实Transformer) 完成
+            讲解时间: 0128
         三、基于text8的数据构建一个英文单词续写的模型训练、应用代码+部署
             eg: 输入 h 输出可能的单词列表 [hello, hi, ....] --> 仅需要输出一个单词
             PS：网络就是单一的解码器结构:
@@ -54,7 +55,8 @@
                 a. 训练数据其实就是英文单词
                 b. token实际上就是26个英文字母(不考虑大小写) + 特殊符号(<end>结尾token + <pad>填充符号+....)
                 c. 网络结构: [N,T] -> [N,T,28]
-                d. 如果为了追求效果的话，建议迁移模型进行微调
+                d. 如果为了追求效果的话，建议迁移模型+更改数据集进行微调
+            讲解时间: 0130
         四、Transformer的网络结构的实现
             NOTE: self-attention、multi-head self-attention...
             NOTE:
@@ -66,8 +68,12 @@
                     编码器的临时输出: [N,T1,E]
                     解码器的临时输出: [N,T2,E]
                         以及最终输出: [N,T2,Vocab_size]
+            讲解时间：0312
+                PS: Token编码、位置编码、Self-Attention、Cross-Attention、Multi-Head Attention、残差、归一化Norm、FNN、激活函数
     20251228
         作业一：通过 BertTokenizer GPT2Tokenizer 代码理解Bert的分词(中文-字、英文-子词)、GPT的分词(Byte)
+            https://zhuanlan.zhihu.com/p/652520262
+            讲解时间：0312
 ================================================================
 简单总结：
     参考：

@@ -4,252 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code2026021_modelscope库的ChatPLUG_分词方式_transformers库的文本生成">
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/poetry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/poetry_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/poetry_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/poetry_train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/poetry_valid.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/bert_train_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/bert_train_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/bert_train_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert01/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert02/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/decoder/output/bert03/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/01_Transofrmer模型下载.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/v0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/v1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/v2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-a.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1-b.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/对联模型1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/对联模型2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert4torch_fine/对联模型2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/bert_train_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/output/bert01/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/output/bert01/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/output/bert01/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/output/bert01/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/CoupletGeneration/seq2seq/output/bert01/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/01_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/02_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/03_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/04_lstm_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/05_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/06_bert_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/07_dsw_final_bert_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/datas/text8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/datas/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/datas/words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/04_lstm/model/net.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/06_bert/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/logs/events.out.tfevents.1741671168.dsw-546387-6b9d88d647-2lgrt.24663.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/model.safetensors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/english_gen/output/final/model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/01_构建思路.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/02_构建思路-Bert.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/03_构建思路-GPT-v1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/04_构建思路-GPT-v2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/05_构建思路-GPT-v3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/06_构建思路-基于transformers框架迁移GPT模型.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/eval_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/eval_words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/gpt_tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/gptid_newid_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/new_gpt_tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/text8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/train_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/train_words_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/datas/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/bert_models/model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/logs/events.out.tfevents.1769764600.dsw-1613692-544966594b-sg2j5.3043.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/generation_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/training_args.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt2-finetuned/models/final-best-model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/gpt_models_v1/model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/EnglishWordGeneration/notebook/output/lstm/models/model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/01_文本分类模型初始.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/02_信息抽取初识.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/03_零样本学习_抽取式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/04_零样本学习_生成式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/05_ChatPLUG聊天机器人的代码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/couplet_gen/poetry_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/couplet_gen/poetry_train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/couplet_gen/poetry_valid.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/generate_datas/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/text_classify/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/text_classify/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/datas/uie_data/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/20260131_160858.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/20260131_161326.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/20260131_161326.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/20260131_162454.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/20260131_162454.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/spiece.model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/couplet/output/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/20260131_154052.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/20260131_154052.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/20260131_154327.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/20260131_154615.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/20260131_154615.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/spiece.model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/generator/custom-datas/output/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141125.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141125.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141221.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141221.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141618.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/20260131_141618.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/ttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/ttt/tttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/ttt/tttt/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/ttt/tttt/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/ttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/ttt/tttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/ttt/tttt/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/ttt/tttt/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/custom/output_best/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/20260131_115106.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/20260131_115106.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/20260131_121116.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/20260131_121116.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/ttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/ttt/tttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/ttt/tttt/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/ttt/tttt/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/ttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/ttt/tttt/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/ttt/tttt/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/ttt/tttt/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/nlp_structbert_siamese-uninlu_chinese/zero_sample/people_daily_ner_1998_tiny/output_best/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/20260125_143825.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/20260125_143825.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/best_epoch1_f10.1111111111111111_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/epoch_1_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/epoch_2_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/label_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/label_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/intention/output_best/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/20260125_120200.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/20260125_120200.log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/best_epoch1_f10.9230769230769231_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/epoch_1_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/epoch_2_trainer_state.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/label_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/configuration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/eval_result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/label_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/ModelScopeDemo/workspace/text_classify/jd/output_best/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/01_基于Transformers库的文本分类训练推理代码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/datas/text_classify/intent/error.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/datas/text_classify/intention/error.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/datas/text_classify/intention/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/datas/text_classify/intention/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768567571.xm.19780.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768568041.xm.8308.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/special_tokens_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/training_args.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/关系抽取 指针网络代码实现.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/基于transformers框架的文本分类.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/training/构建思路-基于transformers框架迁移GPT模型.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/use_demo/01_GPTModel理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260201/TransformersDemo/use_demo/__init__.py" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260201_modelscope库的ChatPLUG_分词方式_transformers库的文本生成">
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/01_基于Transformers库的文本分类训练推理代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/datas/text_classify/intent/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/datas/text_classify/intention/error.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/datas/text_classify/intention/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/datas/text_classify/intention/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768567571.xm.19780.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/logs/events.out.tfevents.1768568041.xm.8308.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/output/bert-finetuned-intent-textclassify/models/final-best-model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/关系抽取 指针网络代码实现.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/基于transformers框架的文本分类.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/training/构建思路-基于transformers框架迁移GPT模型.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/01_GPTModel理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/02_BertModel理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/03_ALBert模型理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/04_RoBerta模型理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/05_DeBERTa模型理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/06_T5模型理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/TransformersDemo/use_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/TextGeneration/笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260312/Transformer结构理解.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
@@ -310,245 +90,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_Transofrmer模型下载.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_优化器理解.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.01_文本分类模型初始.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_信息抽取初识.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_零样本学习_抽取式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_零样本学习_生成式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bert_train_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ie_torch_ycy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_sentiment_classification.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.training.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/homework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_Bert API.executor": "Debug",
+    "Python.01_PyTorch API.executor": "Run",
+    "Python.01_Self-Attention理解.executor": "Debug",
+    "Python.01_Transofrmer模型下载.executor": "Run",
+    "Python.01_jieba分词理解.executor": "Run",
+    "Python.01_py2neo 操作API.executor": "Run",
+    "Python.01_优化器理解.executor": "Debug",
+    "Python.01_文本分类模型初始.executor": "Run",
+    "Python.01_机器学习案例代码.executor": "Run",
+    "Python.01_深度学习案例代码.executor": "Run",
+    "Python.01_网络结构.executor": "Run",
+    "Python.02_Bert API.executor": "Run",
+    "Python.02_Dataset API理解.executor": "Run",
+    "Python.02_GPT API.executor": "Run",
+    "Python.02_LSTM理解.executor": "Run",
+    "Python.02_neo4j driver 操作API.executor": "Run",
+    "Python.02_信息抽取初识.executor": "Run",
+    "Python.02_文本分类数据文本数据分割.executor": "Run",
+    "Python.02_标签映射数据的构造.executor": "Run",
+    "Python.02_深度学习案例代码 (1).executor": "Run",
+    "Python.02_深度学习案例代码.executor": "Run",
+    "Python.03_BP过程理解.executor": "Run",
+    "Python.03_GRU理解.executor": "Run",
+    "Python.03_sklearn TF-IDF Demo.executor": "Run",
+    "Python.03_分词器的构造.executor": "Run",
+    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
+    "Python.03_零样本学习_抽取式.executor": "Run",
+    "Python.04_自定义Dataset构建.executor": "Run",
+    "Python.04_零样本学习_生成式.executor": "Run",
+    "Python.05_DataLoader数据集加载测试.executor": "Run",
+    "Python.06_模型训练.executor": "Run",
+    "Python.07_模型推理.executor": "Run",
+    "Python.bert_train_01.executor": "Run",
+    "Python.dataset.executor": "Run",
+    "Python.evaluate.executor": "Run",
+    "Python.fastapi_app.executor": "Run",
+    "Python.flask_app.executor": "Run",
+    "Python.flask_demo01.executor": "Run",
+    "Python.http_client (1).executor": "Run",
+    "Python.http_client.executor": "Run",
+    "Python.ie_torch_ycy.executor": "Run",
+    "Python.inference.executor": "Run",
+    "Python.manage.executor": "Run",
+    "Python.model (1).executor": "Run",
+    "Python.model (2).executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.server_runner.executor": "Run",
+    "Python.task_sentiment_classification.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.training.executor": "Run",
+    "Python.tt_intent_train.executor": "Run",
+    "Python.协程数据迭代生成案例.executor": "Run",
+    "Python.协程案例.executor": "Run",
+    "Python.多线程案例.executor": "Run",
+    "Python.多进程案例.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260312",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260201" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260131" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1221作业二" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260128" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260312" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test\input_method\data\processed" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test\input_method" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test\input_method\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\homework\1221作业二" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260111\NamedEntityRecognition\src\ner\metrics" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code1212" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\PyTorch API" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="01_Transofrmer模型下载" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine/01_Transofrmer模型下载.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_零样本学习_抽取式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo/03_零样本学习_抽取式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04_零样本学习_生成式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260131/TextGeneration/ModelScopeDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260131/TextGeneration/ModelScopeDemo/04_零样本学习_生成式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bert_train_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder/bert_train_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DeepBlueNLP" type="Python.DjangoServer" factoryName="Django server">
-      <module name="DeepBlueNLP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="localhost" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Django Server.DeepBlueNLP" />
-      <item itemvalue="Python.04_零样本学习_生成式" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.01_Transofrmer模型下载" />
-      <item itemvalue="Python.bert_train_01" />
-      <item itemvalue="Python.03_零样本学习_抽取式" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.04_零样本学习_生成式" />
-        <item itemvalue="Python.bert_train_01" />
-        <item itemvalue="Python.01_Transofrmer模型下载" />
-        <item itemvalue="Python.03_零样本学习_抽取式" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -616,7 +243,12 @@
       <workItem from="1772951894477" duration="5696000" />
       <workItem from="1772961701461" duration="7728000" />
       <workItem from="1773028707004" duration="14588000" />
-      <workItem from="1773117977498" duration="5814000" />
+      <workItem from="1773117977498" duration="15304000" />
+      <workItem from="1773213177291" duration="15454000" />
+      <workItem from="1773286401489" duration="15084000" />
+      <workItem from="1773367889341" duration="1213000" />
+      <workItem from="1773385094092" duration="609000" />
+      <workItem from="1773402775185" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -898,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773032881030</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="code20260201_modelscope库的ChatPLUG_分词方式_transformers库的文本生成">
+      <option name="closed" value="true" />
+      <created>1773128624143</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1773128624143</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code1217_作业二" />
     <MESSAGE value="code1219_作业二_文本分类模型的训练" />
     <MESSAGE value="code1220_Seq2Seq_Attention" />
     <MESSAGE value="code1221_Transformer_Bert" />
@@ -941,7 +580,8 @@
     <MESSAGE value="code20260128_1221作业二对联生成" />
     <MESSAGE value="整理" />
     <MESSAGE value="code20260131_modelscope库的抽取式零样本_生成式零样本_ChatPLUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260131_modelscope库的抽取式零样本_生成式零样本_ChatPLUG" />
+    <MESSAGE value="code20260201_modelscope库的ChatPLUG_分词方式_transformers库的文本生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260201_modelscope库的ChatPLUG_分词方式_transformers库的文本生成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,48 +637,53 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Bert_API.coverage" NAME="02_Bert API Coverage Results" MODIFIED="1772266530473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_neo4j_driver_API.coverage" NAME="02_neo4j driver 操作API Coverage Results" MODIFIED="1772369515827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_py2neo_API.coverage" NAME="01_py2neo 操作API Coverage Results" MODIFIED="1772368797284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$07_.coverage" NAME="07_模型推理 Coverage Results" MODIFIED="1772604174132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$model.coverage" NAME="model Coverage Results" MODIFIED="1773226669401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/input_method/src" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_sklearn_TF_IDF_Demo.coverage" NAME="03_sklearn TF-IDF Demo Coverage Results" MODIFIED="1770551428007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_tmp.coverage" NAME="05_tmp Coverage Results" MODIFIED="1772960185612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$bert_train_01.coverage" NAME="bert_train_01 Coverage Results" MODIFIED="1772958166335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/decoder" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$07_dsw_final_bert_train.coverage" NAME="07_dsw_final_bert_train Coverage Results" MODIFIED="1772960934913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_GRU.coverage" NAME="03_GRU理解 Coverage Results" MODIFIED="1772017028162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Transofrmer.coverage" NAME="01_Transofrmer模型下载 Coverage Results" MODIFIED="1772956683865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_tmp.coverage" NAME="03_tmp Coverage Results" MODIFIED="1772959183049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client__1_.coverage" NAME="http_client (1) Coverage Results" MODIFIED="1772455418020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$.coverage" NAME="协程数据迭代生成案例 Coverage Results" MODIFIED="1772457981060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_信息抽取初识 Coverage Results" MODIFIED="1772885512645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_tmp.coverage" NAME="02_tmp Coverage Results" MODIFIED="1772959071438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_PythonCSVNeo4j.coverage" NAME="03_通过Python代码将CSV数据导入到Neo4j Coverage Results" MODIFIED="1772369966659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_tmp.coverage" NAME="01_tmp Coverage Results" MODIFIED="1772959064110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$flask_app.coverage" NAME="flask_app Coverage Results" MODIFIED="1772452760423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$ie_torch_ycy.coverage" NAME="ie_torch_ycy Coverage Results" MODIFIED="1772804633412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client.coverage" NAME="http_client Coverage Results" MODIFIED="1772452775741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$training.coverage" NAME="training Coverage Results" MODIFIED="1772705586943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1772868802128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260124/Agriculture_KnowledgeGraph/demo" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$03__.coverage" NAME="03_零样本学习_抽取式 Coverage Results" MODIFIED="1772889450887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client.coverage" NAME="http_client Coverage Results" MODIFIED="1772452775741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$inference.coverage" NAME="inference Coverage Results" MODIFIED="1772711676625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_jieba.coverage" NAME="01_jieba分词理解 Coverage Results" MODIFIED="1772023964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1207" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$flask_demo01.coverage" NAME="flask_demo01 Coverage Results" MODIFIED="1772451639308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$test.coverage" NAME="test Coverage Results" MODIFIED="1773062892793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$test.coverage" NAME="test Coverage Results" MODIFIED="1773146698395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$server_runner.coverage" NAME="server_runner Coverage Results" MODIFIED="1772453032973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$06_.coverage" NAME="06_模型训练 Coverage Results" MODIFIED="1772604432985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$task_sentiment_classification.coverage" NAME="task_sentiment_classification Coverage Results" MODIFIED="1772791370199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260123/projects/NamedEntityRecognition/test/bert4torch_code" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_.coverage" NAME="03_分词器的构造 Coverage Results" MODIFIED="1772534037864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_DataLoader.coverage" NAME="05_DataLoader数据集加载测试 Coverage Results" MODIFIED="1772600126893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02___1_.coverage" NAME="02_深度学习案例代码 (1) Coverage Results" MODIFIED="1770796649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1212" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_py2neo_API.coverage" NAME="01_py2neo 操作API Coverage Results" MODIFIED="1772368797284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1773218055878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/input_method_rnn/src" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1773226907516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/input_method/src" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_tmp.coverage" NAME="05_tmp Coverage Results" MODIFIED="1772960185612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_PyTorch_API.coverage" NAME="01_PyTorch API Coverage Results" MODIFIED="1770893942308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1213" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_tmp.coverage" NAME="03_tmp Coverage Results" MODIFIED="1772959183049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_.coverage" NAME="02_信息抽取初识 Coverage Results" MODIFIED="1772885512645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$http_client__1_.coverage" NAME="http_client (1) Coverage Results" MODIFIED="1772455418020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260105/text_classify/test" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_tmp.coverage" NAME="01_tmp Coverage Results" MODIFIED="1772959064110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$model__2_.coverage" NAME="model (2) Coverage Results" MODIFIED="1773236496111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/translation_seq2seq/src" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$training.coverage" NAME="training Coverage Results" MODIFIED="1772705586943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260117/NamedEntityRecognition/test/transformers_code" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$03__.coverage" NAME="03_零样本学习_抽取式 Coverage Results" MODIFIED="1772889450887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1773230443206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/review_analysis_lstm/src" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$tt_intent_train.coverage" NAME="tt_intent_train Coverage Results" MODIFIED="1772281901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1214作业一/text_classify/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Self_Attention.coverage" NAME="01_Self-Attention理解 Coverage Results" MODIFIED="1772192053893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1221" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$task_sentiment_classification.coverage" NAME="task_sentiment_classification Coverage Results" MODIFIED="1772791370199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260123/projects/NamedEntityRecognition/test/bert4torch_code" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_.coverage" NAME="01_文本分类模型初始 Coverage Results" MODIFIED="1772884843843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260125/TextGeneration/ModelScopeDemo" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_Dataset_API.coverage" NAME="02_Dataset API理解 Coverage Results" MODIFIED="1772025838761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1217" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$fastapi_app.coverage" NAME="fastapi_app Coverage Results" MODIFIED="1772458557919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$04_Dataset.coverage" NAME="04_自定义Dataset构建 Coverage Results" MODIFIED="1772540148630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$04__.coverage" NAME="04_零样本学习_生成式 Coverage Results" MODIFIED="1773029441206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260131/TextGeneration/ModelScopeDemo" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$03_.coverage" NAME="03_分词器的构造 Coverage Results" MODIFIED="1772534037864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260110/NamedEntityRecognition/test" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_DataLoader.coverage" NAME="05_DataLoader数据集加载测试 Coverage Results" MODIFIED="1772600126893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260111/NamedEntityRecognition/test" />
   </component>
 </project>
