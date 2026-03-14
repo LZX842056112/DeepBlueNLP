@@ -1012,6 +1012,18 @@ CasRel: 指针网络
     Token解析方式主要分为三个级别：Word(词粒度)、Char(字符粒度)、SubWord(子词粒度, 包括：WordPiece、BPE(Byte-Pair Encoding)、BBPE(Byte-level BPE))
     参考：https://zhuanlan.zhihu.com/p/652520262
 ======================================================
+位置编码：
+    a. 绝对位置编码
+    b. 相对位置编码
+    c. 特殊相对位置编码: RoPE
+        https://arxiv.org/pdf/2306.15595
+        https://kexue.fm/archives/8265
+        NOTE: 位置编码的外推
+            --> 训练模型的时候可能数据中的最长位置编码是512，但是推理使用的时候，context的长度为1024
+            --> 最常用的就是位置插值
+    d. ALiBi
+
+======================================================
 扩展网站：
     -1. 免费大模型接口网站
         https://openrouter.ai/
