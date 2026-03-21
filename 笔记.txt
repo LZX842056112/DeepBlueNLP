@@ -1022,7 +1022,6 @@ CasRel: 指针网络
             --> 训练模型的时候可能数据中的最长位置编码是512，但是推理使用的时候，context的长度为1024
             --> 最常用的就是位置插值
     d. ALiBi
-
 ======================================================
 扩展网站：
     -1. 免费大模型接口网站
@@ -1035,6 +1034,10 @@ CasRel: 指针网络
             https://dash.cloudflare.com/67b8ebfcb6b836e009e1fb540f160fa5/ai/ai-gateway
 ============================================================
 大语言模型：
+    参考：
+        https://mingchao.wang/
+        https://github.com/liguodongiot/llm-action
+        https://github.com/datawhalechina/llm-cookbook
     如何提高大模型的预测效果呢?
         1. 通过提示词工程  --> 效果、成本
         2. 在输入大模型的数据中，增加和问题相关的额外数据/知识 ---> RAG的一部分
@@ -1047,6 +1050,42 @@ CasRel: 指针网络
             MCP: 模型上下文协议 --> 定义的一个通用的规范的agent function定义的协议
         4. 微调模型
         选择上: 提示词工程 >> RAG(额外的知识/信息) >> Agent >> 微调
+        PS：
+            1、2、3这三种方式本质上在不修改模型的情况下，尽量压榨模型的效果 --> 通过各种不用的方式(构造模型预测样本的格式)来让模型尽可能的生成更好的数据结果 --> LLM模型的使用
+            4 这个就是模型的训练微调 --> 通过数据、网络结构优化....来提高模型效果
+    具有比较代表性的大语言模型(开源):
+        Qwen、DeepSeek、Llama、Phi-3、Gemma、ChatGLM、Baichuan、Yi、
+        NOTE:
+            1. 现在大语言模型的主体结构一般只有以下三类:
+                a. Causal Decoder(Only Decoder): 只有Transformer Decoder大结构 ---> self-attention中的mask是单向的，而且没有cross-attention
+                b. Encoder-Decoder: 其实就是Transformer大结构 --> Encoder和Decoder在一定程度上是分割开的
+                c. Prefix Decoder:
+                    也可以看成在Only-Decoder的基础上支持额外输入向量，这个特征向量作为prefix的Prompt特征向量参与到decoder的attention计算
+                    是encoder-decoder的一种改进版本 ---> 可以看成就是decoder结构，但是针对已知的输入token范围mask是双向的，生成部分mask是单向的
+            2. 常用的批归一化方式为:
+                a. Pre LayerNorm
+                b. Post LayerNorm
+                c. Post DeepNorm
+                d. RMS-Norm
+            3. 常用激活函数:
+                a. GeLU
+                b. GeGLU
+                c. SwiGLU
+            4. 位置编码
+                a. 绝对位置编码
+                b. 相对位置编码
+                c. 特殊相对位置编码: RoPE
+                    https://arxiv.org/pdf/2306.15595
+                    https://kexue.fm/archives/8265
+                    NOTE: 位置编码的外推
+                        --> 训练模型的时候可能数据中的最长位置编码是512，但是推理使用的时候，context的长度为1024
+                        --> 最常用的就是位置插值
+                d. ALiBi
+            5. Attention
+                a. MHA: 多头attention
+                b. MQA：多Query Attention
+                c. GQA: 分组attention
+                d. FlashAttention：GPU上的加速
 ============================================================
 ======================================================
 Bert:
