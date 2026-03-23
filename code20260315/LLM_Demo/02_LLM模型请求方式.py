@@ -237,19 +237,19 @@ def invoke_with_langchain_intention():
     max_tokens = 256
 
     # base_url = 'https://openrouter.ai/api/v1'
-    # api_key = "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"
+    # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
     # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter/v1"
-    # api_key = "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"
+    # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
     # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek/v1"
-    # api_key = 'sk-1c818722cc70442a9010695d4b89e7e0'  # 这个会删除的
+    # api_key = 'sk-'  # 这个会删除的
     # model_name = "deepseek-chat"
     # max_tokens = None
 

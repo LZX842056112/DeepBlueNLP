@@ -24,19 +24,19 @@ def get_model():
     max_tokens = 256
 
     # base_url = 'https://openrouter.ai/api/v1'
-    # api_key = "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"
+    # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
     # base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/openrouter/v1"
-    # api_key = "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"
+    # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
     base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek/v1"
-    api_key = 'sk-c3043bdd170c42fda7c98071d04b5cf9'  # 这个会删除的
+    api_key = 'sk-'  # 这个会删除的
     model_name = "deepseek-chat"
     max_tokens = None
 
