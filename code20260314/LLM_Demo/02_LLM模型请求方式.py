@@ -19,22 +19,22 @@ def invoke_with_http():
     model_name = "xinghuo-api"
 
     url = 'https://api.deepseek.com'
-    api_key = 'sk-1c818722cc70442a9010695d4b89e7e0'  # 这个会删除的
+    api_key = 'sk-'  # 这个会删除的
     model_name = "deepseek-chat"
 
     # 一个免费的大模型的网站: https://openrouter.ai/
     url = 'https://openrouter.ai/api'
-    api_key = "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"
+    api_key = "sk-or-v1-"
     model_name = "qwen/qwen3-235b-a22b-2507"
 
     # OpenAI API转发 cloudflare
     url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek"
-    api_key = 'sk-1c818722cc70442a9010695d4b89e7e0'  # 这个会删除的
+    api_key = 'sk-'  # 这个会删除的
     model_name = "deepseek-chat"
 
     # OpenAI API转发 cloudflare
     url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter"
-    api_key = "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"
+    api_key = "sk-or-v1-"
     model_name = "qwen/qwen3-235b-a22b-2507"
 
     headers = {
