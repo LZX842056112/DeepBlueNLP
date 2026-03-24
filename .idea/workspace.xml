@@ -4,369 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260315_LLM模型接口调用方式_Prompt提示词工程_RAG">
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/01_http请求代码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/02_LLM模型请求方式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/prompt/01_基于LangChain的Prompt案例代码1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/prompt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/01_向量索引库的简单说明.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/README_en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/README_ja.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/chains/llmchain_with_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/configs/basic_config.py.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/configs/kb_config.py.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/configs/model_config.py.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/configs/prompt_config.py.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/configs/server_config.py.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/copy_config_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/docs/ES部署指南.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/FilteredCSVloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/mydocloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/myimgloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/mypdfloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/mypptloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/document_loaders/ocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/embeddings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/embeddings/add_embedding_keywords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/embeddings/embedding_keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/fastchat_server_code_添加日志/base_model_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/fastchat_server_code_添加日志/inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/fastchat_server_code_添加日志/model_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/fastchat_server_code_添加日志/openai_api_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/fastchat_server_code_添加日志/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/LLM_success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/agent_continue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/agent_success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/chatchat-qrcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/chatchat_icon_blue_square_v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/docker_logs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/fastapi_docs_026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/init_knowledge_base.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/knowledge_base_success.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/langchain+chatglm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/langchain+chatglm2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/logo-long-chatchat-trans-v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/official_account_qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/official_wechat_mp_account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/partners/autodl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/partners/aws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/partners/chatglm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/partners/zhenfund.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/qr_code_86.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/img/qr_code_87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/init_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-124076-270516.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-20096-279847.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-220157-552735.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-36114-765327.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-392521-261326.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-42284-124759.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-57107-679259.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-618350-869132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-838373-426344.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/分布式训练技术原理-幕布图片-906937-836104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型应用技术原理-幕布图片-108319-429731.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型应用技术原理-幕布图片-580318-260070.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型应用技术原理-幕布图片-793118-735987.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型应用技术原理-幕布图片-918388-323086.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-19929-302935.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-299768-254064.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-454007-940199.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-628857-182232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-729151-372321.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型技术栈-算法与原理-幕布图片-81470-404273.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-17565-176537.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-349153-657791.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-350029-666381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-759487-923925.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-805089-731888.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型指令对齐训练原理-幕布图片-95996-523276.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-276446-401476.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-380552-579242.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-590671-36787.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-699343-219844.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-789705-122117.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-923924-83386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/img/大模型推理优化策略-幕布图片-930255-616209.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/分布式训练技术原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/大模型应用技术原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/大模型技术栈-实战与应用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/大模型技术栈-算法与原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/大模型指令对齐训练原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/llm/大模型推理优化策略.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_closed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_closed.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_closed.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_open.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_open.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain-ChatGLM_open.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/langchain.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/knowledge_base/samples/content/test_files/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/corpora/cmudict/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/corpora/cmudict/cmudict" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/taggers/averaged_perceptron_tagger/averaged_perceptron_tagger.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/czech.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/danish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/dutch.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/english.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/estonian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/finnish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/french.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/german.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/greek.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/italian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/malayalam.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/norwegian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/polish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/portuguese.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/russian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/slovene.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/spanish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/swedish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/PY3/turkish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/czech.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/danish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/dutch.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/english.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/estonian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/finnish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/french.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/german.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/greek.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/italian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/malayalam.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/norwegian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/polish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/portuguese.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/russian.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/slovene.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/spanish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/swedish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/nltk_data/tokenizers/punkt/turkish.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/release.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/requirements_api.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/requirements_lite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/requirements_webui.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/callbacks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/custom_agent/ChatGLM3Agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/custom_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/model_contain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/arxiv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/calculate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/search_internet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/search_knowledgebase_complex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/search_knowledgebase_once.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/search_knowledgebase_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/search_youtube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/shell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/weather_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools/wolfram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/agent/tools_select.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/api_allinone_stale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/callback_handler/conversation_callback_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/agent_chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/completion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/feedback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/file_chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/knowledge_base_chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/search_engine_chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/chat/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/conversation_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/knowledge_base_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/knowledge_file_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/knowledge_metadata_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/models/message_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/conversation_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/knowledge_base_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/knowledge_file_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/knowledge_metadata_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/repository/message_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/db/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/embeddings_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_cache/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_cache/faiss_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_doc_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/default_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/es_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/faiss_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/milvus_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/pg_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_service/zilliz_kb_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_summary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_summary/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_summary/summary_chunk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/kb_summary_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/migrate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/model/kb_document_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/knowledge_base/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/llm_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/llm_api_shutdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/llm_api_stale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/memory/conversation_db_buffer_memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/minx_chat_openai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/SparkApi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/azure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/baichuan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/fangzhou.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/gemini.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/minimax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/qianfan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/qwen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/tiangong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/xinghuo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/model_workers/zhipu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/reranker/reranker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/static/redoc.standalone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/static/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/static/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/web_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/server/webui_allinone_stale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/shutdown_all.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/startup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_kb_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_kb_api_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_kb_summary_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_llm_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_server_state_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_stream_chat_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/api/test_stream_chat_api_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/custom_splitter/test_different_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/document_loader/test_imgloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/document_loader/test_pdfloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/kb_vector_db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/kb_vector_db/test_faiss_kb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/kb_vector_db/test_milvus_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/kb_vector_db/test_pg_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/samples/ocr_test.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/samples/ocr_test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/samples/ocr_test.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/samples/ocr_test.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/test_migrate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/tests/test_online_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/text_splitter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/text_splitter/ali_text_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/text_splitter/chinese_recursive_text_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/text_splitter/chinese_text_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/text_splitter/zh_title_enhance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/dialogue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/dialogue/dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/knowledge_base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/knowledge_base/knowledge_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/model_config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/model_config/model_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260316/Langchain-Chatchat/webui_pages/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/9.txt" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260318_RAG">
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/01_http请求代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/02_LLM模型请求方式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/prompt/01_基于LangChain的Prompt案例代码1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/prompt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/01_向量索引库的简单说明.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/02_etl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/03_构建index向量索引.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/04_构建好的index向量索引使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/05_rag_demo_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/faiss_index/01/index.faiss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/faiss_index/01/index.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第10回 试禅心八介撞天婚.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第11回 五庄观偷吃人参果.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第12回 孙悟空三打白骨精.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第13回 宝象国除怪救公主.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第14回 平顶山孙行者窃宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第15回 乌鸡国金丹救故主.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第16回 火云洞菩萨收红孩.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第17回 龙太子黑河战鼍妖.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第18回 车迟国斗法除三妖.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第19回 通天河观音现鱼篮.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第1回 惊天地美猴王出世.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第20回 金兜洞老君收青牛.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第21回 女儿国唐三藏奇遇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第22回 如来巧识真假猴王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第23回 孙悟空三调芭蕉扇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第24回 金光寺扫塔追佛宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第25回 小雷音弥勒擒黄眉.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第26回 七绝山猪八戒立功.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第27回 麒麟山巧盗紫金铃.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第28回 盘丝洞棒打蜘蛛精.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第29回 狮驼岭神僧战魔王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第2回 闹龙宫刁石猴借宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第30回 比丘国降妖救群童.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第31回 孙悟空三进无底洞.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第32回 灭法国弄神劝君王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第33回 师兄弟大战连环洞.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第34回 凤仙郡城祈雨救民.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第35回 玉华县收徒服狮怪.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第36回 金平府观灯遇犀牛.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第37回 天竺国招亲逢玉兔.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第38回 寇员外喜待圣唐僧.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第39回 雷音寺如来赐真经.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第3回 齐天大圣大闹天宫.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第4回 五行山从师取真经.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第5回 应愁涧白龙马收缰.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第6回 观音院斗宝失袈裟.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第7回 高老庄唐僧收八戒.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第8回 黄风洞唐三藏有难.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第9回 流沙河沙和尚拜师.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/Token预测概率演示.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/LLM参考资料/Token预测概率演示.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260315/西游记原文/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260316/LLM_Demo/rag/西游记原文/9.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,6 +197,7 @@
     "Python.04_零样本学习_生成式.executor": "Run",
     "Python.05_DataLoader数据集加载测试.executor": "Run",
     "Python.05_DeBERTa模型理解.executor": "Run",
+    "Python.05_rag_demo_01.executor": "Run",
     "Python.06_模型训练.executor": "Run",
     "Python.07_模型推理.executor": "Run",
     "Python.bert_train_01.executor": "Run",
@@ -496,7 +229,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260316",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260318",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -508,11 +241,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260318" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260316" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt\LLM参考资料" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260315" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\test" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260314" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260314" />
@@ -522,7 +255,7 @@
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\datas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_向量索引库的简单说明">
+  <component name="RunManager" selected="Python.05_rag_demo_01">
     <configuration name="01_向量索引库的简单说明" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
@@ -592,7 +325,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_LLM模型请求方式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_rag_demo_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepBlueNLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -601,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260314/LLM_Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code20260318/LLM_Demo/rag" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260314/LLM_Demo/02_LLM模型请求方式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code20260318/LLM_Demo/rag/05_rag_demo_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -640,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_rag_demo_01" />
         <item itemvalue="Python.01_向量索引库的简单说明" />
         <item itemvalue="Python.web_utils" />
         <item itemvalue="Python.01_基于LangChain的Prompt案例代码1" />
         <item itemvalue="Python.02_LLM模型请求方式 (1)" />
-        <item itemvalue="Python.02_LLM模型请求方式" />
       </list>
     </recent_temporary>
   </component>
@@ -737,7 +470,8 @@
       <workItem from="1774076033294" duration="14683000" />
       <workItem from="1774170281917" duration="784000" />
       <workItem from="1774171084782" duration="6408000" />
-      <workItem from="1774242120305" duration="7190000" />
+      <workItem from="1774242120305" duration="8840000" />
+      <workItem from="1774345921835" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -1067,7 +801,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774243355271</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="code20260316_RAG">
+      <option name="closed" value="true" />
+      <created>1774250701402</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1774250701402</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1085,7 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code1226_作业一" />
     <MESSAGE value="code1228_bert_其他语言模型_知识图谱_Neo4j" />
     <MESSAGE value="code1229_Neo4j的Python库_1221作业一" />
     <MESSAGE value="code1231_阿里云DSW云平台GPU模型训练_Linux及HTTP" />
@@ -1110,7 +851,8 @@
     <MESSAGE value="code20260313_位置编码_1207作业" />
     <MESSAGE value="code20260314_LLM_Langchain-Chatchat_LLM模型接口" />
     <MESSAGE value="code20260315_LLM模型接口调用方式_Prompt提示词工程_RAG" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260315_LLM模型接口调用方式_Prompt提示词工程_RAG" />
+    <MESSAGE value="code20260316_RAG" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260316_RAG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,9 +915,9 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$07_dsw_final_bert_train.coverage" NAME="07_dsw_final_bert_train Coverage Results" MODIFIED="1772960934913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/1221作业三/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_GRU.coverage" NAME="03_GRU理解 Coverage Results" MODIFIED="1772017028162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Transofrmer.coverage" NAME="01_Transofrmer模型下载 Coverage Results" MODIFIED="1772956683865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260128/projects/TextGeneration/CoupletGeneration/seq2seq/bert4torch_fine" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_tmp.coverage" NAME="02_tmp Coverage Results" MODIFIED="1772959071438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
-    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$.coverage" NAME="协程数据迭代生成案例 Coverage Results" MODIFIED="1772457981060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260107" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$01_Bert_API.coverage" NAME="01_Bert API Coverage Results" MODIFIED="1772341079258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$02_tmp.coverage" NAME="02_tmp Coverage Results" MODIFIED="1772959071438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_PythonCSVNeo4j.coverage" NAME="03_通过Python代码将CSV数据导入到Neo4j Coverage Results" MODIFIED="1772369966659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_LSTM.coverage" NAME="02_LSTM理解 Coverage Results" MODIFIED="1772015267000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1214" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$03_BP.coverage" NAME="03_BP过程理解 Coverage Results" MODIFIED="1770721838271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1210" />
@@ -1200,6 +942,7 @@
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_py2neo_API.coverage" NAME="01_py2neo 操作API Coverage Results" MODIFIED="1772368797284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1229" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1773218055878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/input_method_rnn/src" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1773226907516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/input_method/src" />
+    <SUITE FILE_PATH="coverage/DeepBlueNLP$05_rag_demo_01.coverage" NAME="05_rag_demo_01 Coverage Results" MODIFIED="1774352583424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260318/LLM_Demo/rag" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$02_GPT_API.coverage" NAME="02_GPT API Coverage Results" MODIFIED="1772346998263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code1228" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$05_tmp.coverage" NAME="05_tmp Coverage Results" MODIFIED="1772960185612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260130/EnglishWordGeneration/english_gen" />
     <SUITE FILE_PATH="coverage/DeepBlueNLP$01_LangChainPrompt1.coverage" NAME="01_基于LangChain的Prompt案例代码1 Coverage Results" MODIFIED="1774171985062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code20260315/LLM_Demo/prompt" />
