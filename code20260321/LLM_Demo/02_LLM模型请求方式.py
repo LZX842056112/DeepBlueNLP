@@ -15,7 +15,7 @@ def invoke_with_http():
     """
     import requests
 
-    url = "http://121.196.166.48:20000"
+    url = "http://8.136.216.117:20000"
     api_key = None
     model_name = "Qwen1___5-0___5B-Chat"
     model_name = "xinghuo-api"
@@ -30,12 +30,12 @@ def invoke_with_http():
     # model_name = "qwen/qwen3-235b-a22b-2507"
 
     # # OpenAI API转发 cloudflare
-    # url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek"
+    # url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/deepseek"
     # api_key = 'sk-'  # 这个会删除的
     # model_name = "deepseek-chat"
     #
     # # OpenAI API转发 cloudflare
-    # url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter"
+    # url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/openrouter"
     # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
 
@@ -100,7 +100,7 @@ def invoke_with_openai():
     from openai import OpenAI
 
     # 我们自己部署的一个OpenAI规范的接口
-    base_url = "http://121.196.166.48:20000/v1"
+    base_url = "http://8.136.216.117:20000/v1"
     api_key = "Empty"
     model_name = "Qwen1___5-0___5B-Chat"
     model_name = "xinghuo-api"
@@ -110,7 +110,7 @@ def invoke_with_openai():
     model_name = "qwen/qwen3-235b-a22b-2507"
 
     # OpenAI API转发 cloudflare
-    base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter/v1"
+    base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/openrouter/v1"
     api_key = "sk-or-v1-"
     model_name = "qwen/qwen3-235b-a22b-2507"
 
@@ -148,12 +148,11 @@ def invoke_with_openai():
 
 
 def invoke_with_langchain():
-    # pip install langchain_core==0.3.76 langchain_community==0.3.15
     from langchain_community.chat_models import ChatOpenAI
     from langchain_core.messages import AIMessage
 
     # 我们自己部署的一个OpenAI规范的接口
-    base_url = "http://121.196.166.48:20000/v1"
+    base_url = "http://8.136.216.117:20000/v1"
     api_key = "Empty"
     model_name = "Qwen1___5-0___5B-Chat"
     # model_name = "xinghuo-api"
@@ -164,14 +163,14 @@ def invoke_with_langchain():
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
-    # OpenAI API转发 cloudflare
-    # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter/v1"
+    # # OpenAI API转发 cloudflare
+    # base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/openrouter/v1"
     # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
-    # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek/v1"
+    # base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/deepseek/v1"
     # api_key = 'sk-'  # 这个会删除的
     # model_name = "deepseek-chat"
     # max_tokens = None
@@ -225,33 +224,45 @@ def invoke_with_langchain():
 
 
 def invoke_with_langchain_intention():
-    # pip install langchain_core==0.3.76 langchain_community==0.3.15
-    from langchain_community.chat_models import ChatOpenAI
+    # pip install langchain==1.2.12 langchain_core==1.2.20 langchain_community==0.4.1 langchain_openai==1.1.11
+    from langchain_openai import ChatOpenAI
     from langchain_core.messages import AIMessage
 
+    default_headers = None
+
     # 我们自己部署的一个OpenAI规范的接口
-    base_url = "http://121.196.166.48:20000/v1"
+    base_url = "http://8.136.216.117:20000/v1"
     api_key = "Empty"
     model_name = "Qwen1___5-0___5B-Chat"
     # model_name = "xinghuo-api"
     max_tokens = 256
 
-    # base_url = 'https://openrouter.ai/api/v1'
+    # DSW部署的模型
+    # base_url = "https://930292-proxy-20000.dsw-gateway-cn-hangzhou.data.aliyun.com/v1"
+    # api_key = "Empty"
+    # model_name = "Qwen2___5-7B-Instruct"
+    # max_tokens = 1000
+    # default_headers = {
+    #     'Cookie': 'cna=; aliyun_lang=zh; aliyun_country=CN; aliyun_site=CN; ajs_anonymous_id=cf538e2c-790a-4336-94c1-60944dbbc43e; login_aliyunid_csrf=_csrf_tk_1862173662586283; login_aliyunid="liuming81 @ ktaliyun"; login_aliyunid_ticket=3SAW2yxnMCnjYw2452ZLYAoA.1118eKQG8ZwgnyFmZ3JJCQqyKDrbBGKb9rS2UfPGX1rsUbEQJY4m7bWEe9wf8gjysGk8Z8JH8iDEH7sKgaDz8fj8FGWYMztBmHzed9STaoPGrdCWbTVKHGhXkzr3FgDe9SMub2QAYioGSgSTJ3p9Z1SmzdkwUmcHZde9KYTCVcZ4gyrfTef.2mWNaj2JTDP9nx4TyYmtbVJZbeqSpih2mj1s9tKMVuKshJHfJCe5NGiFzme4g9mR42; login_aliyunid_sc=3R5H3e3HY2c8gwLZuY5GmS7K.1113jFeN9M1o5s7tRZbNvSFBKf4XiLkqpEsMyMLjwUYcSUvWxCCUCnoWPMXtAzVkiXJTij.1QDta7b7R19N9GKgG9LSp1aSMdtEAiA7CfcbAsqLYf7FvK7FKFxYTx4RR51SqiqPy; login_aliyunid_pk=1336607377561866; login_current_pk=275002448520101766; currentRegionId=cn-hangzhou; bs_n_lang=zh_CN; c_token=0db6bcbf3ed61e771db6b977bb532279; ck2=3154f75f4a6a8cd3951fb01bb17b4515; an=liuming81; lg=true; sg=126; bd=s0ouCmI%3D; tfstk=g8Biqy_DW1Rs043UEqJ_O0do7RFLJd9X4ZHvkKL4Te8CHAHObEfDJNr6MOhxmZjJJtE6k51Hnw_iXfIA0EbcJeOvWEE6iZbF5I7vkGn1OaIrBOF6Hxv6hKz8y8eRXG9X37KyA706Lnt-b-d23d9FYO3Y68eRfGo9buIUe13r7Z-DuKRw_XkeR3Dw3CkZYkx2DVlqQZSUxetmbfk27XoeXnow3K7VYkxX8EJ2_ZSUxnTeuj-IWFtJY9zoRPBCM1zlxhAMzG8NXGWE4IG14eDq39fHCUye-xkVKhjcjeHZESLPNFdJowyKIKjemwARszDGoiS5gBXm7lQP8sb2A6amiUfVX_12tlyNxdYMg9QEcfpGgN6D11mbVMJNR_TW_WaBxOBJiUOn8PSdxFRliNUI3FClYwARp2HJU__hnQJP4fGEa0EShHrALjGX_HtHycunaADYgAE0xkcPBC-Bf3E3xjGX_HtHykqnaSAwAhtR.; isg=BKSlHID3kaDMMuQZddwmqlH4daKWPcinz3RfDb7AbW84aU4z5kjlN6WFLeHxsQD_'
+    # }
+
+    base_url = 'https://openrouter.ai/api/v1'
+    api_key = "sk-or-v1-"
+    model_name = "qwen/qwen3-235b-a22b-2507"
+    max_tokens = None
+
+    # # OpenAI API转发 cloudflare
+    # base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/openrouter/v1"
     # api_key = "sk-or-v1-"
     # model_name = "qwen/qwen3-235b-a22b-2507"
     # max_tokens = None
 
     # # OpenAI API转发 cloudflare
-    # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/openrouter/v1"
-    # api_key = "sk-or-v1-"
-    # model_name = "qwen/qwen3-235b-a22b-2507"
-    # max_tokens = None
-
-    # # OpenAI API转发 cloudflare
-    # base_url = "https://gateway.ai.cloudflare.com/v1/50a8b09f35bc8aa57f135237aced6285/nlp_20260320/deepseek/v1"
+    # base_url = "https://gateway.ai.cloudflare.com/v1/67b8ebfcb6b836e009e1fb540f160fa5/nlp_0314/deepseek/v1"
     # api_key = 'sk-'  # 这个会删除的
     # model_name = "deepseek-chat"
     # max_tokens = None
+
 
     model = ChatOpenAI(
         streaming=False,
@@ -261,12 +272,13 @@ def invoke_with_langchain_intention():
         openai_api_base=base_url,
         model_name=model_name,
         temperature=0.9,
-        max_tokens=max_tokens
+        max_tokens=max_tokens,
+        default_headers=default_headers
     )
 
     # 定义system message(系统固定属性)
     system = """
-针对能够准确判断意图的文本，请直接从名称列表中获取最有可能的所属意图名称字符串，不要做任何更改，直接返回。如果没办法判断意图，直接返回Other。\n
+针对能够准确判断意图的文本，请直接从名称列表中获取最有可能的所属意图名称字符串，不要做任何更改，直接返回。如果没办法判断意图，直接返回Other。\n 
 意图名称列表:[Travel-Query, Music-Play, FilmTele-Play, Video-Play, Radio-Listen, HomeAppliance-Control, Weather-Query, Alarm-Update, Calendar-Query, TVProgram-Play, Audio-Play, Other]
     """
     examples = [

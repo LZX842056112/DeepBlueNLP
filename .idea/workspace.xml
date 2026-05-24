@@ -4,101 +4,121 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260318_RAG">
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/01_http请求代码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/02_LLM模型请求方式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/prompt/01_基于LangChain的Prompt案例代码1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/prompt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/01_向量索引库的简单说明.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/02_etl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/03_构建index向量索引.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/04_构建好的index向量索引使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/05_rag_demo_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/faiss_index/01/index.faiss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/faiss_index/01/index.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第10回 试禅心八介撞天婚.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第11回 五庄观偷吃人参果.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第12回 孙悟空三打白骨精.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第13回 宝象国除怪救公主.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第14回 平顶山孙行者窃宝.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第15回 乌鸡国金丹救故主.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第16回 火云洞菩萨收红孩.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第17回 龙太子黑河战鼍妖.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第18回 车迟国斗法除三妖.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第19回 通天河观音现鱼篮.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第1回 惊天地美猴王出世.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第20回 金兜洞老君收青牛.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第21回 女儿国唐三藏奇遇.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第22回 如来巧识真假猴王.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第23回 孙悟空三调芭蕉扇.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第24回 金光寺扫塔追佛宝.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第25回 小雷音弥勒擒黄眉.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第26回 七绝山猪八戒立功.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第27回 麒麟山巧盗紫金铃.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第28回 盘丝洞棒打蜘蛛精.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第29回 狮驼岭神僧战魔王.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第2回 闹龙宫刁石猴借宝.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第30回 比丘国降妖救群童.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第31回 孙悟空三进无底洞.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第32回 灭法国弄神劝君王.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第33回 师兄弟大战连环洞.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第34回 凤仙郡城祈雨救民.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第35回 玉华县收徒服狮怪.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第36回 金平府观灯遇犀牛.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第37回 天竺国招亲逢玉兔.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第38回 寇员外喜待圣唐僧.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第39回 雷音寺如来赐真经.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第3回 齐天大圣大闹天宫.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第4回 五行山从师取真经.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第5回 应愁涧白龙马收缰.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第6回 观音院斗宝失袈裟.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第7回 高老庄唐僧收八戒.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第8回 黄风洞唐三藏有难.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/output/原文/第9回 流沙河沙和尚拜师.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/西游记原文/9.txt" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260321_RAG_Agent">
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/01_http请求代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/02_LLM模型请求方式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/01_agent_demo_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/02_agent_demo_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/custom_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/multi_args_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/search_internet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/weather_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools/weather_check_with_day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/agent/tools_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/prompt/01_基于LangChain的Prompt案例代码1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/prompt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/prompt/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/01_向量索引库的简单说明.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/02_etl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/03_构建index向量索引.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/04_构建好的index向量索引使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/05_rag_demo_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/06_rag_demo_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/custom_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/faiss_index/01/index.faiss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/faiss_index/01/index.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第10回 试禅心八介撞天婚.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第11回 五庄观偷吃人参果.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第12回 孙悟空三打白骨精.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第13回 宝象国除怪救公主.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第14回 平顶山孙行者窃宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第15回 乌鸡国金丹救故主.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第16回 火云洞菩萨收红孩.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第17回 龙太子黑河战鼍妖.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第18回 车迟国斗法除三妖.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第19回 通天河观音现鱼篮.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第1回 惊天地美猴王出世.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第20回 金兜洞老君收青牛.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第21回 女儿国唐三藏奇遇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第22回 如来巧识真假猴王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第23回 孙悟空三调芭蕉扇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第24回 金光寺扫塔追佛宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第25回 小雷音弥勒擒黄眉.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第26回 七绝山猪八戒立功.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第27回 麒麟山巧盗紫金铃.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第28回 盘丝洞棒打蜘蛛精.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第29回 狮驼岭神僧战魔王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第2回 闹龙宫刁石猴借宝.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第30回 比丘国降妖救群童.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第31回 孙悟空三进无底洞.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第32回 灭法国弄神劝君王.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第33回 师兄弟大战连环洞.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第34回 凤仙郡城祈雨救民.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第35回 玉华县收徒服狮怪.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第36回 金平府观灯遇犀牛.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第37回 天竺国招亲逢玉兔.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第38回 寇员外喜待圣唐僧.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第39回 雷音寺如来赐真经.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第3回 齐天大圣大闹天宫.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第4回 五行山从师取真经.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第5回 应愁涧白龙马收缰.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第6回 观音院斗宝失袈裟.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第7回 高老庄唐僧收八戒.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第8回 黄风洞唐三藏有难.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/output/原文/第9回 流沙河沙和尚拜师.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260315/LLM_Demo/02_LLM模型请求方式.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260315/LLM_Demo/02_LLM模型请求方式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/05_rag_demo_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260318/LLM_Demo/rag/05_rag_demo_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/35.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/36.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/37.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/38.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/39.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/LLM参考资料/西游记原文/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code20260321/LLM_Demo/rag/西游记原文/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,95 +177,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.01_Bert API.executor": "Debug",
-    "Python.01_GPTModel理解.executor": "Run",
-    "Python.01_PyTorch API.executor": "Run",
-    "Python.01_Self-Attention理解.executor": "Debug",
-    "Python.01_Transofrmer模型下载.executor": "Run",
-    "Python.01_http请求代码.executor": "Run",
-    "Python.01_jieba分词理解.executor": "Run",
-    "Python.01_py2neo 操作API.executor": "Run",
-    "Python.01_优化器理解.executor": "Debug",
-    "Python.01_向量索引库的简单说明.executor": "Run",
-    "Python.01_基于LangChain的Prompt案例代码1.executor": "Run",
-    "Python.01_文本分类模型初始.executor": "Run",
-    "Python.01_机器学习案例代码.executor": "Run",
-    "Python.01_深度学习案例代码.executor": "Run",
-    "Python.01_网络结构.executor": "Run",
-    "Python.02_Bert API.executor": "Run",
-    "Python.02_Dataset API理解.executor": "Run",
-    "Python.02_GPT API.executor": "Run",
-    "Python.02_LLM模型请求方式 (1).executor": "Run",
-    "Python.02_LLM模型请求方式.executor": "Run",
-    "Python.02_LSTM理解.executor": "Run",
-    "Python.02_neo4j driver 操作API.executor": "Run",
-    "Python.02_信息抽取初识.executor": "Run",
-    "Python.02_文本分类数据文本数据分割.executor": "Run",
-    "Python.02_标签映射数据的构造.executor": "Run",
-    "Python.02_深度学习案例代码 (1).executor": "Run",
-    "Python.02_深度学习案例代码.executor": "Run",
-    "Python.03_BP过程理解.executor": "Run",
-    "Python.03_GRU理解.executor": "Run",
-    "Python.03_sklearn TF-IDF Demo.executor": "Run",
-    "Python.03_分词器的构造.executor": "Run",
-    "Python.03_通过Python代码将CSV数据导入到Neo4j.executor": "Run",
-    "Python.03_零样本学习_抽取式.executor": "Run",
-    "Python.04_自定义Dataset构建.executor": "Run",
-    "Python.04_零样本学习_生成式.executor": "Run",
-    "Python.05_DataLoader数据集加载测试.executor": "Run",
-    "Python.05_DeBERTa模型理解.executor": "Run",
-    "Python.05_rag_demo_01.executor": "Run",
-    "Python.06_模型训练.executor": "Run",
-    "Python.07_模型推理.executor": "Run",
-    "Python.bert_train_01.executor": "Run",
-    "Python.bp_neural_network.executor": "Run",
-    "Python.dataset.executor": "Run",
-    "Python.evaluate.executor": "Run",
-    "Python.fastapi_app.executor": "Run",
-    "Python.flask_app.executor": "Run",
-    "Python.flask_demo01.executor": "Run",
-    "Python.http_client (1).executor": "Run",
-    "Python.http_client.executor": "Run",
-    "Python.ie_torch_ycy.executor": "Run",
-    "Python.inference.executor": "Run",
-    "Python.manage.executor": "Run",
-    "Python.model (1).executor": "Run",
-    "Python.model (2).executor": "Run",
-    "Python.model.executor": "Run",
-    "Python.server_runner.executor": "Run",
-    "Python.task_sentiment_classification.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.training.executor": "Run",
-    "Python.tt_intent_train.executor": "Run",
-    "Python.web_utils.executor": "Run",
-    "Python.协程数据迭代生成案例.executor": "Run",
-    "Python.协程案例.executor": "Run",
-    "Python.多线程案例.executor": "Run",
-    "Python.多进程案例.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260318",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01_Bert API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_GPTModel理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_PyTorch API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Self-Attention理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_Transofrmer模型下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_http请求代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_jieba分词理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_py2neo 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_优化器理解.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01_向量索引库的简单说明.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_基于LangChain的Prompt案例代码1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_文本分类模型初始.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_机器学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_网络结构.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Bert API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Dataset API理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_GPT API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LLM模型请求方式 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LLM模型请求方式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_LSTM理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_neo4j driver 操作API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_信息抽取初识.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_文本分类数据文本数据分割.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_标签映射数据的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_深度学习案例代码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_BP过程理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_GRU理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_sklearn TF-IDF Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_分词器的构造.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_通过Python代码将CSV数据导入到Neo4j.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_零样本学习_抽取式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_自定义Dataset构建.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_零样本学习_生成式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_DataLoader数据集加载测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_DeBERTa模型理解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_rag_demo_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_模型训练.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_模型推理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bert_train_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bp_neural_network.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fastapi_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_demo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ie_torch_ycy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.model (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server_runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_sentiment_classification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt_intent_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程数据迭代生成案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.协程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多线程案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多进程案例.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/DeepBule/DeepBlueNLP/code20260321&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260321" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260318" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260316" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt\LLM参考资料" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260315" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260314" />
@@ -471,7 +491,18 @@
       <workItem from="1774170281917" duration="784000" />
       <workItem from="1774171084782" duration="6408000" />
       <workItem from="1774242120305" duration="8840000" />
-      <workItem from="1774345921835" duration="4414000" />
+      <workItem from="1774345921835" duration="7771000" />
+      <workItem from="1774694072119" duration="18000" />
+      <workItem from="1774793238867" duration="1380000" />
+      <workItem from="1774874799048" duration="12000" />
+      <workItem from="1775199197001" duration="254000" />
+      <workItem from="1775212490047" duration="42000" />
+      <workItem from="1775222434102" duration="10000" />
+      <workItem from="1775222919902" duration="132000" />
+      <workItem from="1775223703652" duration="603000" />
+      <workItem from="1775656193758" duration="176000" />
+      <workItem from="1779600403111" duration="1993000" />
+      <workItem from="1779603586806" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -809,7 +840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774250701402</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="code20260318_RAG">
+      <option name="closed" value="true" />
+      <created>1774356918595</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1774356918595</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +866,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code1228_bert_其他语言模型_知识图谱_Neo4j" />
     <MESSAGE value="code1229_Neo4j的Python库_1221作业一" />
     <MESSAGE value="code1231_阿里云DSW云平台GPU模型训练_Linux及HTTP" />
     <MESSAGE value="code20260105_Flask" />
@@ -852,7 +890,8 @@
     <MESSAGE value="code20260314_LLM_Langchain-Chatchat_LLM模型接口" />
     <MESSAGE value="code20260315_LLM模型接口调用方式_Prompt提示词工程_RAG" />
     <MESSAGE value="code20260316_RAG" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260316_RAG" />
+    <MESSAGE value="code20260318_RAG" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260318_RAG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
