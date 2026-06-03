@@ -1038,6 +1038,10 @@ CasRel: 指针网络
         https://mingchao.wang/
         https://github.com/liguodongiot/llm-action
         https://github.com/datawhalechina/llm-cookbook
+        https://docs.langchain.com/oss/python/langchain/tools
+        https://docs.langchain.com/oss/python/langchain/sql-agent
+        https://modelscope.cn/mcp
+        https://modelscope.cn/skills
     如何提高大模型的预测效果呢?
         1. 通过提示词工程  --> 效果、成本
         2. 在输入大模型的数据中，增加和问题相关的额外数据/知识 ---> RAG的一部分
@@ -1048,7 +1052,7 @@ CasRel: 指针网络
         3. Agent（外部工具、Function、功能模块）
             Function Call: 方法的调用
             MCP: 模型上下文协议 --> 定义的一个通用的规范的agent function定义的协议
-            Skills: 技能块/技能的流程
+            Skills: 技能块/技能的流程 --> 希望LLM通过渐进式的加载来减少token的消耗、能够更加高效的命中tools ---> 按需加载
         4. 微调模型
         选择上: 提示词工程 >> RAG(额外的知识/信息) >> Agent >> 微调
         PS：
@@ -1135,6 +1139,29 @@ Agent(智能体):
     Agent = LLM + Tools
         Tools(工具/方法): 获取现实世界实际的一些数据/知识/信息....
         LLM: 进行决策判断、组合优化....
+    MCP:
+        MCP是一个标准化的协议，用于语言模型与外部数据源和工具之间的交互。它提供了: 标准化的统一接口、模型与工具之间是解耦架构、可扩展性
+        https://modelscope.cn/mcp?login=from_csdn
+        https://mcp.so/
+        https://github.com/modelcontextprotocol/servers
+    单Agent和多Agent:
+        https://www.51cto.com/aigc/6650.html
+        https://developer.aliyun.com/article/1676262
+        https://blog.csdn.net/qq_42222846/article/details/147602704
+        多智能体实现的框架:
+            crewai、LangGraph
+    常见的流程构建平台:
+        Coze: 没办法私有化
+            参考：
+                https://www.coze.cn/space-preview
+                https://www.coze.cn/home
+                https://www.coze.cn/template
+                https://www.coze.cn/store/agent?cate_type=recommend
+        Dify: 完全开源的，支持各种自定义的操作，可以私有化
+            参考：
+                https://docs.dify.ai/zh-hans
+                https://dify.ai/
+                https://github.com/langgenius/dify
 ======================================================
 Bert:
     论文: https://arxiv.org/pdf/1810.04805.pdf
