@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code20260124/RelationExtraction/spert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code20260324/LLaMA-Factory" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code20260324/OpenManus" vcs="Git" />
   </component>
 </project>

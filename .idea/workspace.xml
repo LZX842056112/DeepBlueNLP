@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260322_langchain MCP_skills_coze_dify_OpenManus">
-      <change afterPath="$PROJECT_DIR$/code20260323/01_访问Dify部署好的工作流.py" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260323_OpenManus应用_LLaMAFactory">
+      <change afterPath="$PROJECT_DIR$/ppt/一、QWEN2-0.5B模型微调.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260324/LLaMA-Factory/data/dataset_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/code20260324/LLaMA-Factory/data/dataset_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260324/LLaMA-Factory/src/llamafactory/extras/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260324/LLaMA-Factory/src/llamafactory/extras/misc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/code20260324/LLaMA-Factory" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -138,8 +141,8 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260323",
+    "git-widget-placeholder": "7a7071e5",
+    "last_opened_file_path": "D:/Projects/DeepBule/DeepBlueNLP/code20260324/LLaMA-Factory/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,11 +154,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260324\LLaMA-Factory\data" />
+      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260323" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260321" />
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260318" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260316" />
-      <recent name="D:\Projects\DeepBule\DeepBlueNLP\ppt\LLM参考资料" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\DeepBule\DeepBlueNLP\code20260314" />
@@ -395,7 +398,8 @@
       <workItem from="1779603586806" duration="6591000" />
       <workItem from="1779632629422" duration="538000" />
       <workItem from="1780388518976" duration="12578000" />
-      <workItem from="1780457100998" duration="6431000" />
+      <workItem from="1780457100998" duration="9843000" />
+      <workItem from="1780547741769" duration="2045000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -757,7 +761,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780468398666</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="code20260323_Dify应用_OpenManus应用">
+      <option name="closed" value="true" />
+      <created>1780499590977</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1780499590977</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +787,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code20260105_Flask" />
     <MESSAGE value="code20260107_ONNX推理_asyncio异步_FastAPI" />
     <MESSAGE value="code20260109_docker部署" />
     <MESSAGE value="code20260110_命名实体识别" />
@@ -800,7 +811,8 @@
     <MESSAGE value="code20260318_RAG" />
     <MESSAGE value="code20260321_RAG_Agent" />
     <MESSAGE value="code20260322_langchain MCP_skills_coze_dify_OpenManus" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260322_langchain MCP_skills_coze_dify_OpenManus" />
+    <MESSAGE value="code20260323_Dify应用_OpenManus应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260323_Dify应用_OpenManus应用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
