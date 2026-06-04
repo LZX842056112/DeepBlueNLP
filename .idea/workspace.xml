@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260323_OpenManus应用_LLaMAFactory">
-      <change afterPath="$PROJECT_DIR$/ppt/一、QWEN2-0.5B模型微调.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6cf4163c-7a35-4994-ba6c-9d4a0be6a714" name="Changes" comment="code20260324_OpenManus应用_LLaMAFactory">
+      <change afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/data/new_identity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" beforeDir="false" afterPath="$PROJECT_DIR$/code20260124/RelationExtraction/lic2020-re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260324/LLaMA-Factory/data/dataset_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/code20260324/LLaMA-Factory/data/dataset_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code20260324/LLaMA-Factory/src/llamafactory/extras/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260324/LLaMA-Factory/src/llamafactory/extras/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/data/dataset_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/data/dataset_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/chat/hf_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/chat/hf_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/data/converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/data/converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/data/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/data/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/extras/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/extras/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/extras/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/extras/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/model/adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/model/adapter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/model/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/model/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/train/sft/workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/train/sft/workflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/train/tuner.py" beforeDir="false" afterPath="$PROJECT_DIR$/code20260325/LLaMA-Factory/src/llamafactory/train/tuner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +405,7 @@
       <workItem from="1779632629422" duration="538000" />
       <workItem from="1780388518976" duration="12578000" />
       <workItem from="1780457100998" duration="9843000" />
-      <workItem from="1780547741769" duration="2045000" />
+      <workItem from="1780547741769" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="day01_神经网络_BP">
       <option name="closed" value="true" />
@@ -769,7 +775,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780499590977</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="code20260324_OpenManus应用_LLaMAFactory">
+      <option name="closed" value="true" />
+      <created>1780551061712</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1780551061712</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +801,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code20260107_ONNX推理_asyncio异步_FastAPI" />
     <MESSAGE value="code20260109_docker部署" />
     <MESSAGE value="code20260110_命名实体识别" />
     <MESSAGE value="code20260111_命名实体识别" />
@@ -812,7 +825,8 @@
     <MESSAGE value="code20260321_RAG_Agent" />
     <MESSAGE value="code20260322_langchain MCP_skills_coze_dify_OpenManus" />
     <MESSAGE value="code20260323_Dify应用_OpenManus应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="code20260323_Dify应用_OpenManus应用" />
+    <MESSAGE value="code20260324_OpenManus应用_LLaMAFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="code20260324_OpenManus应用_LLaMAFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

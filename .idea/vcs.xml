@@ -6,5 +6,6 @@
     <mapping directory="$PROJECT_DIR$/code20260124/RelationExtraction/spert" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code20260324/LLaMA-Factory" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code20260324/OpenManus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code20260325/LLaMA-Factory" vcs="Git" />
   </component>
 </project>
